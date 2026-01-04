@@ -244,7 +244,9 @@ speakBtn.addEventListener("click", (e) => {
 
 initAvatar(canvas);
 
-const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.hostname}:8000/ws`;
+// const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.hostname}:8000/ws`;
+const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/ws`;
+
 
 startBtn.addEventListener("click", () => {
   // Show consent modal first
