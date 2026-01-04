@@ -4,7 +4,7 @@
  */
 
 export class ObservationClient {
-  constructor(backendUrl = "http://localhost:8000") {
+  constructor(backendUrl = "https://ai-jai-interviewer.duckdns.org:8000") {
     this.backendUrl = backendUrl;
     this.running = false;
     this.videoElement = null;
