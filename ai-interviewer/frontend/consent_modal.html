@@ -1,0 +1,158 @@
+<!-- Consent Modal for Observation Privacy -->
+<div id="consent-modal" class="modal-overlay">
+  <div class="modal-content">
+    <h2>🔒 Privacy & Observation Consent</h2>
+    <div class="consent-info">
+      <h3>What is Monitored:</h3>
+      <ul>
+        <li>📹 <strong>Webcam:</strong> Face detection, eye contact, expressions</li>
+        <li>🎤 <strong>Microphone:</strong> Voice pitch, stress indicators, speaking patterns</li>
+        <li>⏱️ <strong>Timing:</strong> Response time, pause duration</li>
+      </ul>
+      
+      <h3>Why We Monitor:</h3>
+      <ul>
+        <li>✅ Ensure interview integrity (detect multiple persons)</li>
+        <li>✅ Provide behavioral feedback for improvement</li>
+        <li>✅ Adapt interview pacing to your comfort level</li>
+      </ul>
+      
+      <h3>Privacy Guarantee:</h3>
+      <ul>
+        <li>🔐 <strong>100% Local Processing</strong> - No cloud upload</li>
+        <li>🔐 <strong>No Recording</strong> - Video/audio not saved</li>
+        <li>🔐 <strong>No Sharing</strong> - Data stays on your device</li>
+        <li>🔐 <strong>Session Only</strong> - Data cleared after interview</li>
+      </ul>
+      
+      <div class="consent-options">
+        <label>
+          <input type="checkbox" id="consent-webcam" checked />
+          Enable Webcam Analysis
+        </label>
+        <label>
+          <input type="checkbox" id="consent-microphone" checked />
+          Enable Microphone Analysis
+        </label>
+      </div>
+      
+      <p class="consent-note">
+        <strong>Note:</strong> Disabling sensors will limit behavioral feedback but won't affect interview participation.
+      </p>
+    </div>
+    
+    <div class="consent-actions">
+      <button id="consent-decline" class="btn-secondary">Decline & Exit</button>
+      <button id="consent-accept" class="btn-primary">I Agree & Continue</button>
+    </div>
+  </div>
+</div>
+
+<style>
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.modal-overlay.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  margin: 0 0 20px 0;
+  color: #1d4ed8;
+}
+
+.modal-content h3 {
+  margin: 15px 0 10px 0;
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.consent-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+.consent-info li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.consent-options {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.consent-options label {
+  display: block;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.consent-options input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.consent-note {
+  font-size: 0.9rem;
+  color: #475569;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+.consent-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.btn-primary, .btn-secondary {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: #1d4ed8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1e40af;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  color: #0f172a;
+}
+
+.btn-secondary:hover {
+  background: #d1d5db;
+}
+</style>

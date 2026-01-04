@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Interviewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header-left">
+      <div class="brand">AI Interviewer</div>
+    </div>
+    <div class="app-header-center">
+      <div class="stage">
+        <span id="stage-label">WARM_UP</span>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="continuous-btn" class="ghost" title="Toggle continuous interview mode">Continuous</button>
+      <button id="start-btn" class="primary">Start Interview</button>
+      <button id="end-btn" class="ghost">End Interview</button>
+    </div>
+  </header>
+
+  <!-- Privacy Consent Modal -->
+  <div id="consent-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+      <h2>Privacy & Observation Consent</h2>
+      <div class="consent-info">
+        <h3>What is Monitored:</h3>
+        <ul>
+          <li><strong>Webcam:</strong> Face detection, eye contact, expressions</li>
+          <li><strong>Microphone:</strong> Voice stress, speaking patterns</li>
+        </ul>
+        
+        <h3>Privacy Guarantee:</h3>
+        <ul>
+          <li><strong>100% Local</strong> - No cloud upload</li>
+          <li><strong>No Recording</strong> - Not saved</li>
+          <li><strong>Session Only</strong> - Cleared after interview</li>
+        </ul>
+      </div>
+      
+      <div class="consent-actions">
+        <button id="consent-decline" class="btn-secondary">Decline</button>
+        <button id="consent-accept" class="btn-primary">I Agree</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="layout">
+    <div class="main-content">
+      <!-- LEFT PANEL: Avatar (70%) -->
+      <section class="left-panel">
+        <div class="avatar-panel">
+          <div class="avatar-canvas-container">
+            <canvas id="avatar-canvas"></canvas>
+          </div>
+          <div class="avatar-info">
+            <p class="avatar-state">Avatar: <span id="avatar-state">neutral_listening</span></p>
+            <p class="connection-status">Status: <span id="connection-label">disconnected</span></p>
+          </div>
+        </div>
+        
+        <div id="warnings-container" class="warnings-container">
+          <div style="text-align: center; color: #856404; font-weight: 600;">No warnings</div>
+        </div>
+      </section>
+
+      <!-- RIGHT PANEL: Camera + Conversation (30%) -->
+      <section class="right-panel">
+        <div class="camera-panel">
+          <div class="camera-header">
+            <div class="camera-title">Candidate Camera</div>
+            <div class="consent-badge">RECORDING</div>
+          </div>
+          <div class="camera-container">
+            <div class="video-wrapper">
+              <video id="candidate-video" autoplay playsinline muted="muted" width="320" height="240"></video>
+              <div class="speaking-indicator" id="speaking-indicator" style="display: none;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="conversation-panel">
+          <div id="messages" class="messages"></div>
+          <form id="input-form" class="input-row">
+            <input id="text-input" type="text" placeholder="Type your response..." autocomplete="off" />
+            <button id="speak-btn" type="button" class="speak-btn" title="Click to speak your answer">🎤</button>
+            <button type="submit" class="primary">Send</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

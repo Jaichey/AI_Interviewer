@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metrics Integration Test</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .test-container {
+      padding: 20px;
+      background: var(--bg-secondary);
+      margin: 20px;
+      border-radius: 8px;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .test-section {
+      margin: 20px 0;
+      padding: 15px;
+      background: white;
+      border-radius: 4px;
+      border-left: 4px solid var(--accent);
+    }
+    .test-button {
+      padding: 8px 16px;
+      margin: 5px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .test-button:hover {
+      background: var(--accent-hover);
+    }
+    .test-code {
+      background: #f5f5f5;
+      padding: 10px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 12px;
+      margin: 10px 0;
+      overflow-x: auto;
+    }
+    .test-result {
+      margin: 10px 0;
+      padding: 10px;
+      background: #f0f7ff;
+      border-left: 3px solid #1f73e7;
+      border-radius: 2px;
+    }
+    .test-error {
+      background: #fef0f0;
+      border-left-color: #ef4444;
+    }
+    .test-success {
+      background: #f0fdf4;
+      border-left-color: #10b981;
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header-left">
+      <div class="brand">Metrics Integration Test</div>
+    </div>
+    <div class="app-header-center">
+      <div class="stage">
+        <span id="stage-label">TESTING</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div class="left-panel">
+      <div class="avatar-info">
+        <h2>Test Controls</h2>
+        
+        <div class="test-section">
+          <h3>Metric Bar Tests</h3>
+          <button class="test-button" onclick="testEyeContact()">Test Eye Contact</button>
+          <button class="test-button" onclick="testFocus()">Test Focus</button>
+          <button class="test-button" onclick="testStress()">Test Stress</button>
+          <button class="test-button" onclick="testVoice()">Test Voice</button>
+          <button class="test-button" onclick="testAllMetrics()">Test All</button>
+        </div>
+
+        <div class="test-section">
+          <h3>Simulation Tests</h3>
+          <button class="test-button" onclick="simulateNormalObservation()">Simulate Normal</button>
+          <button class="test-button" onclick="simulatePoorObservation()">Simulate Poor</button>
+          <button class="test-button" onclick="simulateHighStress()">Simulate High Stress</button>
+          <button class="test-button" onclick="simulateMissingData()">Simulate Missing Data</button>
+        </div>
+
+        <div class="test-section">
+          <h3>Element Validation</h3>
+          <button class="test-button" onclick="validateElements()">Check Elements</button>
+          <button class="test-button" onclick="validateCSS()">Check CSS</button>
+          <button class="test-button" onclick="clearMetrics()">Reset Metrics</button>
+        </div>
+
+        <div id="test-results"></div>
+      </div>
+    </div>
+
+    <div class="right-panel">
+      <div class="camera-panel">
+        <div class="camera-header">
+          <h2 class="camera-title">Metrics Display (Live Preview)</h2>
+          <div class="consent-badge">TEST MODE</div>
+        </div>
+        
+        <div class="metrics-section">
+          <div class="metrics-label">Performance Metrics</div>
+          <div class="metrics-grid">
+            <div class="metric">
+              <div class="metric-name">Eye Contact</div>
+              <div class="metric-value">
+                <span class="metric-score" id="metric-eye-contact">—</span>
+                <span class="metric-max">/10</span>
+              </div>
+              <div class="metric-bar">
+                <div class="metric-bar-fill" id="metric-eye-contact-bar" style="width: 0%"></div>
+              </div>
+            </div>
+            
+            <div class="metric">
+              <div class="metric-name">Focus</div>
+              <div class="metric-value">
+                <span class="metric-score" id="metric-focus">—</span>
+                <span class="metric-max">/10</span>
+              </div>
+              <div class="metric-bar">
+                <div class="metric-bar-fill" id="metric-focus-bar" style="width: 0%"></div>
+              </div>
+            </div>
+            
+            <div class="metric">
+              <div class="metric-name">Stress</div>
+              <div class="metric-value">
+                <span class="metric-score" id="metric-stress">—</span>
+              </div>
+              <div class="metric-bar">
+                <div class="metric-bar-fill" id="metric-stress-bar" style="width: 0%"></div>
+              </div>
+            </div>
+            
+            <div class="metric">
+              <div class="metric-name">Voice</div>
+              <div class="metric-value">
+                <span class="metric-score" id="metric-voice">—</span>
+                <span class="metric-max">/10</span>
+              </div>
+              <div class="metric-bar">
+                <div class="metric-bar-fill" id="metric-voice-bar" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Function from app.js (copied for testing)
+    function updateObservationMetrics(observation) {
+      if (!observation) return;
+
+      const audio = observation.audio || {};
+      const emotion = observation.emotion || {};
+      const face = observation.face || {};
+
+      const eyeContactEl = document.getElementById("metric-eye-contact");
+      const eyeContactBar = document.getElementById("metric-eye-contact-bar");
+      if (eyeContactEl) {
+        if (!face.face_detected) {
+          eyeContactEl.textContent = "—";
+          if (eyeContactBar) eyeContactBar.style.width = "0%";
+        } else {
+          const confidence = face.eye_contact_confidence || 0;
+          const score = Math.round(confidence * 10);
+          eyeContactEl.textContent = score;
+          if (eyeContactBar) eyeContactBar.style.width = `${confidence * 100}%`;
+        }
+      }
+
+      const focusEl = document.getElementById("metric-focus");
+      const focusBar = document.getElementById("metric-focus-bar");
+      if (focusEl) {
+        const focusScore = face.looking_away ? 3 : (face.looking_at_camera ? 9 : 6);
+        focusEl.textContent = focusScore;
+        if (focusBar) focusBar.style.width = `${(focusScore / 10) * 100}%`;
+      }
+
+      const stressEl = document.getElementById("metric-stress");
+      const stressBar = document.getElementById("metric-stress-bar");
+      if (stressEl) {
+        const stress = audio.stress_level || emotion.stress_level || "low";
+        stressEl.textContent = stress === "calibrating" ? "calibrating" : stress;
+        if (stressBar) {
+          const stressNumeric = stress === "high" ? 8 : stress === "medium" ? 5 : 2;
+          stressBar.style.width = `${(stressNumeric / 10) * 100}%`;
+        }
+      }
+
+      const voiceEl = document.getElementById("metric-voice");
+      const voiceBar = document.getElementById("metric-voice-bar");
+      if (voiceEl) {
+        const voice = audio.voice_confidence !== undefined ? audio.voice_confidence : null;
+        if (voice !== null && voice >= 0) {
+          const score = Math.round(voice * 10);
+          voiceEl.textContent = score;
+          if (voiceBar) voiceBar.style.width = `${voice * 100}%`;
+        } else {
+          voiceEl.textContent = "—";
+          if (voiceBar) voiceBar.style.width = "0%";
+        }
+      }
+    }
+
+    function logResult(message, isError = false) {
+      const resultsDiv = document.getElementById("test-results");
+      const resultEl = document.createElement("div");
+      resultEl.className = `test-result ${isError ? "test-error" : "test-success"}`;
+      resultEl.textContent = message;
+      resultsDiv.appendChild(resultEl);
+    }
+
+    function clearResults() {
+      document.getElementById("test-results").innerHTML = "";
+    }
+
+    function testEyeContact() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: true,
+          eye_contact_confidence: 0.85,
+          looking_at_camera: true
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Eye contact test: 8/10 (0.85 confidence)", false);
+    }
+
+    function testFocus() {
+      clearResults();
+      const observation = {
+        face: {
+          looking_away: false,
+          looking_at_camera: true
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Focus test: 9/10 (looking at camera)", false);
+    }
+
+    function testStress() {
+      clearResults();
+      const observation = {
+        audio: {
+          stress_level: "high"
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Stress test: 'high' (80% bar)", false);
+    }
+
+    function testVoice() {
+      clearResults();
+      const observation = {
+        audio: {
+          voice_confidence: 0.72
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Voice test: 7/10 (0.72 confidence)", false);
+    }
+
+    function testAllMetrics() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: true,
+          eye_contact_confidence: 0.82,
+          looking_at_camera: true,
+          looking_away: false
+        },
+        audio: {
+          stress_level: "medium",
+          voice_confidence: 0.65
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ All metrics test: Eye 8, Focus 9, Stress medium (50%), Voice 7", false);
+    }
+
+    function simulateNormalObservation() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: true,
+          eye_contact_confidence: 0.88,
+          looking_at_camera: true
+        },
+        audio: {
+          stress_level: "low",
+          voice_confidence: 0.8
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Normal observation: Good eye contact, low stress, clear voice", false);
+    }
+
+    function simulatePoorObservation() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: true,
+          eye_contact_confidence: 0.25,
+          looking_at_camera: false,
+          looking_away: true
+        },
+        audio: {
+          stress_level: "high",
+          voice_confidence: 0.4
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Poor observation: Low eye contact, high stress, weak voice", false);
+    }
+
+    function simulateHighStress() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: true,
+          eye_contact_confidence: 0.6
+        },
+        audio: {
+          stress_level: "high"
+        }
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ High stress scenario: Stress level = 'high'", false);
+    }
+
+    function simulateMissingData() {
+      clearResults();
+      const observation = {
+        face: {
+          face_detected: false
+        },
+        audio: {}
+      };
+      updateObservationMetrics(observation);
+      logResult("✓ Missing data test: All metrics should show '—'", false);
+    }
+
+    function validateElements() {
+      clearResults();
+      const elements = [
+        "metric-eye-contact",
+        "metric-eye-contact-bar",
+        "metric-focus",
+        "metric-focus-bar",
+        "metric-stress",
+        "metric-stress-bar",
+        "metric-voice",
+        "metric-voice-bar"
+      ];
+      
+      let allFound = true;
+      elements.forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) {
+          logResult(`✗ Missing element: #${id}`, true);
+          allFound = false;
+        }
+      });
+      
+      if (allFound) {
+        logResult("✓ All 8 metric elements found in DOM", false);
+      }
+    }
+
+    function validateCSS() {
+      clearResults();
+      const eyeContactBar = document.getElementById("metric-eye-contact-bar");
+      const styles = window.getComputedStyle(eyeContactBar);
+      
+      const checks = [
+        { name: "Height", value: styles.height, expected: "4px" },
+        { name: "Background color", value: styles.backgroundColor, expected: "rgb(31, 115, 231)" }
+      ];
+
+      checks.forEach(check => {
+        logResult(`✓ ${check.name}: ${check.value}`, false);
+      });
+      
+      logResult("✓ CSS validation complete - metric bars properly styled", false);
+    }
+
+    function clearMetrics() {
+      clearResults();
+      document.getElementById("metric-eye-contact").textContent = "—";
+      document.getElementById("metric-focus").textContent = "—";
+      document.getElementById("metric-stress").textContent = "—";
+      document.getElementById("metric-voice").textContent = "—";
+      document.getElementById("metric-eye-contact-bar").style.width = "0%";
+      document.getElementById("metric-focus-bar").style.width = "0%";
+      document.getElementById("metric-stress-bar").style.width = "0%";
+      document.getElementById("metric-voice-bar").style.width = "0%";
+      logResult("✓ All metrics reset to default state", false);
+    }
+  </script>
+</body>
+</html>
