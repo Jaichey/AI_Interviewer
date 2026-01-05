@@ -142,6 +142,244 @@ button:disabled {
 }
 
 /* ============================================
+   CONTROL BAR (Interview Settings)
+   ============================================ */
+
+.control-bar {
+  display: flex;
+  gap: 30px;
+  padding: 12px 24px;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.control-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  white-space: nowrap;
+  min-width: 55px;
+}
+
+.control-dropdown {
+  padding: 6px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 200px;
+}
+
+.control-dropdown:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(31, 115, 231, 0.1);
+}
+
+.control-dropdown:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(31, 115, 231, 0.2);
+}
+
+.stage-center {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 auto;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   TOAST NOTIFICATIONS
+   ============================================ */
+
+#toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+  pointer-events: none;
+  max-width: 400px;
+}
+
+.toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: var(--shadow-lg);
+  animation: slideInRight 0.3s ease;
+  pointer-events: auto;
+}
+
+.toast-icon {
+  flex-shrink: 0;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.toast-content {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.toast-close {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  transition: color 0.2s ease;
+}
+
+.toast-close:hover {
+  color: var(--text-primary);
+}
+
+.toast.success {
+  border-color: var(--success);
+  background: rgba(24, 128, 56, 0.05);
+}
+
+.toast.success .toast-icon {
+  color: var(--success);
+}
+
+.toast.error {
+  border-color: var(--critical);
+  background: rgba(211, 52, 39, 0.05);
+}
+
+.toast.error .toast-icon {
+  color: var(--critical);
+}
+
+.toast.warning {
+  border-color: var(--warning);
+  background: rgba(245, 124, 0, 0.05);
+}
+
+.toast.warning .toast-icon {
+  color: var(--warning);
+}
+
+.toast.info {
+  border-color: var(--accent);
+  background: rgba(31, 115, 231, 0.05);
+}
+
+.toast.info .toast-icon {
+  color: var(--accent);
+}
+
+.toast.removing {
+  animation: slideOutRight 0.3s ease forwards;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  to {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+}
+
+/* ============================================
+   MULTI-AVATAR LAYOUT
+   ============================================ */
+
+.avatars-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  height: 100%;
+  align-content: start;
+  justify-items: center;
+}
+
+.avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: transparent;
+  width: 100%;
+  max-width: 280px;
+}
+
+.avatar-wrapper:hover {
+  background: var(--bg-secondary);
+  border-color: var(--border-color);
+}
+
+.avatar-wrapper.active {
+  border-color: var(--accent);
+  background: rgba(31, 115, 231, 0.12);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(31, 115, 231, 0.2);
+}
+
+.avatar-canvas {
+  width: 100%;
+  height: 240px;
+  border-radius: 6px;
+  background: var(--bg-tertiary);
+}
+
+.avatar-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================
    MAIN LAYOUT - RESPONSIVE GRID
    ============================================ */
 
@@ -156,116 +394,139 @@ button:disabled {
 }
 
 .main-content {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  gap: 16px;
-  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
   min-height: 0;
-  overflow: hidden;
+  overflow: auto;
   height: calc(100vh - 80px);
-}
-
-.left-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  min-height: 0;
-  height: 100%;
-}
-
-.right-panel {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  min-height: 0;
-  height: 100%;
-  overflow-y: auto;
-}
-
-/* ============================================
-   PANELS - SHARED STYLING
-   ============================================ */
-
-.avatar-panel,
-.conversation-panel,
-.camera-panel {
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  box-shadow: var(--shadow-sm);
-}
-
-/* ============================================
-   AVATAR PANEL (60% WIDTH)
-   ============================================ */
-
-.avatar-panel {
   position: relative;
-  width: 100%;
-  height: 65vh;
-  min-height: 500px;
+}
+
+/* ============================================
+   AVATAR SECTION - New Full-Width Layout
+   ============================================ */
+
+.avatar-section {
+  flex: 0 0 auto;
+  padding: 24px 16px;
+  background: var(--bg-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px 16px;
-  gap: 16px;
+  min-height: auto;
+  max-height: 60vh;
+  border-bottom: 1px solid var(--border-color);
+  /* height: 60vh !important; */
 }
 
-.avatar-canvas-container {
+#avatars-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1400px;
+  width: 100%;
+  justify-items: center;
+}
+
+#avatars-container.single-mode {
+  grid-template-columns: 1fr;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.avatar-wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex: 1;
-  width: 100%;
-  min-height: 0;
+  gap: 12px;
+  padding: 24px;
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: transparent;
+  max-width: 340px;
+  height: auto;
 }
 
-#avatar-canvas {
-  width: 100%;
-  height: 100%;
-  border: 1px solid var(--border-color);
+.avatar-wrapper:hover {
+  background: transparent;
+  border-color: transparent;
+  transform: none;
+  box-shadow: none;
+}
+
+.avatar-wrapper.active {
+  border: none;
+  background: transparent;
+  transform: none;
+  box-shadow: none;
+}
+
+.avatar-wrapper.speaking {
+  border: 3px solid #d33427;
+  box-shadow: 0 12px 32px rgba(211, 52, 39, 0.35);
+}
+
+.avatar-canvas {
+  height: 400px;
   border-radius: 8px;
-  background: var(--bg-tertiary);
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  background: #fff;
+  border: none;
   display: block;
+}
+
+.avatar-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .avatar-info {
   width: 100%;
   text-align: center;
   flex-shrink: 0;
+  margin-top: 8px;
 }
 
 .avatar-state {
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-secondary);
   margin: 0;
 }
 
 .connection-status {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--text-tertiary);
   margin: 4px 0 0 0;
 }
 
 /* ============================================
-   CAMERA PANEL (40% WIDTH) 
+   CONVERSATION SECTION - New Full-Width Layout
    ============================================ */
 
-.camera-panel {
-  width: 100%;
-  height: 100%;
+.conversation-section {
+  flex: 1;
+  padding: 20px;
+  padding-right: 260px;
+  background: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+  min-height: auto;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 16px;
+  overflow: hidden;
+  margin-bottom: 2rem !important;
+}
+
+.camera-panel {
+  display: none;
 }
 
 .camera-header {
@@ -473,22 +734,22 @@ button:disabled {
 }
 
 /* ============================================
-   CONVERSATION PANEL (BOTTOM)
+   CONVERSATION PANEL (FULL-WIDTH NOW)
    ============================================ */
 
 .conversation-panel {
   flex: 1;
   width: 100%;
   background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
+  border: none;
+  border-radius: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  min-height: 200px;
+  min-height: auto;
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+  box-shadow: none;
 }
 
 .messages {
@@ -501,6 +762,8 @@ button:disabled {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-height: none;
+  min-height: auto;
 }
 
 .message {
@@ -546,6 +809,7 @@ button:disabled {
   background: var(--bg-primary);
   color: var(--text-primary);
   transition: border-color 0.2s ease;
+  min-height: 40px;
 }
 
 #text-input:focus {
@@ -575,24 +839,77 @@ button:disabled {
 }
 
 /* ============================================
+   FLOATING CAMERA PANEL - Bottom Right Corner
+   ============================================ */
+
+.floating-camera {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 250px;
+  height: auto;
+  z-index: 100;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--bg-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.floating-camera .camera-header {
+  display: none;
+}
+
+.floating-camera .camera-title {
+  display: none;
+}
+
+.floating-camera .camera-container {
+  flex: 0 0 auto;
+}
+
+.floating-camera .video-wrapper {
+  width: 100%;
+  height: 188px;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.floating-camera #candidate-video {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+
+/* ============================================
    RESPONSIVE BREAKPOINTS
    ============================================ */
 
 /* Tablet: 768px - 1023px */
 @media (max-width: 1023px) {
-  .main-content {
-    grid-template-columns: 1fr;
-    gap: 12px;
-    padding: 12px;
+  #avatars-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
   
-  .avatar-panel {
-    height: 50vh;
-    min-height: 350px;
+  .avatar-wrapper {
+    max-width: 320px;
   }
   
-  .conversation-panel {
-    max-height: 300px;
+  .floating-camera {
+    width: 220px;
+  }
+  
+  .floating-camera .video-wrapper {
+    height: 165px;
   }
 }
 
@@ -615,38 +932,32 @@ button:disabled {
     flex-wrap: wrap;
   }
   
-  .main-content {
+  #avatars-container {
     grid-template-columns: 1fr;
-    padding: 12px;
-    gap: 12px;
-    height: auto;
+    gap: 20px;
   }
   
-  .left-panel {
-    height: auto;
+  .avatar-wrapper {
+    max-width: 100%;
   }
   
-  .right-panel {
-    height: auto;
+  .avatar-canvas {
+    max-width: 100%;
+    height: 340px;
   }
   
-  .avatar-panel {
-    height: 45vh;
-    min-height: 300px;
+  .floating-camera {
+    width: 220px;
+    bottom: 10px;
+    right: 10px;
   }
   
-  .camera-panel {
-    height: auto;
-    min-height: 180px;
+  .floating-camera .video-wrapper {
+    height: 165px;
   }
   
-  .video-wrapper {
-    height: 150px;
-  }
-  
-  .conversation-panel {
-    max-height: 250px;
-    min-height: 150px;
+  .conversation-section {
+    padding-right: 20px;
   }
 }
 

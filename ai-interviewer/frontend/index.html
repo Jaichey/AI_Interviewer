@@ -11,17 +11,56 @@
     <div class="app-header-left">
       <div class="brand">AI Interviewer</div>
     </div>
-    <div class="app-header-center">
-      <div class="stage">
-        <span id="stage-label">WARM_UP</span>
-      </div>
-    </div>
     <div class="controls">
       <button id="continuous-btn" class="ghost" title="Toggle continuous interview mode">Continuous</button>
       <button id="start-btn" class="primary">Start Interview</button>
       <button id="end-btn" class="ghost">End Interview</button>
     </div>
   </header>
+
+  <!-- Control Bar with Dropdowns - Below Header -->
+  <div class="control-bar">
+    <div class="control-group">
+      <label for="subject-select" class="control-label">SUBJECT</label>
+      <select id="subject-select" class="control-dropdown">
+        <option value="">Select Subject...</option>
+        <option value="DAA">DAA</option>
+        <option value="OS">OS</option>
+        <option value="CN">CN</option>
+        <option value="SE">SE</option>
+        <option value="WEB">WEB</option>
+        <option value="DBMS">DBMS</option>
+        <option value="OOPS">OOPS</option>
+        <option value="SYSTEM_DESIGN">System Design</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label for="mode-select" class="control-label">MODE</label>
+      <select id="mode-select" class="control-dropdown">
+        <option value="individual">Individual Interviewer</option>
+        <option value="multi">Multi Interviewer</option>
+      </select>
+    </div>
+
+    <div class="stage-center">
+      <span id="stage-label">WARM_UP</span>
+    </div>
+
+    <div class="control-group">
+      <label for="company-select" class="control-label">COMPANY</label>
+      <select id="company-select" class="control-dropdown">
+        <option value="">Select Company...</option>
+        <option value="Google">Google</option>
+        <option value="Amazon">Amazon</option>
+        <option value="Meta">Meta</option>
+        <option value="Microsoft">Microsoft</option>
+        <option value="Apple">Apple</option>
+        <option value="Netflix">Netflix</option>
+        <option value="Startup">Startup</option>
+      </select>
+    </div>
+  </div>
 
   <!-- Privacy Consent Modal -->
   <div id="consent-modal" class="modal-overlay hidden">
@@ -51,51 +90,47 @@
 
   <main class="layout">
     <div class="main-content">
-      <!-- LEFT PANEL: Avatar (70%) -->
-      <section class="left-panel">
-        <div class="avatar-panel">
-          <div class="avatar-canvas-container">
-            <canvas id="avatar-canvas"></canvas>
-          </div>
-          <div class="avatar-info">
-            <p class="avatar-state">Avatar: <span id="avatar-state">neutral_listening</span></p>
-            <p class="connection-status">Status: <span id="connection-label">disconnected</span></p>
+      <!-- AVATAR PANEL: Full width with avatars -->
+      <section class="avatar-section">
+        <div class="avatars-container" id="avatars-container">
+          <div class="avatar-wrapper" data-avatar-index="0">
+            <canvas id="avatar-canvas-0" class="avatar-canvas"></canvas>
+            <div class="avatar-label">Avatar 1</div>
           </div>
         </div>
-        
-        <div id="warnings-container" class="warnings-container">
-          <div style="text-align: center; color: #856404; font-weight: 600;">No warnings</div>
+        <div class="avatar-info">
+          <p class="avatar-state">Avatar: <span id="avatar-state">neutral_listening</span></p>
+          <p class="connection-status">Status: <span id="connection-label">disconnected</span></p>
         </div>
       </section>
 
-      <!-- RIGHT PANEL: Camera + Conversation (30%) -->
-      <section class="right-panel">
-        <div class="camera-panel">
-          <div class="camera-header">
-            <div class="camera-title">Candidate Camera</div>
-            <div class="consent-badge">RECORDING</div>
-          </div>
-          <div class="camera-container">
-            <div class="video-wrapper">
-              <video id="candidate-video" autoplay playsinline muted="muted" width="320" height="240"></video>
-              <div class="speaking-indicator" id="speaking-indicator" style="display: none;">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-              </div>
+      <!-- CONVERSATION PANEL: Full width below avatars -->
+      <section class="conversation-section">
+        <div id="messages" class="messages"></div>
+        <form id="input-form" class="input-row">
+          <input id="text-input" type="text" placeholder="Type your response..." autocomplete="off" />
+          <button id="speak-btn" type="button" class="speak-btn" title="Click to speak your answer">🎤</button>
+          <button type="submit" class="primary">Send</button>
+        </form>
+      </section>
+
+      <!-- CAMERA PANEL: Bottom right corner (floating) -->
+      <div class="camera-panel floating-camera">
+        <div class="camera-header">
+          <div class="camera-title">Candidate Camera</div>
+          <div class="consent-badge">RECORDING</div>
+        </div>
+        <div class="camera-container">
+          <div class="video-wrapper">
+            <video id="candidate-video" autoplay playsinline muted="muted" width="320" height="240"></video>
+            <div class="speaking-indicator" id="speaking-indicator" style="display: none;">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
             </div>
           </div>
         </div>
-        
-        <div class="conversation-panel">
-          <div id="messages" class="messages"></div>
-          <form id="input-form" class="input-row">
-            <input id="text-input" type="text" placeholder="Type your response..." autocomplete="off" />
-            <button id="speak-btn" type="button" class="speak-btn" title="Click to speak your answer">🎤</button>
-            <button type="submit" class="primary">Send</button>
-          </form>
-        </div>
-      </section>
+      </div>
     </div>
   </main>
 

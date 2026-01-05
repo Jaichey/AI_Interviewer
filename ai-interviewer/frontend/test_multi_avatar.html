@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Avatar Interview System Tests</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .test-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; margin-bottom: 20px; }
+        .test-group {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .test-group h2 {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #1f73e7;
+            padding-bottom: 5px;
+        }
+        .test-case {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 4px solid #1f73e7;
+        }
+        .test-case.pass { border-left-color: #10b981; }
+        .test-case.fail { border-left-color: #d33427; }
+        .status {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+        .status.pass { background: #d1fae5; color: #065f46; }
+        .status.fail { background: #fee2e2; color: #7f1d1d; }
+        .console {
+            background: #1a1a1a;
+            color: #0f0;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+        .console .log { margin: 2px 0; }
+        .console .error { color: #ff6b6b; }
+        .console .success { color: #51cf66; }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 Multi-Avatar Interview System Tests</h1>
+        
+        <div class="test-group">
+            <h2>1. Interview State Management</h2>
+            <div id="state-tests"></div>
+        </div>
+
+        <div class="test-group">
+            <h2>2. Question Bank</h2>
+            <div id="question-tests"></div>
+        </div>
+
+        <div class="test-group">
+            <h2>3. Toast Notification System</h2>
+            <div id="toast-tests"></div>
+        </div>
+
+        <div class="test-group">
+            <h2>4. Company Behaviors</h2>
+            <div id="company-tests"></div>
+        </div>
+
+        <div class="test-group">
+            <h2>Test Console</h2>
+            <div class="console" id="console"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { InterviewState, QuestionBank, COMPANY_BEHAVIORS } from "./interview-state.js";
+        import { toast } from "./toast.js";
+
+        const resultsContainer = {
+            state: document.getElementById('state-tests'),
+            question: document.getElementById('question-tests'),
+            toast: document.getElementById('toast-tests'),
+            company: document.getElementById('company-tests')
+        };
+        
+        const consoleEl = document.getElementById('console');
+        let testsPassed = 0;
+        let testsFailed = 0;
+
+        function log(message, type = 'log') {
+            const entry = document.createElement('div');
+            entry.className = `log ${type}`;
+            entry.textContent = `> ${message}`;
+            consoleEl.appendChild(entry);
+            consoleEl.scrollTop = consoleEl.scrollHeight;
+        }
+
+        function addResult(category, testName, passed, message) {
+            const container = resultsContainer[category];
+            const testCase = document.createElement('div');
+            testCase.className = `test-case ${passed ? 'pass' : 'fail'}`;
+            
+            const status = document.createElement('span');
+            status.className = `status ${passed ? 'pass' : 'fail'}`;
+            status.textContent = passed ? '✓ PASS' : '✗ FAIL';
+            
+            const nameEl = document.createElement('span');
+            nameEl.textContent = testName;
+            
+            const msgEl = document.createElement('div');
+            msgEl.style.fontSize = '12px';
+            msgEl.style.color = '#666';
+            msgEl.style.marginTop = '5px';
+            msgEl.textContent = message;
+            
+            testCase.appendChild(status);
+            testCase.appendChild(nameEl);
+            testCase.appendChild(msgEl);
+            container.appendChild(testCase);
+
+            if (passed) {
+                testsPassed++;
+                log(`✓ ${testName}`, 'success');
+            } else {
+                testsFailed++;
+                log(`✗ ${testName}: ${message}`, 'error');
+            }
+        }
+
+        // Test 1: Interview State Management
+        log('Starting Interview State tests...');
+        const state = new InterviewState();
+        
+        addResult('state', 'Initial state is individual mode', 
+            state.mode === 'individual', 
+            `mode: ${state.mode}`);
+        
+        addResult('state', 'Initial subject is empty', 
+            state.subject === '', 
+            `subject: ${state.subject}`);
+        
+        state.setSubject('DAA');
+        addResult('state', 'Can set subject to DAA', 
+            state.subject === 'DAA', 
+            `subject: ${state.subject}`);
+        
+        state.setCompany('Google');
+        addResult('state', 'Can set company to Google', 
+            state.company === 'Google', 
+            `company: ${state.company}`);
+        
+        const missing = state.getMissingFields();
+        addResult('state', 'No missing fields after setting required values', 
+            missing.length === 0, 
+            `missing: ${missing.join(', ')}`);
+        
+        state.setMode('multi');
+        addResult('state', 'Can switch to multi mode', 
+            state.mode === 'multi' && state.avatarCount === 3, 
+            `mode: ${state.mode}, avatars: ${state.avatarCount}`);
+        
+        state.nextAvatar();
+        addResult('state', 'Avatar index cycles correctly', 
+            state.activeAvatarIndex === 1, 
+            `activeAvatarIndex: ${state.activeAvatarIndex}`);
+
+        // Test 2: Question Bank
+        log('Starting Question Bank tests...');
+        const qb = new QuestionBank();
+        
+        const question = qb.getNextQuestion('DAA', 'Google');
+        addResult('question', 'Can get question for DAA/Google', 
+            question && typeof question === 'string' && question.length > 0, 
+            `question: "${question.substring(0, 50)}..."`);
+        
+        const osQuestion = qb.getNextQuestion('OS', 'Startup');
+        addResult('question', 'Can get question for OS/Startup', 
+            osQuestion && typeof osQuestion === 'string' && osQuestion.length > 0, 
+            `question: "${osQuestion.substring(0, 50)}..."`);
+        
+        const difficulty = qb.getDifficulty('Google');
+        addResult('question', 'Google gets hard difficulty', 
+            difficulty === 'hard', 
+            `difficulty: ${difficulty}`);
+        
+        const startupDifficulty = qb.getDifficulty('Startup');
+        addResult('question', 'Startup gets easy difficulty', 
+            startupDifficulty === 'easy', 
+            `difficulty: ${startupDifficulty}`);
+
+        // Test 3: Toast System
+        log('Starting Toast system tests...');
+        
+        addResult('toast', 'Toast container created', 
+            document.getElementById('toast-container') !== null, 
+            'Toast container exists in DOM');
+        
+        const toastEl = toast.info('Test notification');
+        addResult('toast', 'Can create info toast', 
+            toastEl && toastEl.classList.contains('toast'), 
+            'Toast element created with correct class');
+        
+        addResult('toast', 'Toast has correct styling', 
+            toastEl.classList.contains('info'), 
+            'Toast has info class');
+
+        // Test 4: Company Behaviors
+        log('Starting Company Behaviors tests...');
+        
+        const companies = Object.keys(COMPANY_BEHAVIORS);
+        addResult('company', 'All 7 companies defined', 
+            companies.length === 7, 
+            `companies: ${companies.join(', ')}`);
+        
+        const googleBehavior = COMPANY_BEHAVIORS['Google'];
+        addResult('company', 'Google behavior has all required properties', 
+            googleBehavior && 
+            googleBehavior.tone && 
+            googleBehavior.emphasis && 
+            typeof googleBehavior.followUp === 'boolean' &&
+            typeof googleBehavior.whiteboarding === 'boolean', 
+            `tone: ${googleBehavior.tone}, emphasis: ${googleBehavior.emphasis}`);
+        
+        const metaBehavior = COMPANY_BEHAVIORS['Meta'];
+        addResult('company', 'Meta has conversational tone', 
+            metaBehavior.tone === 'conversational', 
+            `tone: ${metaBehavior.tone}`);
+
+        // Summary
+        log('');
+        log(`========== TEST SUMMARY ==========`, 'success');
+        log(`Total Passed: ${testsPassed}`, 'success');
+        log(`Total Failed: ${testsFailed}`, testsFailed > 0 ? 'error' : 'success');
+        log(`Overall: ${testsFailed === 0 ? '✓ ALL TESTS PASSED' : '✗ SOME TESTS FAILED'}`, 
+            testsFailed === 0 ? 'success' : 'error');
+    </script>
+</body>
+</html>

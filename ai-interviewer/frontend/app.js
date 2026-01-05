@@ -1,7 +1,79 @@
-import { initAvatar, setAvatarState, startMouth, stopMouth } from "./avatar.js";
+import { initAvatar, setAvatarState, startMouth, stopMouth, startMouthForAvatar, stopMouthForAvatar } from "./avatar.js";
 import { ObservationClient } from "./observation_client.js";
+import { toast } from "./toast.js";
+import { InterviewState, QuestionBank, COMPANY_BEHAVIORS } from "./interview-state.js";
 
-const canvas = document.getElementById("avatar-canvas");
+/**
+ * Wrap toast methods to automatically reposition after showing
+ */
+const originalShow = toast.show.bind(toast);
+const originalSuccess = toast.success.bind(toast);
+const originalError = toast.error.bind(toast);
+const originalWarning = toast.warning.bind(toast);
+const originalInfo = toast.info.bind(toast);
+
+toast.show = function(message, type, duration) {
+  const result = originalShow(message, type, duration);
+  positionToastAboveAvatars();
+  return result;
+};
+
+toast.success = function(message, duration) {
+  const result = originalSuccess(message, duration);
+  positionToastAboveAvatars();
+  return result;
+};
+
+toast.error = function(message, duration) {
+  const result = originalError(message, duration);
+  positionToastAboveAvatars();
+  return result;
+};
+
+toast.warning = function(message, duration) {
+  const result = originalWarning(message, duration);
+  positionToastAboveAvatars();
+  return result;
+};
+
+toast.info = function(message, duration) {
+  const result = originalInfo(message, duration);
+  positionToastAboveAvatars();
+  return result;
+};
+
+/**
+ * Position toast notifications above the center avatar
+ */
+function positionToastAboveAvatars() {
+  const toastContainer = document.getElementById("toast-container");
+  const avatarsContainer = document.getElementById("avatars-container");
+  
+  if (!toastContainer || !avatarsContainer) {
+    return;
+  }
+  
+  // Get avatar container position and dimensions
+  const rect = avatarsContainer.getBoundingClientRect();
+  
+  // Calculate center X position (absolute)
+  const centerX = window.pageXOffset + rect.left + rect.width / 2;
+  
+  // Calculate Y position (above the avatars)
+  const topY = window.pageYOffset + rect.top - 100;
+  
+  // Position the toast container
+  toastContainer.style.position = "fixed";
+  toastContainer.style.left = centerX + "px";
+  toastContainer.style.top = Math.max(80, topY) + "px";  // Don't go above header
+  toastContainer.style.transform = "translateX(-50%)";
+  toastContainer.style.zIndex = "10000";
+}
+
+// Position toast whenever window is resized or scrolled
+window.addEventListener("resize", positionToastAboveAvatars);
+document.addEventListener("scroll", positionToastAboveAvatars);
+
 const messagesEl = document.getElementById("messages");
 const formEl = document.getElementById("input-form");
 const inputEl = document.getElementById("text-input");
@@ -54,16 +126,20 @@ consentAccept.addEventListener("click", async () => {
       }, 800);
       
       // After camera is ready, proceed to connect WebSocket
+      interviewState.startInterview();
+      toast.success("Camera access granted. Starting interview...");
       connect();
     } else {
       console.error("[DEBUG] Failed to start camera");
       alert("Failed to access camera/microphone. Please check permissions.");
       setStartButtonState("idle");
+      interviewState.endInterview();
     }
   } catch (err) {
     console.error("[ERROR] Camera startup failed:", err);
     alert("Failed to access camera/microphone. Please check permissions.");
     setStartButtonState("idle");
+    interviewState.endInterview();
   }
 });
 
@@ -242,22 +318,181 @@ speakBtn.addEventListener("click", (e) => {
   }
 });
 
-initAvatar(canvas);
+// Interview state management
+const interviewState = new InterviewState();
+const questionBank = new QuestionBank();
 
-// const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.hostname}:8000/ws`;
+// Load voices for speech synthesis
+if (window.speechSynthesis) {
+  // Trigger voice loading
+  window.speechSynthesis.getVoices();
+  window.speechSynthesis.onvoiceschanged = () => {
+    const voices = window.speechSynthesis.getVoices();
+    console.log("[INFO] Loaded", voices.length, "voices");
+  };
+}
+
+// Initialize avatars in avatar panel (start with multi-avatar layout ready)
+function initializeAvatarPanel() {
+  const container = document.getElementById("avatars-container");
+  // Clear existing avatars
+  container.innerHTML = '';
+  
+  // Always create 3 avatar wrappers for consistency
+  const avatarNames = ["Jai", "Chey", "Sree"];
+  for (let i = 0; i < 3; i++) {
+    const wrapper = document.createElement("div");
+    wrapper.className = "avatar-wrapper";
+    if (i === 0) wrapper.classList.add("active"); // First avatar active by default
+    wrapper.dataset.avatarIndex = i;
+    wrapper.innerHTML = `
+      <canvas id="avatar-canvas-${i}" class="avatar-canvas"></canvas>
+      <div class="avatar-label">${avatarNames[i]}</div>
+    `;
+    wrapper.addEventListener("click", () => selectAvatar(i));
+    container.appendChild(wrapper);
+    
+    // Initialize avatar renderer for this canvas
+    const canvasEl = wrapper.querySelector(`#avatar-canvas-${i}`);
+    if (canvasEl) {
+      initAvatar(canvasEl);
+    }
+  }
+}
+
+// Initialize on page load
+initializeAvatarPanel();
+
+// Control bar event listeners
+const subjectSelect = document.getElementById("subject-select");
+const modeSelect = document.getElementById("mode-select");
+const companySelect = document.getElementById("company-select");
+
+// Ensure default is individual mode on load
+modeSelect.value = 'individual';
+interviewState.setMode('individual');
+updateMultiAvatarLayout();
+
+subjectSelect.addEventListener("change", (e) => {
+  interviewState.setSubject(e.target.value);
+  if (interviewState.subject) {
+    toast.info(`Subject changed to ${interviewState.subject}`);
+  }
+  updateMultiAvatarLayout();
+});
+
+modeSelect.addEventListener("change", (e) => {
+  try {
+    interviewState.setMode(e.target.value);
+    if (interviewState.mode === 'multi') {
+      toast.info("Multi-avatar mode selected - 3 avatars will be active");
+    } else {
+      toast.info("Individual mode selected");
+    }
+    updateMultiAvatarLayout();
+  } catch (err) {
+    toast.error(err.message);
+    modeSelect.value = interviewState.mode;
+  }
+});
+
+companySelect.addEventListener("change", (e) => {
+  interviewState.setCompany(e.target.value);
+  if (interviewState.company) {
+    const behavior = COMPANY_BEHAVIORS[interviewState.company];
+    toast.info(`Interview style: ${behavior.tone} - Emphasis: ${behavior.emphasis}`);
+  }
+});
+
+function updateMultiAvatarLayout() {
+  const container = document.getElementById("avatars-container");
+  const wrappers = container.querySelectorAll(".avatar-wrapper");
+  
+  // Update container class for CSS layout
+  if (interviewState.mode === 'multi') {
+    container.classList.remove('single-mode');
+    // In multi mode, show all 3 avatars
+    wrappers.forEach((wrapper) => {
+      wrapper.style.display = 'flex';
+    });
+  } else {
+    container.classList.add('single-mode');
+    // In individual mode, show only the first
+    wrappers.forEach((wrapper, index) => {
+      wrapper.style.display = index === 0 ? 'flex' : 'none';
+    });
+  }
+
+  // Update active avatar styling
+  updateActiveAvatarHighlight();
+}
+
+function selectAvatar(index) {
+  if (interviewState.mode === 'individual') return;
+  interviewState.activeAvatarIndex = index;
+  updateActiveAvatarHighlight();
+  toast.info(`Avatar ${index + 1} selected`);
+}
+
+function updateActiveAvatarHighlight() {
+  const wrappers = document.querySelectorAll(".avatar-wrapper");
+  wrappers.forEach((wrapper, index) => {
+    if (interviewState.mode === 'multi') {
+      // In multi-mode, all visible avatars are active
+      if (wrapper.style.display !== 'none') {
+        wrapper.classList.add("active");
+      }
+    } else {
+      // In individual mode, only the current avatar is active
+      if (index === interviewState.activeAvatarIndex) {
+        wrapper.classList.add("active");
+      } else {
+        wrapper.classList.remove("active");
+      }
+    }
+  });
+}
+
+function setSpeakingAvatar(index, isSpeaking) {
+  const wrappers = document.querySelectorAll(".avatar-wrapper");
+  wrappers.forEach((wrapper, idx) => {
+    if (idx === index && wrapper.style.display !== 'none') {
+      if (isSpeaking) {
+        wrapper.classList.add('speaking');
+      } else {
+        wrapper.classList.remove('speaking');
+      }
+    } else if (!isSpeaking) {
+      wrapper.classList.remove('speaking');
+    }
+  });
+}
+
+// const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.hostname}:8000/ws`; // For local testing
 const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/ws`;
 
 
 startBtn.addEventListener("click", () => {
+  // Validate required fields
+  const missingFields = interviewState.getMissingFields();
+  if (missingFields.length > 0) {
+    toast.warning(`Please select: ${missingFields.join(', ')}`);
+    return;
+  }
+
   // Show consent modal first
   if (!consentGiven) {
     consentModal.classList.remove("hidden");
   } else {
     // If consent already given, connect directly
+    interviewState.startInterview();
     connect();
   }
 });
-endBtn.addEventListener("click", () => disconnect());
+endBtn.addEventListener("click", () => {
+  interviewState.endInterview();
+  disconnect();
+});
 continuousBtn.addEventListener("click", () => {
   continuousMode = !continuousMode;
   if (continuousMode) {
@@ -451,6 +686,36 @@ function handleAiMessage(payload) {
 // Expose for manual testing via console
 window.handleAiMessage = handleAiMessage;
 
+/**
+ * Get voice configuration for each avatar
+ * Jai (0): Male voice 1, Chey (1): Female voice, Sree (2): Male voice 2
+ */
+function getVoiceConfig(avatarIndex) {
+  const voices = window.speechSynthesis.getVoices();
+  const configs = [
+    { rate: 1.0, pitch: 1.05, voiceIndex: findVoiceByGender(voices, 'male', 0) },  // Jai
+    { rate: 0.95, pitch: 1.0, voiceIndex: findVoiceByGender(voices, 'female', 0) }, // Chey
+    { rate: 1.05, pitch: 1.15, voiceIndex: findVoiceByGender(voices, 'male', 1) }   // Sree
+  ];
+  return configs[avatarIndex % 3];
+}
+
+/**
+ * Find voice by gender preference
+ */
+function findVoiceByGender(voices, gender, offset = 0) {
+  let count = 0;
+  for (let i = 0; i < voices.length; i++) {
+    const voiceName = voices[i].name.toLowerCase();
+    if (voiceName.includes(gender)) {
+      if (count === offset) return i;
+      count++;
+    }
+  }
+  // Fallback to any available voice
+  return voices.length > 0 ? 0 : -1;
+}
+
 function appendMessage(speaker, text, role = "ai") {
   console.log("[DEBUG] Appending message:", speaker, text.substring(0, 30));
   const div = document.createElement("div");
@@ -467,15 +732,35 @@ function speak(text) {
   }
   console.log("[DEBUG] Speaking:", text.substring(0, 50));
   const utterance = new SpeechSynthesisUtterance(text);
-  utterance.rate = 1.0;
-  utterance.pitch = 1.0;
+  
+  // Get current avatar index (rotate in multi-mode)
+  let avatarIndex = interviewState.activeAvatarIndex;
+  if (interviewState.mode === 'multi') {
+    avatarIndex = interviewState.nextAvatar();
+    updateActiveAvatarHighlight();
+  }
+  
+  // Set voice properties based on avatar
+  const voiceConfig = getVoiceConfig(avatarIndex);
+  utterance.rate = voiceConfig.rate;
+  utterance.pitch = voiceConfig.pitch;
+  
+  // Try to set specific voice if available
+  const voices = window.speechSynthesis.getVoices();
+  if (voiceConfig.voiceIndex >= 0 && voiceConfig.voiceIndex < voices.length) {
+    utterance.voice = voices[voiceConfig.voiceIndex];
+    console.log("[DEBUG] Using voice:", voices[voiceConfig.voiceIndex].name);
+  }
+  
   utterance.onstart = () => {
     speechActive = true;
-    startMouth();
+    startMouthForAvatar(avatarIndex);
+    setSpeakingAvatar(avatarIndex, true);
   };
   utterance.onend = () => {
     speechActive = false;
-    stopMouth();
+    stopMouthForAvatar(avatarIndex);
+    setSpeakingAvatar(avatarIndex, false);
     
     // Auto-activate mic in continuous mode after AI finishes
     if (continuousMode && interviewStarted && !isListening && recognition) {
@@ -496,7 +781,8 @@ function speak(text) {
   };
   utterance.onerror = () => {
     speechActive = false;
-    stopMouth();
+    stopMouthForAvatar(avatarIndex);
+    setSpeakingAvatar(avatarIndex, false);
     console.error("[ERROR] Speech synthesis error");
   };
   window.speechSynthesis.cancel();
@@ -562,51 +848,40 @@ function startAudioVisualization() {
 }
 
 /**
- * Display violation warnings
+ * Display violation warnings as toast notifications
  */
 function displayWarnings(warnings) {
-  const warningsContainer = document.getElementById("warnings-container");
-  if (!warningsContainer) {
-    console.error("[WARNING] warnings-container element not found in DOM");
-    return;
-  }
-  
   if (!warnings || warnings.length === 0) {
-    warningsContainer.innerHTML = "";
     return;
   }
-  
-  // Clear existing warnings
-  warningsContainer.innerHTML = "";
   
   console.log(`[WARNINGS] Displaying ${warnings.length} warning(s)`, warnings);
   
-  // Add each warning
+  // Show each warning as a toast
   warnings.forEach((warning, index) => {
-    const warningEl = document.createElement("div");
-    warningEl.className = `warning warning-${(warning.severity || "warning").toLowerCase()}`;
-    warningEl.innerHTML = `
-      <span class="warning-icon">${warning.icon || '⚠️'}</span>
-      <span class="warning-message">${warning.message || 'Unknown warning'}</span>
-    `;
-    warningsContainer.appendChild(warningEl);
-    console.log(`[WARNINGS] Added warning ${index + 1}: ${warning.type} - ${warning.message}`);
+    const message = warning.message || 'Unknown warning';
+    const severity = (warning.severity || "warning").toLowerCase();
+    
+    // Convert to appropriate toast type
+    let toastType = 'warning';
+    if (severity === 'critical' || severity === 'error') {
+      toastType = 'error';
+    } else if (severity === 'info') {
+      toastType = 'info';
+    }
+    
+    toast[toastType](message);
+    console.log(`[WARNINGS] Toast ${index + 1}: ${warning.type} - ${message}`);
   });
 }
 
 /**
- * Clear all warnings
+ * Clear all warnings (no longer needed with toast)
  */
 function clearWarnings() {
-  const warningsContainer = document.getElementById("warnings-container");
-  if (warningsContainer) {
-    warningsContainer.innerHTML = "";
-  }
+  // Toast notifications auto-clear, no action needed
 }
 
-/**
- * Update observation metrics display
- */
 /**
  * Update observation metrics display
  */

@@ -5,6 +5,7 @@
 
 export class ObservationClient {
   constructor(backendUrl = window.location.origin) {
+// constructor(backendUrl = "http://localhost:8000") { // For local testing
     this.backendUrl = backendUrl;
     this.running = false;
     this.videoElement = null;
