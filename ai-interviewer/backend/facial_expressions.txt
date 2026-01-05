@@ -1,15 +1,15 @@
 ================================================================================
 FACIAL EXPRESSION ANALYSIS LOG
-Session Started: 2026-01-04 18:25:03
+Session Started: 2026-01-05 22:53:08
 ================================================================================
 
 
-[17.32s] Timestamp: 18:25:20
+[63.13s] Timestamp: 22:54:11
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.93
+  Looking at Camera: False
+  Eye Contact Confidence: 0.75
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -34,547 +34,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[19.78s] Timestamp: 18:25:23
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[22.52s] Timestamp: 18:25:25
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[25.02s] Timestamp: 18:25:28
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[27.42s] Timestamp: 18:25:30
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[37.31s] Timestamp: 18:25:40
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.94
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[39.38s] Timestamp: 18:25:42
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[41.29s] Timestamp: 18:25:44
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[43.87s] Timestamp: 18:25:47
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[45.98s] Timestamp: 18:25:49
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[47.93s] Timestamp: 18:25:51
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.93
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[50.46s] Timestamp: 18:25:53
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.94
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[52.25s] Timestamp: 18:25:55
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[54.13s] Timestamp: 18:25:57
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[56.00s] Timestamp: 18:25:59
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.89
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[58.05s] Timestamp: 18:26:01
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.89
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[61.23s] Timestamp: 18:26:04
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[63.82s] Timestamp: 18:26:07
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[65.94s] Timestamp: 18:26:09
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.93
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[67.78s] Timestamp: 18:26:11
+[65.55s] Timestamp: 22:54:14
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -604,397 +64,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[69.78s] Timestamp: 18:26:13
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[72.28s] Timestamp: 18:26:15
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[74.27s] Timestamp: 18:26:17
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.89
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[77.13s] Timestamp: 18:26:20
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 4.00/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 3.00/10
-    - Stressed: 2.00/10
-    - Confused: 2.00/10
-    - Confident: 3.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[79.84s] Timestamp: 18:26:23
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[82.49s] Timestamp: 18:26:25
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[85.28s] Timestamp: 18:26:28
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[87.68s] Timestamp: 18:26:30
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[91.66s] Timestamp: 18:26:34
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[95.53s] Timestamp: 18:26:38
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.91
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[97.61s] Timestamp: 18:26:40
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.90
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[99.66s] Timestamp: 18:26:42
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.92
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[102.25s] Timestamp: 18:26:45
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.94
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[104.17s] Timestamp: 18:26:47
+[67.43s] Timestamp: 22:54:15
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1024,12 +94,12 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[106.24s] Timestamp: 18:26:49
+[69.41s] Timestamp: 22:54:17
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.93
+  Eye Contact Confidence: 0.91
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1054,12 +124,12 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[108.37s] Timestamp: 18:26:51
+[71.45s] Timestamp: 22:54:19
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.91
+  Eye Contact Confidence: 0.85
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1084,12 +154,282 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[110.47s] Timestamp: 18:26:53
+[73.47s] Timestamp: 22:54:22
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.92
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[75.29s] Timestamp: 22:54:23
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.86
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[77.37s] Timestamp: 22:54:25
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.85
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[79.50s] Timestamp: 22:54:28
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.85
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[81.88s] Timestamp: 22:54:30
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[84.18s] Timestamp: 22:54:32
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[86.50s] Timestamp: 22:54:35
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[88.51s] Timestamp: 22:54:37
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[91.07s] Timestamp: 22:54:39
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.79
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[94.15s] Timestamp: 22:54:42
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.88
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1114,12 +454,162 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[113.06s] Timestamp: 18:26:56
+[97.14s] Timestamp: 22:54:45
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.91
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[99.54s] Timestamp: 22:54:48
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.88
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[102.20s] Timestamp: 22:54:50
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.86
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[104.85s] Timestamp: 22:54:53
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[107.58s] Timestamp: 22:54:56
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[110.65s] Timestamp: 22:54:59
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.86
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1144,7 +634,217 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[115.08s] Timestamp: 18:26:58
+[114.39s] Timestamp: 22:55:02
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.86
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[117.11s] Timestamp: 22:55:05
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.80
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[120.18s] Timestamp: 22:55:08
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.81
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[122.39s] Timestamp: 22:55:10
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.79
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[124.17s] Timestamp: 22:55:12
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[126.03s] Timestamp: 22:55:14
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[127.83s] Timestamp: 22:55:16
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[129.82s] Timestamp: 22:55:18
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1154,16 +854,16 @@ FACE DETECTION:
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: high
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1174,7 +874,757 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[117.01s] Timestamp: 18:27:00
+[131.76s] Timestamp: 22:55:20
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.80
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[133.96s] Timestamp: 22:55:22
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[135.96s] Timestamp: 22:55:24
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.81
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[137.88s] Timestamp: 22:55:26
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[139.86s] Timestamp: 22:55:28
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[141.76s] Timestamp: 22:55:30
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[143.74s] Timestamp: 22:55:32
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[145.82s] Timestamp: 22:55:34
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.85
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[147.68s] Timestamp: 22:55:36
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[150.01s] Timestamp: 22:55:38
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[153.42s] Timestamp: 22:55:41
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[156.15s] Timestamp: 22:55:44
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[159.19s] Timestamp: 22:55:47
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[161.91s] Timestamp: 22:55:50
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[164.36s] Timestamp: 22:55:52
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[166.89s] Timestamp: 22:55:55
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[170.47s] Timestamp: 22:55:59
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[174.18s] Timestamp: 22:56:02
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[176.79s] Timestamp: 22:56:05
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.79
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[178.85s] Timestamp: 22:56:07
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.83
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[180.92s] Timestamp: 22:56:09
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[182.82s] Timestamp: 22:56:11
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.87
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[184.77s] Timestamp: 22:56:13
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.80
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[186.95s] Timestamp: 22:56:15
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.82
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[188.85s] Timestamp: 22:56:17
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.84
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[190.64s] Timestamp: 22:56:19
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1184,16 +1634,16 @@ FACE DETECTION:
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
   Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1206,7 +1656,71 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[119.09s] Timestamp: 18:27:02
+[192.45s] Timestamp: 22:56:20
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[194.15s] Timestamp: 22:56:22
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[195.66s] Timestamp: 22:56:24
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1238,7 +1752,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[120.95s] Timestamp: 18:27:04
+[197.30s] Timestamp: 22:56:25
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1250,7 +1764,7 @@ FACE DETECTION:
 EMOTION ANALYSIS:
   Primary Emotion: Neutral
   Confidence: 4.00/10
-  Stress Level: high
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
@@ -1270,7 +1784,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[122.89s] Timestamp: 18:27:06
+[199.04s] Timestamp: 22:56:27
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1280,16 +1794,16 @@ FACE DETECTION:
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
   Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1302,88 +1816,26 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[125.55s] Timestamp: 18:27:08
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: False
-  Eye Contact Confidence: 0.00
-  Looking Away: True
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: high
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-⚠️  VIOLATION: Multiple persons detected!
-
-================================================================================
-
-[127.89s] Timestamp: 18:27:11
+[200.79s] Timestamp: 22:56:29
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.93
+  Eye Contact Confidence: 0.96
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
   Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[129.62s] Timestamp: 18:27:12
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.93
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
+  Confidence: 4.00/10
   Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1394,67 +1846,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[131.94s] Timestamp: 18:27:15
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.94
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[133.95s] Timestamp: 18:27:17
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.93
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: medium
-  All Emotion Scores:
-    - Neutral: 4.00/10
-    - Happy: 2.00/10
-    - Focused: 1.50/10
-    - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[137.31s] Timestamp: 18:27:20
+[202.82s] Timestamp: 22:56:31
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1484,26 +1876,26 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[139.99s] Timestamp: 18:27:23
+[204.77s] Timestamp: 22:56:33
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.97
+  Eye Contact Confidence: 0.96
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
   Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1514,7 +1906,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[145.38s] Timestamp: 18:27:28
+[206.75s] Timestamp: 22:56:35
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1525,15 +1917,15 @@ FACE DETECTION:
 
 EMOTION ANALYSIS:
   Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
+  Confidence: 4.00/10
+  Stress Level: medium
   All Emotion Scores:
-    - Neutral: 7.00/10
+    - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 7.00/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1544,42 +1936,12 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[148.10s] Timestamp: 18:27:31
+[209.05s] Timestamp: 22:56:37
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.99
-  Looking Away: False
-  Head Pose - Yaw: 0.0°, Pitch: 0.0°
-
-EMOTION ANALYSIS:
-  Primary Emotion: Neutral
-  Confidence: 7.00/10
-  Stress Level: low
-  All Emotion Scores:
-    - Neutral: 7.00/10
-    - Happy: 2.00/10
-    - Focused: 7.00/10
-    - Stressed: 2.00/10
-    - Confused: 1.00/10
-    - Confident: 5.00/10
-
-VOICE ANALYSIS:
-  Stress Level: unknown
-  Voice Confidence: 0.0/10
-  Pitch: 0.0 Hz
-  Energy: 0.0000
-  Silence Detected: False
-
-================================================================================
-
-[151.77s] Timestamp: 18:27:35
---------------------------------------------------------------------------------
-FACE DETECTION:
-  Face Detected: True
-  Looking at Camera: True
-  Eye Contact Confidence: 0.96
+  Eye Contact Confidence: 0.93
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1604,26 +1966,26 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[155.95s] Timestamp: 18:27:39
+[213.00s] Timestamp: 22:56:41
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.96
+  Eye Contact Confidence: 0.92
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
-  Primary Emotion: Confused
-  Confidence: 5.50/10
-  Stress Level: high
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
-    - Focused: 1.50/10
+    - Focused: 3.00/10
     - Stressed: 2.00/10
-    - Confused: 5.50/10
-    - Confident: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
 
 VOICE ANALYSIS:
   Stress Level: unknown
@@ -1634,7 +1996,501 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[158.57s] Timestamp: 18:27:41
+[216.32s] Timestamp: 22:56:44
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[219.44s] Timestamp: 22:56:47
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[222.73s] Timestamp: 22:56:51
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[225.42s] Timestamp: 22:56:53
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[228.18s] Timestamp: 22:56:56
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.91
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[231.78s] Timestamp: 22:57:00
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.95
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[235.32s] Timestamp: 22:57:03
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.95
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[238.13s] Timestamp: 22:57:06
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[240.13s] Timestamp: 22:57:08
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[242.07s] Timestamp: 22:57:10
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[243.66s] Timestamp: 22:57:12
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[245.18s] Timestamp: 22:57:13
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[246.69s] Timestamp: 22:57:15
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 7.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 7.00/10
+    - Happy: 2.00/10
+    - Focused: 7.00/10
+    - Stressed: 2.00/10
+    - Confused: 1.00/10
+    - Confident: 5.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[248.29s] Timestamp: 22:57:16
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 7.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 7.00/10
+    - Happy: 2.00/10
+    - Focused: 7.00/10
+    - Stressed: 2.00/10
+    - Confused: 1.00/10
+    - Confident: 5.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[249.77s] Timestamp: 22:57:18
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: False
+  Eye Contact Confidence: 0.00
+  Looking Away: True
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 7.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 7.00/10
+    - Happy: 2.00/10
+    - Focused: 7.00/10
+    - Stressed: 2.00/10
+    - Confused: 1.00/10
+    - Confident: 5.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+⚠️  VIOLATION: Multiple persons detected!
+
+================================================================================
+
+[251.75s] Timestamp: 22:57:20
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.98
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[253.73s] Timestamp: 22:57:22
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1644,9 +2500,699 @@ FACE DETECTION:
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[255.81s] Timestamp: 22:57:24
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.97
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[258.21s] Timestamp: 22:57:26
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.96
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[260.80s] Timestamp: 22:57:29
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.96
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[263.09s] Timestamp: 22:57:31
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[265.08s] Timestamp: 22:57:33
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.95
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[267.14s] Timestamp: 22:57:35
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[269.35s] Timestamp: 22:57:37
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[272.41s] Timestamp: 22:57:40
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[275.22s] Timestamp: 22:57:43
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[278.14s] Timestamp: 22:57:46
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[280.97s] Timestamp: 22:57:49
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[283.76s] Timestamp: 22:57:52
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[286.52s] Timestamp: 22:57:55
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[291.04s] Timestamp: 22:57:59
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[294.89s] Timestamp: 22:58:03
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[297.33s] Timestamp: 22:58:05
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[299.49s] Timestamp: 22:58:08
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[301.58s] Timestamp: 22:58:10
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[303.83s] Timestamp: 22:58:12
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[305.82s] Timestamp: 22:58:14
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[307.83s] Timestamp: 22:58:16
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[309.93s] Timestamp: 22:58:18
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[312.02s] Timestamp: 22:58:20
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
   Primary Emotion: Confused
   Confidence: 5.50/10
-  Stress Level: high
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
@@ -1664,7 +3210,607 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[161.72s] Timestamp: 18:27:44
+[314.31s] Timestamp: 22:58:22
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[316.66s] Timestamp: 22:58:25
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[318.71s] Timestamp: 22:58:27
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[320.82s] Timestamp: 22:58:29
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[322.88s] Timestamp: 22:58:31
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[324.95s] Timestamp: 22:58:33
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[327.03s] Timestamp: 22:58:35
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[329.45s] Timestamp: 22:58:37
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[333.34s] Timestamp: 22:58:41
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[336.77s] Timestamp: 22:58:45
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.91
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[340.24s] Timestamp: 22:58:48
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[343.39s] Timestamp: 22:58:51
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[346.21s] Timestamp: 22:58:54
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[349.57s] Timestamp: 22:58:58
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[352.65s] Timestamp: 22:59:01
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.91
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[356.40s] Timestamp: 22:59:04
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[359.11s] Timestamp: 22:59:07
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.88
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[361.16s] Timestamp: 22:59:09
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.89
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[363.17s] Timestamp: 22:59:11
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.89
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[365.20s] Timestamp: 22:59:13
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.89
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[367.23s] Timestamp: 22:59:15
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1694,19 +3840,19 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[164.94s] Timestamp: 18:27:48
+[369.39s] Timestamp: 22:59:17
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.91
+  Eye Contact Confidence: 0.90
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
   Primary Emotion: Confused
   Confidence: 5.50/10
-  Stress Level: high
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
@@ -1724,7 +3870,67 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[167.49s] Timestamp: 18:27:50
+[371.45s] Timestamp: 22:59:19
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[373.45s] Timestamp: 22:59:21
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.91
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[375.77s] Timestamp: 22:59:24
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
@@ -1754,12 +3960,12 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[169.85s] Timestamp: 18:27:53
+[377.77s] Timestamp: 22:59:26
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.91
+  Eye Contact Confidence: 0.90
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1784,19 +3990,19 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[171.96s] Timestamp: 18:27:55
+[379.98s] Timestamp: 22:59:28
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.96
+  Eye Contact Confidence: 0.92
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
   Primary Emotion: Confused
   Confidence: 5.50/10
-  Stress Level: high
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
@@ -1814,19 +4020,19 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[176.95s] Timestamp: 18:28:00
+[382.71s] Timestamp: 22:59:31
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
-  Eye Contact Confidence: 0.91
+  Eye Contact Confidence: 0.95
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
 EMOTION ANALYSIS:
   Primary Emotion: Confused
   Confidence: 5.50/10
-  Stress Level: high
+  Stress Level: medium
   All Emotion Scores:
     - Neutral: 4.00/10
     - Happy: 2.00/10
@@ -1844,12 +4050,372 @@ VOICE ANALYSIS:
 
 ================================================================================
 
-[178.83s] Timestamp: 18:28:02
+[385.64s] Timestamp: 22:59:34
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.94
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[388.20s] Timestamp: 22:59:36
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[391.10s] Timestamp: 22:59:39
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.93
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[394.02s] Timestamp: 22:59:42
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.78
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[396.99s] Timestamp: 22:59:45
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.90
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 4.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 3.00/10
+    - Stressed: 2.00/10
+    - Confused: 2.00/10
+    - Confident: 3.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[399.75s] Timestamp: 22:59:48
 --------------------------------------------------------------------------------
 FACE DETECTION:
   Face Detected: True
   Looking at Camera: True
   Eye Contact Confidence: 0.89
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[402.57s] Timestamp: 22:59:51
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.90
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[405.31s] Timestamp: 22:59:53
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[409.34s] Timestamp: 22:59:57
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.90
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: medium
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[414.40s] Timestamp: 23:00:02
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.95
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[417.97s] Timestamp: 23:00:06
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.92
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Neutral
+  Confidence: 7.00/10
+  Stress Level: low
+  All Emotion Scores:
+    - Neutral: 7.00/10
+    - Happy: 2.00/10
+    - Focused: 7.00/10
+    - Stressed: 2.00/10
+    - Confused: 1.00/10
+    - Confident: 5.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[420.31s] Timestamp: 23:00:08
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.88
+  Looking Away: False
+  Head Pose - Yaw: 0.0°, Pitch: 0.0°
+
+EMOTION ANALYSIS:
+  Primary Emotion: Confused
+  Confidence: 5.50/10
+  Stress Level: high
+  All Emotion Scores:
+    - Neutral: 4.00/10
+    - Happy: 2.00/10
+    - Focused: 1.50/10
+    - Stressed: 2.00/10
+    - Confused: 5.50/10
+    - Confident: 2.00/10
+
+VOICE ANALYSIS:
+  Stress Level: unknown
+  Voice Confidence: 0.0/10
+  Pitch: 0.0 Hz
+  Energy: 0.0000
+  Silence Detected: False
+
+================================================================================
+
+[422.75s] Timestamp: 23:00:11
+--------------------------------------------------------------------------------
+FACE DETECTION:
+  Face Detected: True
+  Looking at Camera: True
+  Eye Contact Confidence: 0.88
   Looking Away: False
   Head Pose - Yaw: 0.0°, Pitch: 0.0°
 
@@ -1877,7 +4443,7 @@ VOICE ANALYSIS:
 
 ================================================================================
 SESSION COMPLETED
-End Time: 2026-01-04 18:28:59
+End Time: 2026-01-05 23:00:11
 Total Duration: 0.00 seconds
-Total Observations: 186
+Total Observations: 156
 ================================================================================
