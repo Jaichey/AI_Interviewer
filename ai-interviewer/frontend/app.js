@@ -141,6 +141,19 @@ function autoSubmitStartPrompt() {
   }, 350);
 }
 
+function resetAnswerInput() {
+  accumulatedTranscript = "";
+  if (speechTimeout) {
+    clearTimeout(speechTimeout);
+    speechTimeout = null;
+  }
+
+  if (inputEl) {
+    inputEl.value = "";
+    inputEl.placeholder = "Type your response...";
+  }
+}
+
 consentAccept.addEventListener("click", async () => {
   console.log("[DEBUG] Consent accepted, starting camera...");
   
@@ -705,6 +718,7 @@ function handleAiMessage(payload) {
   // Handle different interview states
   if (state === "GREETING") {
     interviewStarted = false;
+    resetAnswerInput();
     inputEl.disabled = false;
     formEl.querySelector("button[type='submit']").disabled = false;
     speakBtn.disabled = false;
@@ -715,6 +729,7 @@ function handleAiMessage(payload) {
   } else if (state === "CLOSURE") {
     interviewStarted = false;
     continuousMode = false;
+    resetAnswerInput();
     inputEl.disabled = true;
     formEl.querySelector("button[type='submit']").disabled = true;
     speakBtn.disabled = true;
