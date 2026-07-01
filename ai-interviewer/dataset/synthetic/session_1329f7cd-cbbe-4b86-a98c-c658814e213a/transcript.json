@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 27.81232822811789,
+      "pause_before_answer": 3.669658886426519
+    },
+    {
+      "question_number": 2,
+      "timestamp": 40.36868848318453,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 31.929733431085236,
+      "pause_before_answer": 1.5309838263882845
+    },
+    {
+      "question_number": 3,
+      "timestamp": 82.5142368270655,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 29.267297905771613,
+      "pause_before_answer": 1.3470577327733295
+    },
+    {
+      "question_number": 4,
+      "timestamp": 120.51553462974404,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 32.79241206136855,
+      "pause_before_answer": 3.7764751919140847
+    },
+    {
+      "question_number": 5,
+      "timestamp": 166.16691345479455,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 23.975830545860454,
+      "pause_before_answer": 2.850082750953572
+    },
+    {
+      "question_number": 6,
+      "timestamp": 201.95859689431654,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 35.85357343721097,
+      "pause_before_answer": 1.1224113762661991
+    },
+    {
+      "question_number": 7,
+      "timestamp": 244.51084023573884,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 43.641235535704084,
+      "pause_before_answer": 4.04655464464479
+    },
+    {
+      "question_number": 8,
+      "timestamp": 299.3364183961262,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 29.371753684890216,
+      "pause_before_answer": 2.505542675030786
+    },
+    {
+      "question_number": 9,
+      "timestamp": 340.4039474692273,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 22.88222750117351,
+      "pause_before_answer": 4.521138254508031
+    }
+  ]
+}

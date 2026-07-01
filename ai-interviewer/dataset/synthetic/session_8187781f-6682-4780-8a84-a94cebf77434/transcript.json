@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 22.98009883456622,
+      "pause_before_answer": 2.2844797510604216
+    },
+    {
+      "question_number": 2,
+      "timestamp": 30.931553131278775,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 31.78271279888286,
+      "pause_before_answer": 2.8825287970513447
+    },
+    {
+      "question_number": 3,
+      "timestamp": 74.45398960852759,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 15.682846101110869,
+      "pause_before_answer": 2.7909428084275905
+    },
+    {
+      "question_number": 4,
+      "timestamp": 99.66379741175615,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 19.45710149187267,
+      "pause_before_answer": 4.326615725540213
+    },
+    {
+      "question_number": 5,
+      "timestamp": 128.65603679341262,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 24.150582603422574,
+      "pause_before_answer": 4.661465500485706
+    },
+    {
+      "question_number": 6,
+      "timestamp": 165.94945080335245,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 40.29922780929188,
+      "pause_before_answer": 2.6568073498789895
+    },
+    {
+      "question_number": 7,
+      "timestamp": 215.7907133484504,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. Let me know if you need clarification.",
+      "answer_duration": 26.410220545920403,
+      "pause_before_answer": 1.6634010204395566
+    },
+    {
+      "question_number": 8,
+      "timestamp": 253.46675628480298,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 17.020337433318886,
+      "pause_before_answer": 3.8645704885387255
+    },
+    {
+      "question_number": 9,
+      "timestamp": 281.3326659108507,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 36.26620589142274,
+      "pause_before_answer": 4.102034282454382
+    },
+    {
+      "question_number": 10,
+      "timestamp": 330.8285362992281,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 30.96264634944586,
+      "pause_before_answer": 1.1794354377577716
+    }
+  ]
+}

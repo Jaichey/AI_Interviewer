@@ -1,0 +1,105 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 11,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 19.178247205552893,
+      "pause_before_answer": 3.1453799553482877
+    },
+    {
+      "question_number": 2,
+      "timestamp": 29.68919647833703,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 35.70666979316429,
+      "pause_before_answer": 4.163140977254739
+    },
+    {
+      "question_number": 3,
+      "timestamp": 79.50712332271473,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 21.667715369201296,
+      "pause_before_answer": 4.560600458886759
+    },
+    {
+      "question_number": 4,
+      "timestamp": 114.34365184925957,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 26.609678254050372,
+      "pause_before_answer": 3.030639144986671
+    },
+    {
+      "question_number": 5,
+      "timestamp": 152.90876819354253,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 35.63981571930864,
+      "pause_before_answer": 1.0205881671085235
+    },
+    {
+      "question_number": 6,
+      "timestamp": 199.3567948843205,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 38.697060193401185,
+      "pause_before_answer": 1.95037946328369
+    },
+    {
+      "question_number": 7,
+      "timestamp": 249.8258749163287,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 22.85069897480422,
+      "pause_before_answer": 1.2527174930234746
+    },
+    {
+      "question_number": 8,
+      "timestamp": 279.8889583379648,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 27.737318946249346,
+      "pause_before_answer": 1.3361628725854824
+    },
+    {
+      "question_number": 9,
+      "timestamp": 314.25102565954273,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 40.255447212020705,
+      "pause_before_answer": 1.4250955321681626
+    },
+    {
+      "question_number": 10,
+      "timestamp": 364.28226159277307,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 34.86554166682039,
+      "pause_before_answer": 2.8935911411498223
+    },
+    {
+      "question_number": 11,
+      "timestamp": 409.25130162705193,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 41.80595704075314,
+      "pause_before_answer": 1.1964541278835097
+    }
+  ]
+}

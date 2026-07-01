@@ -1,0 +1,78 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 8,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 16.24710167545875,
+      "pause_before_answer": 2.3848666006495303
+    },
+    {
+      "question_number": 2,
+      "timestamp": 26.23431064741232,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 43.19735083264085,
+      "pause_before_answer": 4.691345581970003
+    },
+    {
+      "question_number": 3,
+      "timestamp": 82.08183447046164,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 37.25554275718312,
+      "pause_before_answer": 4.159951904839048
+    },
+    {
+      "question_number": 4,
+      "timestamp": 130.4754457683938,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 20.304076879370754,
+      "pause_before_answer": 3.412914166349563
+    },
+    {
+      "question_number": 5,
+      "timestamp": 162.93095230244927,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 38.577302433266226,
+      "pause_before_answer": 4.7040593663337535
+    },
+    {
+      "question_number": 6,
+      "timestamp": 213.4258782882179,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 20.129455080184428,
+      "pause_before_answer": 2.09408263958991
+    },
+    {
+      "question_number": 7,
+      "timestamp": 245.30602629086098,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 40.058574982527034,
+      "pause_before_answer": 3.8362996782439756
+    },
+    {
+      "question_number": 8,
+      "timestamp": 295.1697924209202,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 31.33243350827076,
+      "pause_before_answer": 1.2934485014277795
+    }
+  ]
+}

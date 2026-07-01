@@ -1,0 +1,29 @@
+{
+  "session_id": "b49b2d10-8148-4f21-8230-ffd82f7e5f42",
+  "candidate_name": "Candidate_b49b2d10",
+  "position": "Mobile Developer",
+  "timestamp": "2026-02-07T12:35:55.008353",
+  "scores": {
+    "technical_score": 1.45,
+    "communication_score": 3.96,
+    "clarity_score": 4.5,
+    "confidence_score": 4.88,
+    "overall_score": 22.02
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 38.67,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.85
+  },
+  "proctoring_summary": {
+    "total_violations": 2,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.5
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 22.0/100). Not recommended at this time."
+}

@@ -1,0 +1,19 @@
+{
+  "total_violations": 2,
+  "violations": [
+    {
+      "timestamp": 956.8476964500569,
+      "type": "MULTIPLE_PERSONS",
+      "severity": "CRITICAL",
+      "description": "Multiple people detected in frame"
+    },
+    {
+      "timestamp": 321.7007397869594,
+      "type": "MULTIPLE_PERSONS",
+      "severity": "CRITICAL",
+      "description": "Multiple people detected in frame"
+    }
+  ],
+  "person_count_average": 1.2,
+  "suspicious_activity_score": 0.6054246389611033
+}

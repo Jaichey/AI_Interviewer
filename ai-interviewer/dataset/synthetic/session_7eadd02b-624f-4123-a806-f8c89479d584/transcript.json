@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 15.735729868908857,
+      "pause_before_answer": 3.177385062252853
+    },
+    {
+      "question_number": 2,
+      "timestamp": 26.508647596223277,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. I hope that answers your question.",
+      "answer_duration": 34.333908695475365,
+      "pause_before_answer": 4.625921483721005
+    },
+    {
+      "question_number": 3,
+      "timestamp": 73.61657140195553,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 41.40405229845436,
+      "pause_before_answer": 1.4388210938205903
+    },
+    {
+      "question_number": 4,
+      "timestamp": 122.61927256045053,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 17.769614961302445,
+      "pause_before_answer": 4.214065899763613
+    },
+    {
+      "question_number": 5,
+      "timestamp": 150.60791084403334,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 19.88773242342454,
+      "pause_before_answer": 3.1690498477294677
+    },
+    {
+      "question_number": 6,
+      "timestamp": 178.8436405431033,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 21.274960384053667,
+      "pause_before_answer": 3.812668624254193
+    },
+    {
+      "question_number": 7,
+      "timestamp": 213.62352800650604,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 22.981707900772076,
+      "pause_before_answer": 1.8838847119042876
+    },
+    {
+      "question_number": 8,
+      "timestamp": 244.58590818320312,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 22.6753742289653,
+      "pause_before_answer": 2.635696356335897
+    },
+    {
+      "question_number": 9,
+      "timestamp": 279.5533551878831,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 44.70837597305149,
+      "pause_before_answer": 1.7397321839426887
+    },
+    {
+      "question_number": 10,
+      "timestamp": 334.5745398816824,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 32.52191802143405,
+      "pause_before_answer": 2.896697879600404
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 15.032379523445886,
+      "pause_before_answer": 3.5001088061817094
+    },
+    {
+      "question_number": 2,
+      "timestamp": 25.856261915645874,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 42.4152387428899,
+      "pause_before_answer": 1.1713888745291432
+    },
+    {
+      "question_number": 3,
+      "timestamp": 76.08825665744772,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 41.89309398224971,
+      "pause_before_answer": 2.3480295892681435
+    },
+    {
+      "question_number": 4,
+      "timestamp": 128.9492759688583,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 31.991713001936436,
+      "pause_before_answer": 1.0647486297812767
+    },
+    {
+      "question_number": 5,
+      "timestamp": 169.19100358907392,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. I hope that answers your question.",
+      "answer_duration": 32.868590583498644,
+      "pause_before_answer": 1.1881346160149806
+    },
+    {
+      "question_number": 6,
+      "timestamp": 208.56943478726697,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 42.481034477448574,
+      "pause_before_answer": 2.8759090446417233
+    },
+    {
+      "question_number": 7,
+      "timestamp": 261.0959008136041,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 37.5190820761522,
+      "pause_before_answer": 4.7250835664802135
+    },
+    {
+      "question_number": 8,
+      "timestamp": 308.99072395522563,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 17.077075202107157,
+      "pause_before_answer": 2.1293141458543365
+    },
+    {
+      "question_number": 9,
+      "timestamp": 336.3020178311164,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 29.538199142936023,
+      "pause_before_answer": 3.946984224526186
+    },
+    {
+      "question_number": 10,
+      "timestamp": 376.5651302829444,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 26.251115657600966,
+      "pause_before_answer": 1.7187086062635837
+    }
+  ]
+}

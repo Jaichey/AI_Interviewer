@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 24.768098137704023,
+      "pause_before_answer": 4.479465391204652
+    },
+    {
+      "question_number": 2,
+      "timestamp": 35.52342999659232,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 16.744474331642163,
+      "pause_before_answer": 3.4601808855227705
+    },
+    {
+      "question_number": 3,
+      "timestamp": 64.3698617498478,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 43.957529342123934,
+      "pause_before_answer": 4.722267281854403
+    },
+    {
+      "question_number": 4,
+      "timestamp": 122.50427972245939,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. That's based on my experience.",
+      "answer_duration": 23.94022325424249,
+      "pause_before_answer": 1.413556773496627
+    },
+    {
+      "question_number": 5,
+      "timestamp": 153.00734639653925,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 17.590707036374585,
+      "pause_before_answer": 3.478424216109435
+    },
+    {
+      "question_number": 6,
+      "timestamp": 181.3352717141775,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 27.1076940726836,
+      "pause_before_answer": 4.505076253308998
+    },
+    {
+      "question_number": 7,
+      "timestamp": 220.86855752706327,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. That's based on my experience.",
+      "answer_duration": 28.937173548363454,
+      "pause_before_answer": 4.755472642239226
+    },
+    {
+      "question_number": 8,
+      "timestamp": 263.54339214509616,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 19.95220418399372,
+      "pause_before_answer": 3.5622017097127294
+    },
+    {
+      "question_number": 9,
+      "timestamp": 292.32705521531676,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 16.961056781793317,
+      "pause_before_answer": 3.7254824337380525
+    },
+    {
+      "question_number": 10,
+      "timestamp": 319.39654093411474,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 28.50523123623065,
+      "pause_before_answer": 2.1295808626119435
+    }
+  ]
+}

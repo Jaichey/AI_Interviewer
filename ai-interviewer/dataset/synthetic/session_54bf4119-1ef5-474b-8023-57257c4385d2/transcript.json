@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 38.437472547096974,
+      "pause_before_answer": 4.544400967331882
+    },
+    {
+      "question_number": 2,
+      "timestamp": 52.43826591456956,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 41.32837668649354,
+      "pause_before_answer": 4.088458442262386
+    },
+    {
+      "question_number": 3,
+      "timestamp": 105.74597514750994,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 33.63288691859272,
+      "pause_before_answer": 4.692170455211294
+    },
+    {
+      "question_number": 4,
+      "timestamp": 151.95030296072605,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 23.688945198656427,
+      "pause_before_answer": 1.732783021100793
+    },
+    {
+      "question_number": 5,
+      "timestamp": 185.2699555710986,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 34.22472319336127,
+      "pause_before_answer": 1.7844967420888969
+    },
+    {
+      "question_number": 6,
+      "timestamp": 226.29151304379377,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 42.73498339653112,
+      "pause_before_answer": 2.6044038801736606
+    },
+    {
+      "question_number": 7,
+      "timestamp": 280.1052949492034,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 40.5907896203248,
+      "pause_before_answer": 4.762615047683764
+    },
+    {
+      "question_number": 8,
+      "timestamp": 334.8357680324771,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 31.629411217635976,
+      "pause_before_answer": 3.3565540460105288
+    },
+    {
+      "question_number": 9,
+      "timestamp": 378.4449249963121,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. I hope that answers your question.",
+      "answer_duration": 44.165177465862484,
+      "pause_before_answer": 4.221196293794777
+    }
+  ]
+}

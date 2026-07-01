@@ -1,0 +1,26 @@
+{
+  "DATA_MODE": "synthetic",
+  "DATASET_PATH": "dataset",
+  "PROCTORING": {
+    "multi_person_threshold_seconds": 3,
+    "look_away_threshold_seconds": 10,
+    "warning_limit": 3,
+    "enable_violations": true
+  },
+  "GAZE_TRACKING": {
+    "enable_iris_tracking": true,
+    "enable_head_pose": true,
+    "enable_blink_detection": true
+  },
+  "LOGGING": {
+    "save_video_metadata": true,
+    "save_transcripts": true,
+    "save_metrics": true,
+    "generate_reports": true
+  },
+  "MODELS": {
+    "yolo_model": "yolov8s.pt",
+    "use_mediapipe": true,
+    "use_deepface": true
+  }
+}

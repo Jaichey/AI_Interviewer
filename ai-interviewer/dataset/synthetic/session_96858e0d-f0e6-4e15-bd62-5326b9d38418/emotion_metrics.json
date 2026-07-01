@@ -1,0 +1,1822 @@
+{
+  "total_frames": 139,
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.926687304553306,
+      "emotions": {
+        "neutral": 0.18361319053181846,
+        "happy": 0.012740985311409991,
+        "confident": 0.16730785330769274,
+        "nervous": 0.24254600082472044,
+        "thinking": 0.7808412282809357,
+        "surprised": 0.2606766001805947
+      }
+    },
+    {
+      "timestamp": 2.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.7198768634108513,
+      "emotions": {
+        "neutral": 0.18466569737221386,
+        "happy": 0.27903772849647873,
+        "confident": 0.06622481775065578,
+        "nervous": 0.018343423379604106,
+        "thinking": 0.6111621710439896,
+        "surprised": 0.23153375133995718
+      }
+    },
+    {
+      "timestamp": 4.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7243143360384939,
+      "emotions": {
+        "neutral": 0.2570744595809236,
+        "happy": 0.17074538380812962,
+        "confident": 0.03698780039186562,
+        "nervous": 0.1186229619195377,
+        "thinking": 0.017512979629886394,
+        "surprised": 0.19270258773526272
+      }
+    },
+    {
+      "timestamp": 6.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8237761817820282,
+      "emotions": {
+        "neutral": 0.07983089558028876,
+        "happy": 0.20267547164678248,
+        "confident": 0.008154292316586565,
+        "nervous": 0.5902055290758234,
+        "thinking": 0.061701443626895454,
+        "surprised": 0.09872024235719633
+      }
+    },
+    {
+      "timestamp": 8.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6021398859296482,
+      "emotions": {
+        "neutral": 0.13350024604674302,
+        "happy": 0.051075177775887846,
+        "confident": 0.2136385033937752,
+        "nervous": 0.0683063841027773,
+        "thinking": 0.45929457386768735,
+        "surprised": 0.20225476909479786
+      }
+    },
+    {
+      "timestamp": 10.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.755137600617485,
+      "emotions": {
+        "neutral": 0.8923334020843388,
+        "happy": 0.21745948095940665,
+        "confident": 0.2896025187164648,
+        "nervous": 0.23609961259583065,
+        "thinking": 0.26004788299645804,
+        "surprised": 0.09435525883783973
+      }
+    },
+    {
+      "timestamp": 12.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9301105347481082,
+      "emotions": {
+        "neutral": 0.20217212568362897,
+        "happy": 0.06099498246805311,
+        "confident": 0.017240772867636454,
+        "nervous": 0.17565981182653792,
+        "thinking": 0.20395164957963322,
+        "surprised": 0.2301293638411695
+      }
+    },
+    {
+      "timestamp": 14.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6346517326662674,
+      "emotions": {
+        "neutral": 0.2543833106651173,
+        "happy": 0.0983864652245586,
+        "confident": 0.27078058177045033,
+        "nervous": 0.25371276857412184,
+        "thinking": 0.2547722822521704,
+        "surprised": 0.28719601730999006
+      }
+    },
+    {
+      "timestamp": 16.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7853733040467252,
+      "emotions": {
+        "neutral": 0.1841434138796877,
+        "happy": 0.07044894840413937,
+        "confident": 0.12674860143462552,
+        "nervous": 0.0002360124823558962,
+        "thinking": 0.10758363695702139,
+        "surprised": 0.18296196761411343
+      }
+    },
+    {
+      "timestamp": 18.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6030764046991379,
+      "emotions": {
+        "neutral": 0.41977133286408763,
+        "happy": 0.27728855689962384,
+        "confident": 0.1911509048046925,
+        "nervous": 0.2280336336822281,
+        "thinking": 0.07837657185874562,
+        "surprised": 0.2657845365039251
+      }
+    },
+    {
+      "timestamp": 20.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7126666574716541,
+      "emotions": {
+        "neutral": 0.25698654832163415,
+        "happy": 0.1979992233104067,
+        "confident": 0.09557586359615991,
+        "nervous": 0.28801788395114014,
+        "thinking": 0.1792919360451963,
+        "surprised": 0.11437328540694325
+      }
+    },
+    {
+      "timestamp": 22.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7035402067161818,
+      "emotions": {
+        "neutral": 0.2444422649095544,
+        "happy": 0.13868419377706834,
+        "confident": 0.249487893206672,
+        "nervous": 0.3184376791492841,
+        "thinking": 0.22423034686322055,
+        "surprised": 0.11971681965468223
+      }
+    },
+    {
+      "timestamp": 24.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6102149695422696,
+      "emotions": {
+        "neutral": 0.6149530469371107,
+        "happy": 0.03510331352028445,
+        "confident": 0.1842638897542518,
+        "nervous": 0.24307076039379102,
+        "thinking": 0.16168139836938464,
+        "surprised": 0.09135553724960284
+      }
+    },
+    {
+      "timestamp": 26.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7417717912599016,
+      "emotions": {
+        "neutral": 0.20837710947264526,
+        "happy": 0.20372299511629754,
+        "confident": 0.2773076077141484,
+        "nervous": 0.7910532187126326,
+        "thinking": 0.12410938989950349,
+        "surprised": 0.22204364247373778
+      }
+    },
+    {
+      "timestamp": 28.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8154529148957685,
+      "emotions": {
+        "neutral": 0.1429468632382929,
+        "happy": 0.07780489262322128,
+        "confident": 0.012735314097787243,
+        "nervous": 0.8212416598470909,
+        "thinking": 0.18954840460731812,
+        "surprised": 0.0841174878154152
+      }
+    },
+    {
+      "timestamp": 30.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8345788202870862,
+      "emotions": {
+        "neutral": 0.04456593032720376,
+        "happy": 0.04029791661202552,
+        "confident": 0.2792821081345413,
+        "nervous": 0.7963423748875161,
+        "thinking": 0.09190504144455129,
+        "surprised": 0.10951665905387238
+      }
+    },
+    {
+      "timestamp": 32.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6128145773130311,
+      "emotions": {
+        "neutral": 0.2927612790709526,
+        "happy": 0.24464004087323643,
+        "confident": 0.09753520083382858,
+        "nervous": 0.29433789981224445,
+        "thinking": 0.7824186409608844,
+        "surprised": 0.08686876251061966
+      }
+    },
+    {
+      "timestamp": 34.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9075258508355555,
+      "emotions": {
+        "neutral": 0.8594197531311308,
+        "happy": 0.19350031985367389,
+        "confident": 0.024475909858553968,
+        "nervous": 0.13154304218718374,
+        "thinking": 0.16853819576594883,
+        "surprised": 0.08796901523918164
+      }
+    },
+    {
+      "timestamp": 36.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9001037324913672,
+      "emotions": {
+        "neutral": 0.33203367712071596,
+        "happy": 0.006567207255241858,
+        "confident": 0.23778028868033996,
+        "nervous": 0.009180476364828905,
+        "thinking": 0.13047274930647632,
+        "surprised": 0.05432217189688355
+      }
+    },
+    {
+      "timestamp": 38.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6937113839358997,
+      "emotions": {
+        "neutral": 0.03389583771405389,
+        "happy": 0.1841760022950099,
+        "confident": 0.15257423668368217,
+        "nervous": 0.8199312402828114,
+        "thinking": 0.03679852179480849,
+        "surprised": 0.06258365303035097
+      }
+    },
+    {
+      "timestamp": 40.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8646049500375239,
+      "emotions": {
+        "neutral": 0.2388709586573015,
+        "happy": 0.034339667387594565,
+        "confident": 0.21761291705588845,
+        "nervous": 0.7496407762023853,
+        "thinking": 0.17607086719726342,
+        "surprised": 0.01277473916286813
+      }
+    },
+    {
+      "timestamp": 42.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8072982619092534,
+      "emotions": {
+        "neutral": 0.7192692002500756,
+        "happy": 0.24299897586323452,
+        "confident": 0.18865061665718627,
+        "nervous": 0.02053334503558446,
+        "thinking": 0.016932359788101193,
+        "surprised": 0.22436839691290972
+      }
+    },
+    {
+      "timestamp": 44.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8891479239692929,
+      "emotions": {
+        "neutral": 0.16560985713716142,
+        "happy": 0.17783553113374442,
+        "confident": 0.007249333194005813,
+        "nervous": 0.01302814945633043,
+        "thinking": 0.29479856059177684,
+        "surprised": 0.147424827230622
+      }
+    },
+    {
+      "timestamp": 46.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8066543561583207,
+      "emotions": {
+        "neutral": 0.2347057011349303,
+        "happy": 0.17988091470039488,
+        "confident": 0.0032639724553688576,
+        "nervous": 0.25492161384944,
+        "thinking": 0.2510646703145368,
+        "surprised": 0.16003886723666885
+      }
+    },
+    {
+      "timestamp": 48.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7451615074266685,
+      "emotions": {
+        "neutral": 0.04146705146807045,
+        "happy": 0.27145034579769783,
+        "confident": 0.19269589350493918,
+        "nervous": 0.6769092743521613,
+        "thinking": 0.16606998893298558,
+        "surprised": 0.25223154007018994
+      }
+    },
+    {
+      "timestamp": 50.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7917383926028391,
+      "emotions": {
+        "neutral": 0.26878945052661946,
+        "happy": 0.04898773861202862,
+        "confident": 0.14435595999737885,
+        "nervous": 0.5367163569974222,
+        "thinking": 0.13772360366127398,
+        "surprised": 0.2710965681009428
+      }
+    },
+    {
+      "timestamp": 52.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.7679859544807089,
+      "emotions": {
+        "neutral": 0.026979648819177304,
+        "happy": 0.2151298569181756,
+        "confident": 0.2553198042799852,
+        "nervous": 0.14241662157631432,
+        "thinking": 0.8098443560363382,
+        "surprised": 0.18237882409560577
+      }
+    },
+    {
+      "timestamp": 54.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6465895214994324,
+      "emotions": {
+        "neutral": 0.11262998299305922,
+        "happy": 0.04444459587798938,
+        "confident": 0.1492040279310636,
+        "nervous": 0.09741463647626215,
+        "thinking": 0.4753826562926471,
+        "surprised": 0.04182110064991163
+      }
+    },
+    {
+      "timestamp": 56.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.927921959209772,
+      "emotions": {
+        "neutral": 0.11587565873302429,
+        "happy": 0.24413136968752464,
+        "confident": 0.2730738433947759,
+        "nervous": 0.8429490565088995,
+        "thinking": 0.24046978968510688,
+        "surprised": 0.11326849297964037
+      }
+    },
+    {
+      "timestamp": 58.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6421838992894514,
+      "emotions": {
+        "neutral": 0.23778633063108695,
+        "happy": 0.005509971478303088,
+        "confident": 0.06515643268653155,
+        "nervous": 0.8410076495623587,
+        "thinking": 0.2247944902253524,
+        "surprised": 0.20604260127455634
+      }
+    },
+    {
+      "timestamp": 60.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8444938041525636,
+      "emotions": {
+        "neutral": 0.5982929435827561,
+        "happy": 0.13142974638465887,
+        "confident": 0.11534740315039366,
+        "nervous": 0.1544732420279109,
+        "thinking": 0.18609987742720224,
+        "surprised": 0.061128677934600334
+      }
+    },
+    {
+      "timestamp": 62.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6970065860792416,
+      "emotions": {
+        "neutral": 0.26264037365399184,
+        "happy": 0.2301410044485861,
+        "confident": 0.03491354988332328,
+        "nervous": 0.8184509270267686,
+        "thinking": 0.20292055755061542,
+        "surprised": 0.24219968084260257
+      }
+    },
+    {
+      "timestamp": 64.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9394643867258317,
+      "emotions": {
+        "neutral": 0.6866909862348282,
+        "happy": 0.027144060522303903,
+        "confident": 0.2954031648886421,
+        "nervous": 0.17389151428866714,
+        "thinking": 0.1683929123051149,
+        "surprised": 0.07779818813223156
+      }
+    },
+    {
+      "timestamp": 66.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.9270455128031327,
+      "emotions": {
+        "neutral": 0.08955630536937442,
+        "happy": 0.1214934978926087,
+        "confident": 0.10908464694157115,
+        "nervous": 0.1944289416362472,
+        "thinking": 0.37283439371131555,
+        "surprised": 0.1385174482188244
+      }
+    },
+    {
+      "timestamp": 68.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.9242912367441709,
+      "emotions": {
+        "neutral": 0.04608883033838755,
+        "happy": 0.14722973667212064,
+        "confident": 0.24832252893757098,
+        "nervous": 0.20624931517648346,
+        "thinking": 0.60661952388683,
+        "surprised": 0.173578790341522
+      }
+    },
+    {
+      "timestamp": 70.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9354384510323515,
+      "emotions": {
+        "neutral": 0.22514277220606635,
+        "happy": 0.25144907199765093,
+        "confident": 0.07398801662534067,
+        "nervous": 0.14737193608486143,
+        "thinking": 0.03309282048649571,
+        "surprised": 0.17701085801736594
+      }
+    },
+    {
+      "timestamp": 72.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6251995656422756,
+      "emotions": {
+        "neutral": 0.2973456815628918,
+        "happy": 0.0730543585086997,
+        "confident": 0.09191287070283195,
+        "nervous": 0.3367868431465908,
+        "thinking": 0.08435612301935587,
+        "surprised": 0.2094906811530332
+      }
+    },
+    {
+      "timestamp": 74.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8335538068374773,
+      "emotions": {
+        "neutral": 0.21390621551710456,
+        "happy": 0.2966434643861265,
+        "confident": 0.2580181473484958,
+        "nervous": 0.5802496050067439,
+        "thinking": 0.0031562100079612796,
+        "surprised": 0.18764206520324556
+      }
+    },
+    {
+      "timestamp": 76.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8806602482078214,
+      "emotions": {
+        "neutral": 0.18688068396561028,
+        "happy": 0.18325596656437346,
+        "confident": 0.1649049400881711,
+        "nervous": 0.7227787235045676,
+        "thinking": 0.1160490606268917,
+        "surprised": 0.012194198490384311
+      }
+    },
+    {
+      "timestamp": 78.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7287760551648107,
+      "emotions": {
+        "neutral": 0.5072034020268891,
+        "happy": 0.004319341616509797,
+        "confident": 0.18615832810865138,
+        "nervous": 0.27224052621639905,
+        "thinking": 0.028915364225485816,
+        "surprised": 0.21116513781209775
+      }
+    },
+    {
+      "timestamp": 80.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8734324705095666,
+      "emotions": {
+        "neutral": 0.11801514005889813,
+        "happy": 0.14257705574794463,
+        "confident": 0.24027952757330232,
+        "nervous": 0.7307925251210744,
+        "thinking": 0.18183855935393967,
+        "surprised": 0.2856182046471476
+      }
+    },
+    {
+      "timestamp": 82.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.9161499276952385,
+      "emotions": {
+        "neutral": 0.1453785783657446,
+        "happy": 0.26218554595073207,
+        "confident": 0.05552793392176808,
+        "nervous": 0.14851190499274705,
+        "thinking": 0.2822962856102932,
+        "surprised": 0.683795472044266
+      }
+    },
+    {
+      "timestamp": 84.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8270132031816252,
+      "emotions": {
+        "neutral": 0.14412060554138417,
+        "happy": 0.2667565868270748,
+        "confident": 0.09030235736251943,
+        "nervous": 0.040242979642804357,
+        "thinking": 0.05765218218392127,
+        "surprised": 0.11738253451761348
+      }
+    },
+    {
+      "timestamp": 86.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8119494501038009,
+      "emotions": {
+        "neutral": 0.01804975190729283,
+        "happy": 0.20115218202510124,
+        "confident": 0.11721134329409304,
+        "nervous": 0.3967756344366883,
+        "thinking": 0.07409058828368673,
+        "surprised": 0.2190563726710237
+      }
+    },
+    {
+      "timestamp": 88.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.8403976292929395,
+      "emotions": {
+        "neutral": 0.21667572894228934,
+        "happy": 0.012341619360150779,
+        "confident": 0.179448118874691,
+        "nervous": 0.1539488416982579,
+        "thinking": 0.7994109001859412,
+        "surprised": 0.19120560953506727
+      }
+    },
+    {
+      "timestamp": 90.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9376845185779148,
+      "emotions": {
+        "neutral": 0.4911813964472277,
+        "happy": 0.0012103725205499071,
+        "confident": 0.02748036190524018,
+        "nervous": 0.1926829253719663,
+        "thinking": 0.10481817988927573,
+        "surprised": 0.12014319061422588
+      }
+    },
+    {
+      "timestamp": 92.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8444734507143213,
+      "emotions": {
+        "neutral": 0.0754294435440085,
+        "happy": 0.17510366216031173,
+        "confident": 0.23880136202231972,
+        "nervous": 0.45659685914263837,
+        "thinking": 0.2214065015083855,
+        "surprised": 0.2614301398656362
+      }
+    },
+    {
+      "timestamp": 94.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7069641057262194,
+      "emotions": {
+        "neutral": 0.061974601419786696,
+        "happy": 0.29565944295401114,
+        "confident": 0.01650488880082891,
+        "nervous": 0.6819155254110554,
+        "thinking": 0.2510765861857538,
+        "surprised": 0.21922836836044807
+      }
+    },
+    {
+      "timestamp": 96.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9352996451690649,
+      "emotions": {
+        "neutral": 0.05582990561260504,
+        "happy": 0.1907138280070316,
+        "confident": 0.2718546248563424,
+        "nervous": 0.36721549025374645,
+        "thinking": 0.20771121603126816,
+        "surprised": 0.23400952801387936
+      }
+    },
+    {
+      "timestamp": 98.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.7091790089643231,
+      "emotions": {
+        "neutral": 0.11823002745052438,
+        "happy": 0.04576653516981812,
+        "confident": 0.10400659500033504,
+        "nervous": 0.29854911982010185,
+        "thinking": 0.4495820270972464,
+        "surprised": 0.21065902918633828
+      }
+    },
+    {
+      "timestamp": 100.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8942807362694254,
+      "emotions": {
+        "neutral": 0.130992447453015,
+        "happy": 0.1574963912878142,
+        "confident": 0.11658317766623436,
+        "nervous": 0.3643997201208179,
+        "thinking": 0.2280662917566343,
+        "surprised": 0.21791994663707867
+      }
+    },
+    {
+      "timestamp": 102.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7453213693779406,
+      "emotions": {
+        "neutral": 0.2531069461154428,
+        "happy": 0.15995595065506416,
+        "confident": 0.1510628555391115,
+        "nervous": 0.01330284538914923,
+        "thinking": 0.02135265776456787,
+        "surprised": 0.13365415476098205
+      }
+    },
+    {
+      "timestamp": 104.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.9335206520171169,
+      "emotions": {
+        "neutral": 0.1712392944575972,
+        "happy": 0.11489716892343166,
+        "confident": 0.11614544695002155,
+        "nervous": 0.16371949434942065,
+        "thinking": 0.8521960434804384,
+        "surprised": 0.08647118991167237
+      }
+    },
+    {
+      "timestamp": 106.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6571146168787707,
+      "emotions": {
+        "neutral": 0.6267236541524275,
+        "happy": 0.01288333846805475,
+        "confident": 0.24837414093910615,
+        "nervous": 0.28973804160592387,
+        "thinking": 0.05747576776711155,
+        "surprised": 0.2590920016566666
+      }
+    },
+    {
+      "timestamp": 108.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7748617956639952,
+      "emotions": {
+        "neutral": 0.27613073308066893,
+        "happy": 0.07135265351433326,
+        "confident": 0.11596253644796145,
+        "nervous": 0.4801697499456077,
+        "thinking": 0.20001367205697748,
+        "surprised": 0.22709194786973108
+      }
+    },
+    {
+      "timestamp": 110.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.809425466070691,
+      "emotions": {
+        "neutral": 0.22485375390363838,
+        "happy": 0.1654394006223166,
+        "confident": 0.0671308910650171,
+        "nervous": 0.27643424877383216,
+        "thinking": 0.0038703735298339036,
+        "surprised": 0.09020202956327017
+      }
+    },
+    {
+      "timestamp": 112.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6500267663877134,
+      "emotions": {
+        "neutral": 0.10192311860674082,
+        "happy": 0.1925083265954093,
+        "confident": 0.23723260436858443,
+        "nervous": 0.06795418733054824,
+        "thinking": 0.19457648907007333,
+        "surprised": 0.23005235751963043
+      }
+    },
+    {
+      "timestamp": 114.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9137683945315755,
+      "emotions": {
+        "neutral": 0.11693457684673625,
+        "happy": 0.029426404367249012,
+        "confident": 0.29840714741956115,
+        "nervous": 0.23199218456104864,
+        "thinking": 0.2698975626691689,
+        "surprised": 0.04357794105703381
+      }
+    },
+    {
+      "timestamp": 116.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.9270026177339793,
+      "emotions": {
+        "neutral": 0.205377827273603,
+        "happy": 0.15262394864544482,
+        "confident": 0.27084708093840415,
+        "nervous": 0.2380260025333577,
+        "thinking": 0.5122642163471459,
+        "surprised": 0.06903125001784706
+      }
+    },
+    {
+      "timestamp": 118.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.6796733345255033,
+      "emotions": {
+        "neutral": 0.20708558369368885,
+        "happy": 0.19261139803917465,
+        "confident": 0.1360479635937411,
+        "nervous": 0.21185818472434612,
+        "thinking": 0.10981958347347688,
+        "surprised": 0.215201447059315
+      }
+    },
+    {
+      "timestamp": 120.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7693746076425837,
+      "emotions": {
+        "neutral": 0.7704353058490286,
+        "happy": 0.00045438411607126025,
+        "confident": 0.05591315070933054,
+        "nervous": 0.1321845833968673,
+        "thinking": 0.09279698106693476,
+        "surprised": 0.10971319323558205
+      }
+    },
+    {
+      "timestamp": 122.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7135163541228972,
+      "emotions": {
+        "neutral": 0.7927750021391956,
+        "happy": 0.15508711350458124,
+        "confident": 0.1975637220070384,
+        "nervous": 0.07864396842048409,
+        "thinking": 0.20456431408380812,
+        "surprised": 0.05394102678776417
+      }
+    },
+    {
+      "timestamp": 124.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6893304337192356,
+      "emotions": {
+        "neutral": 0.12981678638592198,
+        "happy": 0.03025326474228075,
+        "confident": 0.1425569978698045,
+        "nervous": 0.09661025811058128,
+        "thinking": 0.32369512533258493,
+        "surprised": 0.2284758429535563
+      }
+    },
+    {
+      "timestamp": 126.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.8603823841637419,
+      "emotions": {
+        "neutral": 0.23118371672476976,
+        "happy": 0.26138704554059095,
+        "confident": 0.17289537501425195,
+        "nervous": 0.2266511351105126,
+        "thinking": 0.6341666337871331,
+        "surprised": 0.29389933628437
+      }
+    },
+    {
+      "timestamp": 128.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6858341764853514,
+      "emotions": {
+        "neutral": 0.868247221277011,
+        "happy": 0.2497663345535786,
+        "confident": 0.164621318108394,
+        "nervous": 0.06402658286926767,
+        "thinking": 0.04678362108572271,
+        "surprised": 0.002067593213583441
+      }
+    },
+    {
+      "timestamp": 130.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8295568659981599,
+      "emotions": {
+        "neutral": 0.28152593929125214,
+        "happy": 0.055157021327879696,
+        "confident": 0.2906978498278824,
+        "nervous": 0.17081429090304803,
+        "thinking": 0.1525699503971741,
+        "surprised": 0.5580475985946579
+      }
+    },
+    {
+      "timestamp": 132.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9031133143198571,
+      "emotions": {
+        "neutral": 0.07055660358973083,
+        "happy": 0.25397995529574674,
+        "confident": 0.01621296895589088,
+        "nervous": 0.3704382930564728,
+        "thinking": 0.08941530481381386,
+        "surprised": 0.1977433811910412
+      }
+    },
+    {
+      "timestamp": 134.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7727146051516369,
+      "emotions": {
+        "neutral": 0.8365399182441696,
+        "happy": 0.025169710320584904,
+        "confident": 0.1538228723418635,
+        "nervous": 0.014427859106320372,
+        "thinking": 0.15557733461947085,
+        "surprised": 0.26419658040947014
+      }
+    },
+    {
+      "timestamp": 136.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.89554722126134,
+      "emotions": {
+        "neutral": 0.25573827160171275,
+        "happy": 0.007173965876402255,
+        "confident": 0.2355581814852634,
+        "nervous": 0.2112673211222304,
+        "thinking": 0.1577900145274753,
+        "surprised": 0.294842555289205
+      }
+    },
+    {
+      "timestamp": 138.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6304704627456557,
+      "emotions": {
+        "neutral": 0.08395068915389532,
+        "happy": 0.16387823615219374,
+        "confident": 0.2921284429276464,
+        "nervous": 0.8574246870136499,
+        "thinking": 0.2403339341218577,
+        "surprised": 0.18830411297891408
+      }
+    },
+    {
+      "timestamp": 140.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7286742153631387,
+      "emotions": {
+        "neutral": 0.16113730358811007,
+        "happy": 0.1801048352220828,
+        "confident": 0.11860282185150542,
+        "nervous": 0.6114866939035429,
+        "thinking": 0.23966609607434963,
+        "surprised": 0.219685749451152
+      }
+    },
+    {
+      "timestamp": 142.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8214908160885817,
+      "emotions": {
+        "neutral": 0.10266395644619994,
+        "happy": 0.2888132743344544,
+        "confident": 0.21832819156974814,
+        "nervous": 0.31411051951506463,
+        "thinking": 0.03449630617456154,
+        "surprised": 0.2589096946014427
+      }
+    },
+    {
+      "timestamp": 144.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.871754736843892,
+      "emotions": {
+        "neutral": 0.13783313514996665,
+        "happy": 0.27820697297145985,
+        "confident": 0.008815559920684312,
+        "nervous": 0.6620602674379483,
+        "thinking": 0.024002987047233613,
+        "surprised": 0.16863023657452664
+      }
+    },
+    {
+      "timestamp": 146.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7420177778340109,
+      "emotions": {
+        "neutral": 0.07760002455338051,
+        "happy": 0.0008023488606168527,
+        "confident": 0.22583399984586536,
+        "nervous": 0.48390007613886366,
+        "thinking": 0.012861658904543683,
+        "surprised": 0.058148288435839454
+      }
+    },
+    {
+      "timestamp": 148.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8500396199963871,
+      "emotions": {
+        "neutral": 0.24154741326341314,
+        "happy": 0.08280290435840361,
+        "confident": 0.1067577744589774,
+        "nervous": 0.5894666081438651,
+        "thinking": 0.1320406669232844,
+        "surprised": 0.2741772383191606
+      }
+    },
+    {
+      "timestamp": 150.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.8667377876200318,
+      "emotions": {
+        "neutral": 0.2736298805941072,
+        "happy": 0.20821849748622917,
+        "confident": 0.050697747581300454,
+        "nervous": 0.0725417639522574,
+        "thinking": 0.31502091765685536,
+        "surprised": 0.1950009016074412
+      }
+    },
+    {
+      "timestamp": 152.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6149733156204926,
+      "emotions": {
+        "neutral": 0.16426071023481797,
+        "happy": 0.029443983766353054,
+        "confident": 0.13529174461224402,
+        "nervous": 0.01112273514574823,
+        "thinking": 0.06070333908703831,
+        "surprised": 0.009433724877985916
+      }
+    },
+    {
+      "timestamp": 154.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8116650579330829,
+      "emotions": {
+        "neutral": 0.015277697933221378,
+        "happy": 0.2981745617128817,
+        "confident": 0.22063882387936531,
+        "nervous": 0.09806528522181865,
+        "thinking": 0.25977687655412673,
+        "surprised": 0.8713333178011001
+      }
+    },
+    {
+      "timestamp": 156.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6081172029952014,
+      "emotions": {
+        "neutral": 0.5987630011182373,
+        "happy": 0.04518838117986398,
+        "confident": 0.2659854448946893,
+        "nervous": 0.11961279869141117,
+        "thinking": 0.08448384857190198,
+        "surprised": 0.05873087751117412
+      }
+    },
+    {
+      "timestamp": 158.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6700539982325957,
+      "emotions": {
+        "neutral": 0.2997433777777727,
+        "happy": 0.04505231714962314,
+        "confident": 0.19867257883124662,
+        "nervous": 0.19825894534879815,
+        "thinking": 0.18423213963823773,
+        "surprised": 0.23284823387162137
+      }
+    },
+    {
+      "timestamp": 160.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.664417420947184,
+      "emotions": {
+        "neutral": 0.2150962418246099,
+        "happy": 0.027407759523541252,
+        "confident": 0.0015315967017711317,
+        "nervous": 0.20498298980462257,
+        "thinking": 0.5882872570044285,
+        "surprised": 0.22759892203554383
+      }
+    },
+    {
+      "timestamp": 162.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.871212992510083,
+      "emotions": {
+        "neutral": 0.24340567482488853,
+        "happy": 0.03243369322299182,
+        "confident": 0.2976938386083396,
+        "nervous": 0.1471949995929898,
+        "thinking": 0.47808849203781023,
+        "surprised": 0.26181241190692456
+      }
+    },
+    {
+      "timestamp": 164.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.892730539787663,
+      "emotions": {
+        "neutral": 0.02529632088787812,
+        "happy": 0.1512781906924961,
+        "confident": 0.2921874859107885,
+        "nervous": 0.14718159749675347,
+        "thinking": 0.2010774897374584,
+        "surprised": 0.24757858607351607
+      }
+    },
+    {
+      "timestamp": 166.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8957601500861658,
+      "emotions": {
+        "neutral": 0.8561073179223118,
+        "happy": 0.1755728864072071,
+        "confident": 0.26333603810974143,
+        "nervous": 0.007113348973726219,
+        "thinking": 0.26257717084498927,
+        "surprised": 0.11595344627408749
+      }
+    },
+    {
+      "timestamp": 168.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6016694623362645,
+      "emotions": {
+        "neutral": 0.14031280112098776,
+        "happy": 0.050598755446990405,
+        "confident": 0.2244847320574491,
+        "nervous": 0.24282333009146895,
+        "thinking": 0.665684772489772,
+        "surprised": 0.11421490324970177
+      }
+    },
+    {
+      "timestamp": 170.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6057139351529467,
+      "emotions": {
+        "neutral": 0.21226540507611177,
+        "happy": 0.016665017941526028,
+        "confident": 0.04127865695561761,
+        "nervous": 0.24442812362888222,
+        "thinking": 0.17455136588968062,
+        "surprised": 0.22590571009309107
+      }
+    },
+    {
+      "timestamp": 172.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6434613626318407,
+      "emotions": {
+        "neutral": 0.006372165545377217,
+        "happy": 0.10875215612550335,
+        "confident": 0.20440483287163005,
+        "nervous": 0.31085257351398354,
+        "thinking": 0.25191790298229255,
+        "surprised": 0.25275532274661094
+      }
+    },
+    {
+      "timestamp": 174.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.9210077941125812,
+      "emotions": {
+        "neutral": 0.2304581693496185,
+        "happy": 0.18831938801437823,
+        "confident": 0.28053887645623327,
+        "nervous": 0.028334875708705253,
+        "thinking": 0.20031958658039173,
+        "surprised": 0.1480381728618542
+      }
+    },
+    {
+      "timestamp": 176.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.710743927613403,
+      "emotions": {
+        "neutral": 0.7547304464262855,
+        "happy": 0.05333369565574798,
+        "confident": 0.027889231121492296,
+        "nervous": 0.21619797491634737,
+        "thinking": 0.19718265068032834,
+        "surprised": 0.08470917850556335
+      }
+    },
+    {
+      "timestamp": 178.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6113595509563367,
+      "emotions": {
+        "neutral": 0.247993646893162,
+        "happy": 0.018180407873667537,
+        "confident": 0.2369468127713879,
+        "nervous": 0.06415175551900688,
+        "thinking": 0.6417283671599522,
+        "surprised": 0.2351634586117537
+      }
+    },
+    {
+      "timestamp": 180.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.8633992774534391,
+      "emotions": {
+        "neutral": 0.039398818860341175,
+        "happy": 0.17062840161291917,
+        "confident": 0.25280414677461194,
+        "nervous": 0.05220008859025031,
+        "thinking": 0.3417646800810579,
+        "surprised": 0.13577652755297484
+      }
+    },
+    {
+      "timestamp": 182.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6304553051810671,
+      "emotions": {
+        "neutral": 0.12605459105635936,
+        "happy": 0.07975672827521725,
+        "confident": 0.1464787817356494,
+        "nervous": 0.37903984429379944,
+        "thinking": 0.1429464521967552,
+        "surprised": 0.007646967697441209
+      }
+    },
+    {
+      "timestamp": 184.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7505391283323968,
+      "emotions": {
+        "neutral": 0.1983473451260178,
+        "happy": 0.2978674411517926,
+        "confident": 0.26382405439892437,
+        "nervous": 0.10329792718355826,
+        "thinking": 0.02996898692132148,
+        "surprised": 0.20007282707602175
+      }
+    },
+    {
+      "timestamp": 186.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.6988360542683619,
+      "emotions": {
+        "neutral": 0.00700327767688953,
+        "happy": 0.25670507526320147,
+        "confident": 0.09643229814673791,
+        "nervous": 0.03314356508303416,
+        "thinking": 0.13379814540373008,
+        "surprised": 0.7294701393086961
+      }
+    },
+    {
+      "timestamp": 188.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6087341766400538,
+      "emotions": {
+        "neutral": 0.16542442598668078,
+        "happy": 0.04339202219155642,
+        "confident": 0.05587131689828173,
+        "nervous": 0.19544225679984514,
+        "thinking": 0.6812244234878226,
+        "surprised": 0.126571882896643
+      }
+    },
+    {
+      "timestamp": 190.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8606082457685011,
+      "emotions": {
+        "neutral": 0.5214173397015994,
+        "happy": 0.1536399843092876,
+        "confident": 0.2816797278497186,
+        "nervous": 0.1259130041272373,
+        "thinking": 0.13635252345315382,
+        "surprised": 0.22570235542426226
+      }
+    },
+    {
+      "timestamp": 192.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6070069386941509,
+      "emotions": {
+        "neutral": 0.29460878220832587,
+        "happy": 0.014960937860186296,
+        "confident": 0.1893528079328422,
+        "nervous": 0.29414581377311344,
+        "thinking": 0.012105586803269308,
+        "surprised": 0.238226526867039
+      }
+    },
+    {
+      "timestamp": 194.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6432551101130671,
+      "emotions": {
+        "neutral": 0.056051076872024375,
+        "happy": 0.2788148805127188,
+        "confident": 0.08690010260295279,
+        "nervous": 0.30565477448438383,
+        "thinking": 0.24752110919241746,
+        "surprised": 0.28985968753002245
+      }
+    },
+    {
+      "timestamp": 196.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6567089339824467,
+      "emotions": {
+        "neutral": 0.40289537212023574,
+        "happy": 0.22317955472832898,
+        "confident": 0.08772141403774436,
+        "nervous": 0.29406007740162426,
+        "thinking": 0.2818977351795411,
+        "surprised": 0.027989213700007
+      }
+    },
+    {
+      "timestamp": 198.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.8381281767074578,
+      "emotions": {
+        "neutral": 0.5716392584742741,
+        "happy": 0.05323830725547222,
+        "confident": 0.26414264824906325,
+        "nervous": 0.02707429318046801,
+        "thinking": 0.19931671585172425,
+        "surprised": 0.00824677817744931
+      }
+    },
+    {
+      "timestamp": 200.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8969187596825667,
+      "emotions": {
+        "neutral": 0.21312585049472887,
+        "happy": 0.23764171714693128,
+        "confident": 0.2176081824340942,
+        "nervous": 0.3192343583625056,
+        "thinking": 0.22133100456475924,
+        "surprised": 0.04954638317222896
+      }
+    },
+    {
+      "timestamp": 202.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7895446819085361,
+      "emotions": {
+        "neutral": 0.13823805745581186,
+        "happy": 0.07434295775372791,
+        "confident": 0.04446132426136629,
+        "nervous": 0.4923291305717934,
+        "thinking": 0.24310074790532804,
+        "surprised": 0.171645428564882
+      }
+    },
+    {
+      "timestamp": 204.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.703736767904119,
+      "emotions": {
+        "neutral": 0.008352708481339387,
+        "happy": 0.1691594192140595,
+        "confident": 0.017644001026944012,
+        "nervous": 0.1645849773839754,
+        "thinking": 0.7227676368025402,
+        "surprised": 0.06319688670360325
+      }
+    },
+    {
+      "timestamp": 206.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8651711656426051,
+      "emotions": {
+        "neutral": 0.11492941827992742,
+        "happy": 0.16490433759069426,
+        "confident": 0.13941574181333338,
+        "nervous": 0.16706438639652685,
+        "thinking": 0.153484606058021,
+        "surprised": 0.6965232881996833
+      }
+    },
+    {
+      "timestamp": 208.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6917745769185004,
+      "emotions": {
+        "neutral": 0.20913714288739094,
+        "happy": 0.24408459651764017,
+        "confident": 0.08985784233122195,
+        "nervous": 0.24672803633170465,
+        "thinking": 0.06034773562187687,
+        "surprised": 0.2709447736093191
+      }
+    },
+    {
+      "timestamp": 210.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8273986534900581,
+      "emotions": {
+        "neutral": 0.09506889012241584,
+        "happy": 0.2714818995981533,
+        "confident": 0.26660723135050945,
+        "nervous": 0.004284411133364807,
+        "thinking": 0.19957039632547793,
+        "surprised": 0.8918030170845247
+      }
+    },
+    {
+      "timestamp": 212.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9028187410427926,
+      "emotions": {
+        "neutral": 0.1639271379057645,
+        "happy": 0.2973844282824626,
+        "confident": 0.08850923440903026,
+        "nervous": 0.44753431609726657,
+        "thinking": 0.02440770961313481,
+        "surprised": 0.2819504598870811
+      }
+    },
+    {
+      "timestamp": 214.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.6360170621756681,
+      "emotions": {
+        "neutral": 0.17964686498132112,
+        "happy": 0.1563444373230113,
+        "confident": 0.20269728705277248,
+        "nervous": 0.23263068539016027,
+        "thinking": 0.21229868527308152,
+        "surprised": 0.5762773191421383
+      }
+    },
+    {
+      "timestamp": 216.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8437211422013803,
+      "emotions": {
+        "neutral": 0.14500171596460376,
+        "happy": 0.014396701743078999,
+        "confident": 0.11799070310847293,
+        "nervous": 0.22709076088904973,
+        "thinking": 0.13693397778470956,
+        "surprised": 0.4045019529561753
+      }
+    },
+    {
+      "timestamp": 218.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8811084504440225,
+      "emotions": {
+        "neutral": 0.12775858534745618,
+        "happy": 0.28513407954956205,
+        "confident": 0.020515993155269696,
+        "nervous": 0.8151693768069918,
+        "thinking": 0.1909760814708169,
+        "surprised": 0.2694152197118757
+      }
+    },
+    {
+      "timestamp": 220.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8114097874585477,
+      "emotions": {
+        "neutral": 0.2389765569923035,
+        "happy": 0.19502409757421804,
+        "confident": 0.024715514353738276,
+        "nervous": 0.5585244725119235,
+        "thinking": 0.05101223714543638,
+        "surprised": 0.10944075815023892
+      }
+    },
+    {
+      "timestamp": 222.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9384304716623117,
+      "emotions": {
+        "neutral": 0.005790893437977229,
+        "happy": 0.17375670134568993,
+        "confident": 0.14814516459389665,
+        "nervous": 0.1802531272976724,
+        "thinking": 0.04784534553392703,
+        "surprised": 0.12597417728568552
+      }
+    },
+    {
+      "timestamp": 224.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7681036020518508,
+      "emotions": {
+        "neutral": 0.5650134097749454,
+        "happy": 0.05046345577414635,
+        "confident": 0.22549818398220137,
+        "nervous": 0.038580768690580004,
+        "thinking": 0.05756528459501304,
+        "surprised": 0.20965184166917736
+      }
+    },
+    {
+      "timestamp": 226.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6384161051687182,
+      "emotions": {
+        "neutral": 0.3981152191631121,
+        "happy": 0.07446532776438398,
+        "confident": 0.08583303949783799,
+        "nervous": 0.1349715628304943,
+        "thinking": 0.09976479027996776,
+        "surprised": 0.275304417291286
+      }
+    },
+    {
+      "timestamp": 228.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.83071161370322,
+      "emotions": {
+        "neutral": 0.049289846891061036,
+        "happy": 0.007215336478641287,
+        "confident": 0.25189664293316744,
+        "nervous": 0.19622289070650564,
+        "thinking": 0.23462494690616895,
+        "surprised": 0.28490278953016146
+      }
+    },
+    {
+      "timestamp": 230.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7167653639962377,
+      "emotions": {
+        "neutral": 0.156086248879974,
+        "happy": 0.23160550473449973,
+        "confident": 0.2962361019103879,
+        "nervous": 0.727240857306143,
+        "thinking": 0.03426058064631082,
+        "surprised": 0.12185224354024382
+      }
+    },
+    {
+      "timestamp": 232.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6005561596083463,
+      "emotions": {
+        "neutral": 0.16874525063407078,
+        "happy": 0.1454581296373146,
+        "confident": 0.20534459332640706,
+        "nervous": 0.19348117100634443,
+        "thinking": 0.019155167022870987,
+        "surprised": 0.12481990257097239
+      }
+    },
+    {
+      "timestamp": 234.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.8436394547656508,
+      "emotions": {
+        "neutral": 0.13824765523550075,
+        "happy": 0.12942043398226596,
+        "confident": 0.13579663382985413,
+        "nervous": 0.647273645265126,
+        "thinking": 0.15676273006912855,
+        "surprised": 0.16966599878854063
+      }
+    },
+    {
+      "timestamp": 236.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6152734696785692,
+      "emotions": {
+        "neutral": 0.05701937017984588,
+        "happy": 0.18270223958019888,
+        "confident": 0.18424762980958442,
+        "nervous": 0.4969160536995181,
+        "thinking": 0.06128840846392072,
+        "surprised": 0.24239601482504095
+      }
+    },
+    {
+      "timestamp": 238.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9181028488116645,
+      "emotions": {
+        "neutral": 0.287631158984965,
+        "happy": 0.1074111620032628,
+        "confident": 0.17556353423527482,
+        "nervous": 0.8419443277611353,
+        "thinking": 0.288527517511115,
+        "surprised": 0.17116877029397234
+      }
+    },
+    {
+      "timestamp": 240.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8166752397264816,
+      "emotions": {
+        "neutral": 0.2379561520492995,
+        "happy": 0.05355290758521586,
+        "confident": 0.10193301744079106,
+        "nervous": 0.2611642675849472,
+        "thinking": 0.28408247055551256,
+        "surprised": 0.7966904499018842
+      }
+    },
+    {
+      "timestamp": 242.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.94841224475814,
+      "emotions": {
+        "neutral": 0.24096830760083085,
+        "happy": 0.2217202116946558,
+        "confident": 0.1653952041417701,
+        "nervous": 0.24638612356073689,
+        "thinking": 0.20037878912489082,
+        "surprised": 0.0578759513414528
+      }
+    },
+    {
+      "timestamp": 244.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6424215828708479,
+      "emotions": {
+        "neutral": 0.15933106319614448,
+        "happy": 0.08207833649339312,
+        "confident": 0.07292085148901929,
+        "nervous": 0.15897945309874226,
+        "thinking": 0.15846616257616913,
+        "surprised": 0.25012718514057547
+      }
+    },
+    {
+      "timestamp": 246.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.6082922930312818,
+      "emotions": {
+        "neutral": 0.0387715792873403,
+        "happy": 0.07746952688916005,
+        "confident": 0.099439843195105,
+        "nervous": 0.22684236125331103,
+        "thinking": 0.2811553735005739,
+        "surprised": 0.17480700975005584
+      }
+    },
+    {
+      "timestamp": 248.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.646452911984562,
+      "emotions": {
+        "neutral": 0.18654445750268317,
+        "happy": 0.03807203331062507,
+        "confident": 0.24755140459103722,
+        "nervous": 0.21611261564145492,
+        "thinking": 0.050130937753920655,
+        "surprised": 0.056093156823439405
+      }
+    },
+    {
+      "timestamp": 250.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7497480285068953,
+      "emotions": {
+        "neutral": 0.2320737816008916,
+        "happy": 0.053155881965026415,
+        "confident": 0.222935715818112,
+        "nervous": 0.8854832638908579,
+        "thinking": 0.19277848852920795,
+        "surprised": 0.13184534799300385
+      }
+    },
+    {
+      "timestamp": 252.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6533613774394277,
+      "emotions": {
+        "neutral": 0.4039994950841227,
+        "happy": 0.008890385326631356,
+        "confident": 0.13243952544327264,
+        "nervous": 0.2607479171091439,
+        "thinking": 0.017248336131921282,
+        "surprised": 0.2071358220107209
+      }
+    },
+    {
+      "timestamp": 254.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.7954176855172004,
+      "emotions": {
+        "neutral": 0.13430848842448254,
+        "happy": 0.25437885558843265,
+        "confident": 0.1418839080388948,
+        "nervous": 0.29312679484741055,
+        "thinking": 0.10665935621231455,
+        "surprised": 0.05092911888319037
+      }
+    },
+    {
+      "timestamp": 256.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.7917553084847453,
+      "emotions": {
+        "neutral": 0.2446736752782986,
+        "happy": 0.25221573059441055,
+        "confident": 0.182136832228088,
+        "nervous": 0.7002612249169651,
+        "thinking": 0.0846328177906667,
+        "surprised": 0.1086257573728905
+      }
+    },
+    {
+      "timestamp": 258.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6643431629800756,
+      "emotions": {
+        "neutral": 0.17626307577179745,
+        "happy": 0.27113082131407573,
+        "confident": 0.22328628538772927,
+        "nervous": 0.21979064981873353,
+        "thinking": 0.10045243003096595,
+        "surprised": 0.2612453894654245
+      }
+    },
+    {
+      "timestamp": 260.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6819496737309115,
+      "emotions": {
+        "neutral": 0.5916918528173072,
+        "happy": 0.03421639454874631,
+        "confident": 0.09533096247396008,
+        "nervous": 0.18370241695845949,
+        "thinking": 0.006526097330227132,
+        "surprised": 0.07099551340211266
+      }
+    },
+    {
+      "timestamp": 262.0,
+      "dominant_emotion": "thinking",
+      "confidence": 0.9001728036804006,
+      "emotions": {
+        "neutral": 0.08504485244952835,
+        "happy": 0.19841080548299797,
+        "confident": 0.180547235315041,
+        "nervous": 0.11607640161318515,
+        "thinking": 0.8555975514208273,
+        "surprised": 0.23599867612709519
+      }
+    },
+    {
+      "timestamp": 264.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.611900949247369,
+      "emotions": {
+        "neutral": 0.11213982629858535,
+        "happy": 0.22400874130454734,
+        "confident": 0.11106181092150504,
+        "nervous": 0.6972627539787228,
+        "thinking": 0.2843523777166808,
+        "surprised": 0.09227203687812313
+      }
+    },
+    {
+      "timestamp": 266.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.6117142143485338,
+      "emotions": {
+        "neutral": 0.87748929917253,
+        "happy": 0.09553334630376509,
+        "confident": 0.04619783549799351,
+        "nervous": 0.034674757856116296,
+        "thinking": 0.06968398450585454,
+        "surprised": 0.24970301323278693
+      }
+    },
+    {
+      "timestamp": 268.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.9039227312126985,
+      "emotions": {
+        "neutral": 0.025707845905352078,
+        "happy": 0.05960478591573421,
+        "confident": 0.07699046819898353,
+        "nervous": 0.2292954842155992,
+        "thinking": 0.04302549809409999,
+        "surprised": 0.020289390961165
+      }
+    },
+    {
+      "timestamp": 270.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7506524982289056,
+      "emotions": {
+        "neutral": 0.6426972696894302,
+        "happy": 0.030985991435325686,
+        "confident": 0.1578816368224549,
+        "nervous": 0.24861209470800033,
+        "thinking": 0.233296357936853,
+        "surprised": 0.11738771074326078
+      }
+    },
+    {
+      "timestamp": 272.0,
+      "dominant_emotion": "neutral",
+      "confidence": 0.7843946399269943,
+      "emotions": {
+        "neutral": 0.8313035183683402,
+        "happy": 0.23341458823133449,
+        "confident": 0.16035730465351677,
+        "nervous": 0.20431864499056535,
+        "thinking": 0.19517179958976616,
+        "surprised": 0.280864764319759
+      }
+    },
+    {
+      "timestamp": 274.0,
+      "dominant_emotion": "nervous",
+      "confidence": 0.6645317350684004,
+      "emotions": {
+        "neutral": 0.22234886037182572,
+        "happy": 0.11216408314720325,
+        "confident": 0.06030667856846331,
+        "nervous": 0.7217280998395765,
+        "thinking": 0.29951577523831413,
+        "surprised": 0.1949376836884196
+      }
+    },
+    {
+      "timestamp": 276.0,
+      "dominant_emotion": "surprised",
+      "confidence": 0.8431538387070929,
+      "emotions": {
+        "neutral": 0.08250289534692312,
+        "happy": 0.20492403794436526,
+        "confident": 0.07824184590240343,
+        "nervous": 0.06904217524455959,
+        "thinking": 0.10128489015232331,
+        "surprised": 0.317608422017186
+      }
+    }
+  ],
+  "summary": {
+    "dominant_emotion": "nervous",
+    "emotion_distribution": {
+      "nervous": 0.4,
+      "neutral": 0.3,
+      "thinking": 0.2,
+      "surprised": 0.1
+    },
+    "confidence_average": 0.7740245965635324
+  }
+}

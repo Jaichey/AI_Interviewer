@@ -1,0 +1,114 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 12,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Let me know if you need clarification.",
+      "answer_duration": 27.428898237606973,
+      "pause_before_answer": 1.1479721617474201
+    },
+    {
+      "question_number": 2,
+      "timestamp": 37.80081292320788,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 18.81046449742227,
+      "pause_before_answer": 1.3492679517367532
+    },
+    {
+      "question_number": 3,
+      "timestamp": 67.91083691918755,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 32.038641924623235,
+      "pause_before_answer": 4.3203399732699115
+    },
+    {
+      "question_number": 4,
+      "timestamp": 110.69368629931964,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 27.546892453395614,
+      "pause_before_answer": 2.8620873535867886
+    },
+    {
+      "question_number": 5,
+      "timestamp": 148.76330208388083,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 22.707437762440815,
+      "pause_before_answer": 2.001186838429399
+    },
+    {
+      "question_number": 6,
+      "timestamp": 180.99533330423995,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Let me know if you need clarification.",
+      "answer_duration": 24.95308163693225,
+      "pause_before_answer": 1.7588584029042655
+    },
+    {
+      "question_number": 7,
+      "timestamp": 214.0402038463453,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. Does that make sense?",
+      "answer_duration": 25.32561136813957,
+      "pause_before_answer": 2.8205599162729755
+    },
+    {
+      "question_number": 8,
+      "timestamp": 248.21419365624797,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 42.443697133797606,
+      "pause_before_answer": 4.161101993613382
+    },
+    {
+      "question_number": 9,
+      "timestamp": 301.5452666965615,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 16.74222478609525,
+      "pause_before_answer": 2.1881155891671664
+    },
+    {
+      "question_number": 10,
+      "timestamp": 327.1389148364075,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 28.739746077903067,
+      "pause_before_answer": 1.4738706984755252
+    },
+    {
+      "question_number": 11,
+      "timestamp": 363.8924455940207,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 22.674403113389197,
+      "pause_before_answer": 2.430564464787386
+    },
+    {
+      "question_number": 12,
+      "timestamp": 396.9981767922227,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 38.69193014292013,
+      "pause_before_answer": 2.265625861086351
+    }
+  ]
+}

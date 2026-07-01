@@ -1,0 +1,123 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 13,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 44.95884695895694,
+      "pause_before_answer": 1.4596546726278539
+    },
+    {
+      "question_number": 2,
+      "timestamp": 56.25672612489606,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 16.217931302578318,
+      "pause_before_answer": 4.011346222879693
+    },
+    {
+      "question_number": 3,
+      "timestamp": 83.57771140765925,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 29.41668601380584,
+      "pause_before_answer": 1.2224704721898405
+    },
+    {
+      "question_number": 4,
+      "timestamp": 122.80256917636159,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 31.267056892571397,
+      "pause_before_answer": 1.9718489474846255
+    },
+    {
+      "question_number": 5,
+      "timestamp": 163.8849304114567,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 22.272186565479288,
+      "pause_before_answer": 1.1076277646381048
+    },
+    {
+      "question_number": 6,
+      "timestamp": 196.19873063713,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. That's based on my experience.",
+      "answer_duration": 42.419250938274445,
+      "pause_before_answer": 4.028225526940792
+    },
+    {
+      "question_number": 7,
+      "timestamp": 252.06615121655852,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 32.57929702397829,
+      "pause_before_answer": 4.877936118604344
+    },
+    {
+      "question_number": 8,
+      "timestamp": 297.6358129435882,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 39.53665509416527,
+      "pause_before_answer": 4.395534265227623
+    },
+    {
+      "question_number": 9,
+      "timestamp": 350.75470454144505,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 37.31456348357668,
+      "pause_before_answer": 1.809421703770758
+    },
+    {
+      "question_number": 10,
+      "timestamp": 395.40809594042406,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 40.03825725570843,
+      "pause_before_answer": 4.95190360264878
+    },
+    {
+      "question_number": 11,
+      "timestamp": 446.86194834423645,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 42.7890119546133,
+      "pause_before_answer": 4.6513124138668935
+    },
+    {
+      "question_number": 12,
+      "timestamp": 503.6303476966299,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. That's based on my experience.",
+      "answer_duration": 31.48843228565448,
+      "pause_before_answer": 4.474116129359227
+    },
+    {
+      "question_number": 13,
+      "timestamp": 549.0709853558799,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 29.332916246196195,
+      "pause_before_answer": 1.5754220181003666
+    }
+  ]
+}

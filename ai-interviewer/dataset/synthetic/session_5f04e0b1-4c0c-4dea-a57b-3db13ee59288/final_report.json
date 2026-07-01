@@ -1,0 +1,28 @@
+{
+  "session_id": "5f04e0b1-4c0c-4dea-a57b-3db13ee59288",
+  "candidate_name": "Candidate_5f04e0b1",
+  "position": "Software Engineer",
+  "timestamp": "2026-02-08T12:34:45.244175",
+  "scores": {
+    "technical_score": 2.78,
+    "communication_score": 4.48,
+    "clarity_score": 5.51,
+    "confidence_score": 4.5,
+    "overall_score": 35.08
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 38.65,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.61
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.58
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 35.1/100). Not recommended at this time."
+}

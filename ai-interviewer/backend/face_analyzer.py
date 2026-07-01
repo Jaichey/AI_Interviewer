@@ -217,6 +217,7 @@ class FaceAnalyzer:
             "face_count": 1,
             "head_yaw": float(yaw),
             "head_pitch": float(pitch),
+            "head_roll": 0.0,  # Roll not calculated in current implementation
             "gaze_direction": gaze_dir,
             "gaze_offset": float(gaze_offset),
             "blink_detected": blink_detected,
@@ -259,6 +260,7 @@ class FaceAnalyzer:
             "face_count": 1,
             "head_yaw": float(yaw),
             "head_pitch": float(pitch),
+            "head_roll": 0.0,
             "gaze_direction": "center",
             "blink_detected": False,
             "blink_count": self.blink_count,
@@ -275,6 +277,7 @@ class FaceAnalyzer:
             "face_detected": False,
             "head_yaw": 0.0,
             "head_pitch": 0.0,
+            "head_roll": 0.0,
             "gaze_direction": "unknown",
             "blink_detected": False,
             "blink_count": self.blink_count,

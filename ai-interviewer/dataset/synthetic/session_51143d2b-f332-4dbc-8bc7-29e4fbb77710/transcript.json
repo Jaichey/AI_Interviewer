@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 27.45543665796037,
+      "pause_before_answer": 3.088026925058317
+    },
+    {
+      "question_number": 2,
+      "timestamp": 38.88976808057135,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 30.536560935821164,
+      "pause_before_answer": 1.5992615086364834
+    },
+    {
+      "question_number": 3,
+      "timestamp": 78.59896448793003,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 27.545702237179587,
+      "pause_before_answer": 2.545473010986896
+    },
+    {
+      "question_number": 4,
+      "timestamp": 117.30689817938543,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 33.67381319763656,
+      "pause_before_answer": 1.5239816528331467
+    },
+    {
+      "question_number": 5,
+      "timestamp": 161.72825425677405,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 25.954664861415488,
+      "pause_before_answer": 3.3456830985662287
+    },
+    {
+      "question_number": 6,
+      "timestamp": 200.6945013994464,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 22.944784219873853,
+      "pause_before_answer": 3.5548524070374197
+    },
+    {
+      "question_number": 7,
+      "timestamp": 234.34768799399393,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 18.279673103810687,
+      "pause_before_answer": 2.828185355539674
+    },
+    {
+      "question_number": 8,
+      "timestamp": 261.6587450354726,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 16.755109702091847,
+      "pause_before_answer": 1.8668837352920953
+    },
+    {
+      "question_number": 9,
+      "timestamp": 288.26601782913116,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 23.044631692892484,
+      "pause_before_answer": 3.7631730569782325
+    }
+  ]
+}

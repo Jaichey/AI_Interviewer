@@ -1,0 +1,114 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 12,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 37.23272786268653,
+      "pause_before_answer": 3.9351915311653696
+    },
+    {
+      "question_number": 2,
+      "timestamp": 48.34478373400368,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. Does that make sense?",
+      "answer_duration": 21.382916461672714,
+      "pause_before_answer": 4.514208458718395
+    },
+    {
+      "question_number": 3,
+      "timestamp": 82.36332874157304,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 41.42520957469295,
+      "pause_before_answer": 1.7372544948060522
+    },
+    {
+      "question_number": 4,
+      "timestamp": 131.91037752567485,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 43.108403663039155,
+      "pause_before_answer": 4.145756050741327
+    },
+    {
+      "question_number": 5,
+      "timestamp": 184.6670387877317,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 15.004589408673327,
+      "pause_before_answer": 4.643120554322816
+    },
+    {
+      "question_number": 6,
+      "timestamp": 209.70753436721023,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 15.617518747635296,
+      "pause_before_answer": 2.6094713020244025
+    },
+    {
+      "question_number": 7,
+      "timestamp": 233.5266841886435,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 24.931765780638095,
+      "pause_before_answer": 1.9041029787577703
+    },
+    {
+      "question_number": 8,
+      "timestamp": 268.2326672381305,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 34.91289643270653,
+      "pause_before_answer": 3.0451216387125006
+    },
+    {
+      "question_number": 9,
+      "timestamp": 311.476983002425,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 19.605284936170367,
+      "pause_before_answer": 3.7979818623515316
+    },
+    {
+      "question_number": 10,
+      "timestamp": 339.99071871960393,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 19.652480090027005,
+      "pause_before_answer": 3.739552645712853
+    },
+    {
+      "question_number": 11,
+      "timestamp": 373.0643375015529,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 30.04364608871153,
+      "pause_before_answer": 4.005662192783756
+    },
+    {
+      "question_number": 12,
+      "timestamp": 413.8032188573159,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 15.004883792683025,
+      "pause_before_answer": 1.0150097349069744
+    }
+  ]
+}

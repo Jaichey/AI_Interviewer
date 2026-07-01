@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 21.119604059631335,
+      "pause_before_answer": 3.552656544258833
+    },
+    {
+      "question_number": 2,
+      "timestamp": 33.51117060930585,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 22.771640731692262,
+      "pause_before_answer": 1.0402475222015046
+    },
+    {
+      "question_number": 3,
+      "timestamp": 63.88055873505346,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 16.08757302896041,
+      "pause_before_answer": 2.2663638671095163
+    },
+    {
+      "question_number": 4,
+      "timestamp": 87.526443145017,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 23.637458617252904,
+      "pause_before_answer": 2.393501468480895
+    },
+    {
+      "question_number": 5,
+      "timestamp": 123.44866189630318,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 29.922290709488053,
+      "pause_before_answer": 1.2494430718218368
+    },
+    {
+      "question_number": 6,
+      "timestamp": 161.16551455278642,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 23.856160872446054,
+      "pause_before_answer": 2.743864033163669
+    },
+    {
+      "question_number": 7,
+      "timestamp": 193.75029490170235,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 29.139298943225672,
+      "pause_before_answer": 1.8334575912945867
+    },
+    {
+      "question_number": 8,
+      "timestamp": 233.29632721363933,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 32.91428789511714,
+      "pause_before_answer": 1.7358438264975091
+    },
+    {
+      "question_number": 9,
+      "timestamp": 277.26517848938056,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 32.448364328559244,
+      "pause_before_answer": 3.8483669807709115
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 42.098818661494235,
+      "pause_before_answer": 2.9869992873990228
+    },
+    {
+      "question_number": 2,
+      "timestamp": 50.21887254176937,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 33.36158509177474,
+      "pause_before_answer": 4.672449041145224
+    },
+    {
+      "question_number": 3,
+      "timestamp": 95.65349752585725,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 20.09114609270793,
+      "pause_before_answer": 4.124776167017587
+    },
+    {
+      "question_number": 4,
+      "timestamp": 127.84063301890241,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 29.225281745376805,
+      "pause_before_answer": 4.329530248084476
+    },
+    {
+      "question_number": 5,
+      "timestamp": 168.09061914534615,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 34.90222044910463,
+      "pause_before_answer": 1.360033150002768
+    },
+    {
+      "question_number": 6,
+      "timestamp": 211.3792881707593,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 30.691162943320837,
+      "pause_before_answer": 3.7307371499786903
+    },
+    {
+      "question_number": 7,
+      "timestamp": 253.4815755086242,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 39.26727903726707,
+      "pause_before_answer": 2.4946876635181146
+    },
+    {
+      "question_number": 8,
+      "timestamp": 302.12143949659696,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 16.49779829228331,
+      "pause_before_answer": 1.469092747391755
+    },
+    {
+      "question_number": 9,
+      "timestamp": 329.9658612821694,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 29.352685505061565,
+      "pause_before_answer": 3.8741032501725288
+    },
+    {
+      "question_number": 10,
+      "timestamp": 370.6715807008717,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 34.74846834916829,
+      "pause_before_answer": 1.9321581978552222
+    },
+    {
+      "question_number": 11,
+      "timestamp": 414.57185001415246,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 41.88330562561611,
+      "pause_before_answer": 1.1133276793507836
+    },
+    {
+      "question_number": 12,
+      "timestamp": 463.2335169296141,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 39.12565583110849,
+      "pause_before_answer": 2.2416102602530468
+    },
+    {
+      "question_number": 13,
+      "timestamp": 510.82327352764304,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. Does that make sense?",
+      "answer_duration": 18.11755725169726,
+      "pause_before_answer": 4.261061140652057
+    },
+    {
+      "question_number": 14,
+      "timestamp": 540.2589727420724,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 43.99531279193576,
+      "pause_before_answer": 4.305242077122508
+    }
+  ]
+}

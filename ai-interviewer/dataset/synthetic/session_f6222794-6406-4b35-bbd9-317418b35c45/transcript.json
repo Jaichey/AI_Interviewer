@@ -1,0 +1,105 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 11,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 33.080901377487706,
+      "pause_before_answer": 3.097386079684027
+    },
+    {
+      "question_number": 2,
+      "timestamp": 44.32106599628185,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 43.72989735785572,
+      "pause_before_answer": 1.4620244637814577
+    },
+    {
+      "question_number": 3,
+      "timestamp": 95.32724877252936,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 38.74011560777219,
+      "pause_before_answer": 2.3087444157949766
+    },
+    {
+      "question_number": 4,
+      "timestamp": 143.18258353198536,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. Does that make sense?",
+      "answer_duration": 28.849465967754234,
+      "pause_before_answer": 2.8663095714544493
+    },
+    {
+      "question_number": 5,
+      "timestamp": 181.27221835894682,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 37.13476289392832,
+      "pause_before_answer": 2.3032136929218074
+    },
+    {
+      "question_number": 6,
+      "timestamp": 226.63965558951824,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 19.79858072894576,
+      "pause_before_answer": 3.5040324651814956
+    },
+    {
+      "question_number": 7,
+      "timestamp": 256.6280876372512,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 25.25777821655166,
+      "pause_before_answer": 3.595512755411039
+    },
+    {
+      "question_number": 8,
+      "timestamp": 293.40354415774243,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 36.41127965315053,
+      "pause_before_answer": 2.5333771598885084
+    },
+    {
+      "question_number": 9,
+      "timestamp": 339.7835423001256,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 41.25735594403565,
+      "pause_before_answer": 3.9924195774356805
+    },
+    {
+      "question_number": 10,
+      "timestamp": 390.20182544509885,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 35.886415361933445,
+      "pause_before_answer": 4.553643211922741
+    },
+    {
+      "question_number": 11,
+      "timestamp": 440.3608210966945,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 43.74263535473739,
+      "pause_before_answer": 2.38719858966385
+    }
+  ]
+}

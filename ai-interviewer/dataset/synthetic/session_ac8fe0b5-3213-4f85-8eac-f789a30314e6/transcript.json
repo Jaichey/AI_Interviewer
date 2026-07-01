@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 39.6648044343012,
+      "pause_before_answer": 3.969865637701
+    },
+    {
+      "question_number": 2,
+      "timestamp": 48.78923022173416,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. That's based on my experience.",
+      "answer_duration": 20.039178968524816,
+      "pause_before_answer": 1.647517911201449
+    },
+    {
+      "question_number": 3,
+      "timestamp": 78.31700448865297,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 24.965810320155338,
+      "pause_before_answer": 1.9709771380136276
+    },
+    {
+      "question_number": 4,
+      "timestamp": 113.39718388284379,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 36.79135596982811,
+      "pause_before_answer": 4.640894170497125
+    },
+    {
+      "question_number": 5,
+      "timestamp": 160.43949287280614,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 25.896317771297966,
+      "pause_before_answer": 2.5888746555933513
+    },
+    {
+      "question_number": 6,
+      "timestamp": 194.80919689271147,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. I hope that answers your question.",
+      "answer_duration": 26.969549164230173,
+      "pause_before_answer": 2.408928644913444
+    },
+    {
+      "question_number": 7,
+      "timestamp": 229.99961400858052,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 15.110357388280931,
+      "pause_before_answer": 4.9852627240647065
+    },
+    {
+      "question_number": 8,
+      "timestamp": 255.58829642089634,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 24.264436262006598,
+      "pause_before_answer": 4.984613840469081
+    },
+    {
+      "question_number": 9,
+      "timestamp": 290.63080370354385,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 32.91093983022512,
+      "pause_before_answer": 2.460863275126141
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 16.477768187524656,
+      "pause_before_answer": 4.619617564828532
+    },
+    {
+      "question_number": 2,
+      "timestamp": 26.291579538502177,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 35.466034618535545,
+      "pause_before_answer": 1.5607638042057004
+    },
+    {
+      "question_number": 3,
+      "timestamp": 71.68335747577865,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. Let me know if you need clarification.",
+      "answer_duration": 31.829611521629655,
+      "pause_before_answer": 4.929696739046307
+    },
+    {
+      "question_number": 4,
+      "timestamp": 115.97578878578928,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 38.42343885276925,
+      "pause_before_answer": 1.072329212111824
+    },
+    {
+      "question_number": 5,
+      "timestamp": 161.54466950570423,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 19.924039470651337,
+      "pause_before_answer": 4.2708786925684885
+    },
+    {
+      "question_number": 6,
+      "timestamp": 192.04352473582924,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 16.36647612555371,
+      "pause_before_answer": 3.951171859619897
+    },
+    {
+      "question_number": 7,
+      "timestamp": 221.9289457218212,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 30.62393465123438,
+      "pause_before_answer": 2.8818739396948003
+    },
+    {
+      "question_number": 8,
+      "timestamp": 260.8254992416705,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. Does that make sense?",
+      "answer_duration": 19.533957866042144,
+      "pause_before_answer": 1.4371860726842636
+    },
+    {
+      "question_number": 9,
+      "timestamp": 291.36071739022015,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 24.4257275305306,
+      "pause_before_answer": 2.339790769350941
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 13,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 15.617067528331345,
+      "pause_before_answer": 3.3039461542014523
+    },
+    {
+      "question_number": 2,
+      "timestamp": 28.702868154598885,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. That's based on my experience.",
+      "answer_duration": 30.208604929690196,
+      "pause_before_answer": 4.773030554157435
+    },
+    {
+      "question_number": 3,
+      "timestamp": 71.89097009899656,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 28.70688195087078,
+      "pause_before_answer": 2.282699790623091
+    },
+    {
+      "question_number": 4,
+      "timestamp": 109.49039175117805,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 21.030097989881682,
+      "pause_before_answer": 3.1386249273227724
+    },
+    {
+      "question_number": 5,
+      "timestamp": 141.2779147498587,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new. Does that make sense?",
+      "answer_duration": 39.33233683076785,
+      "pause_before_answer": 1.2179769640096643
+    },
+    {
+      "question_number": 6,
+      "timestamp": 186.97803588147096,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 24.91893462087353,
+      "pause_before_answer": 3.925012532947294
+    },
+    {
+      "question_number": 7,
+      "timestamp": 221.36784153142392,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 44.68502864142731,
+      "pause_before_answer": 2.0714872364493173
+    },
+    {
+      "question_number": 8,
+      "timestamp": 276.96248956012636,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new. That's based on my experience.",
+      "answer_duration": 40.927891212047186,
+      "pause_before_answer": 1.2434619818125974
+    },
+    {
+      "question_number": 9,
+      "timestamp": 329.10050147209483,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 42.571250531784685,
+      "pause_before_answer": 2.137597312955094
+    },
+    {
+      "question_number": 10,
+      "timestamp": 381.0002268538642,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 32.698518470845855,
+      "pause_before_answer": 1.784453117060417
+    },
+    {
+      "question_number": 11,
+      "timestamp": 424.6174587336451,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Let me know if you need clarification.",
+      "answer_duration": 44.126684378446015,
+      "pause_before_answer": 2.609138072045058
+    },
+    {
+      "question_number": 12,
+      "timestamp": 480.66745886677194,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. That's based on my experience.",
+      "answer_duration": 34.997519123429285,
+      "pause_before_answer": 2.557631473668912
+    },
+    {
+      "question_number": 13,
+      "timestamp": 528.0196154520494,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 39.23315366869407,
+      "pause_before_answer": 2.495649554040613
+    }
+  ]
+}

@@ -4,6 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Interviewer</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./node_modules/three/build/three.module.js",
+        "three/addons/": "./node_modules/three/examples/jsm/"
+      }
+    }
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -88,6 +96,15 @@
     </div>
   </div>
 
+  <div id="start-overlay" class="modal-overlay hidden" aria-live="polite" aria-busy="true">
+    <div class="modal-content start-flow">
+      <div class="start-flow-badge">Interview Ready</div>
+      <h2>Starting the interview</h2>
+      <p>The system is entering <strong>start</strong> automatically so you do not need to type it.</p>
+      <div class="start-flow-loader" aria-hidden="true"></div>
+    </div>
+  </div>
+
   <main class="layout">
     <div class="main-content">
       <!-- AVATAR PANEL: Full width with avatars -->
@@ -127,6 +144,76 @@
               <span class="dot"></span>
               <span class="dot"></span>
               <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROCTORING DASHBOARD: Top right corner (floating) -->
+      <div class="proctoring-panel" id="proctoring-panel">
+        <div class="proctoring-header">
+          <div class="proctoring-title">🎯 HireSense Proctoring</div>
+          <button id="toggle-proctoring" class="toggle-btn" title="Toggle dashboard">−</button>
+        </div>
+        <div class="proctoring-content" id="proctoring-content">
+          <div class="metric-row">
+            <div class="metric-item">
+              <div class="metric-label">Eye Contact</div>
+              <div class="metric-value" id="metric-eye-contact">0%</div>
+              <div class="metric-indicator" id="indicator-eye-contact"></div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Gaze Direction</div>
+              <div class="metric-value" id="metric-gaze">CENTER</div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-item">
+              <div class="metric-label">Head Pose</div>
+              <div class="metric-value" id="metric-head-pose">Yaw: 0° | Pitch: 0°</div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-item">
+              <div class="metric-label">Blink Rate</div>
+              <div class="metric-value" id="metric-blink">0/min</div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Emotion</div>
+              <div class="metric-value" id="metric-emotion">neutral</div>
+              <div class="metric-indicator" id="indicator-emotion"></div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-item">
+              <div class="metric-label">Stress Level</div>
+              <div class="metric-value" id="metric-stress">low</div>
+              <div class="metric-indicator" id="indicator-stress"></div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-item">
+              <div class="metric-label">Person Count</div>
+              <div class="metric-value" id="metric-persons">1</div>
+              <div class="metric-indicator" id="indicator-persons"></div>
+            </div>
+            <div class="metric-item">
+              <div class="metric-label">Warnings</div>
+              <div class="metric-value warning-count" id="metric-warnings">0</div>
+            </div>
+          </div>
+
+          <div class="metric-row">
+            <div class="metric-item full-width">
+              <div class="metric-label">Suspicious Score</div>
+              <div class="suspicious-bar">
+                <div class="suspicious-fill" id="suspicious-fill" style="width: 0%"></div>
+              </div>
+              <div class="metric-value" id="metric-suspicious">0%</div>
             </div>
           </div>
         </div>

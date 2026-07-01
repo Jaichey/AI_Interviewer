@@ -1,6 +1,6 @@
 """
 Observation logging and final behavioral report generation.
-Accumulates observations throughout interview.
+Accumulates observations throughout interview and saves to structured dataset.
 """
 import json
 import time
@@ -8,12 +8,14 @@ from typing import Dict, List, Optional
 from datetime import datetime
 from collections import defaultdict
 import os
+import uuid
+from pathlib import Path
 
 
 class ObservationLogger:
     """Logs observations and generates final behavioral analysis report."""
 
-    def __init__(self):
+    def __init__(self, session_id: str = None, dataset_path: str = "dataset"):
         self.observations = []
         self.violations = defaultdict(int)
         self.session_start = time.time()
@@ -23,6 +25,19 @@ class ObservationLogger:
         self.expression_scores = defaultdict(list)
         self.looking_away_cumulative = 0
         self.total_observation_time = 0
+        
+        # Session management for dataset
+        self.session_id = session_id or str(uuid.uuid4())
+        self.dataset_path = Path(dataset_path)
+        self.session_dir = self.dataset_path / "sessions" / f"session_{self.session_id}"
+        self.session_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Transcript storage (will be populated by interview engine)
+        self.transcript_data = {
+            "session_id": self.session_id,
+            "total_questions": 0,
+            "qa_pairs": []
+        }
         
         # Create log file for facial expressions
         self.log_file = "facial_expressions.txt"
@@ -453,7 +468,7 @@ class ObservationLogger:
         return json.dumps(report, indent=2)
     
     def close_log_file(self):
-        """Close the log file with final summary."""
+        """Close the log file and save all dataset files."""
         try:
             with open(self.log_file, "a", encoding="utf-8") as f:
                 f.write("\n\n" + "="*80 + "\n")
@@ -465,6 +480,190 @@ class ObservationLogger:
             print(f"[INFO] Facial expression log file closed: {self.log_file}")
         except Exception as e:
             print(f"[ERROR] Failed to close log file: {e}")
+        
+        # Save all dataset files
+        self.save_dataset_files()
+    
+    def save_dataset_files(self):
+        """Save all observation data to structured dataset files."""
+        try:
+            # 1. Video metadata
+            metadata = {
+                "session_id": self.session_id,
+                "timestamp": datetime.fromtimestamp(self.session_start).isoformat(),
+                "duration_seconds": self.total_observation_time,
+                "total_observations": len(self.observations)
+            }
+            self._save_json(self.session_dir / "video_metadata.json", metadata)
+            
+            # 2. Transcript (if available)
+            if self.transcript_data["qa_pairs"]:
+                self._save_json(self.session_dir / "transcript.json", self.transcript_data)
+            
+            # 3. Gaze metrics
+            gaze_metrics = self._extract_gaze_metrics()
+            self._save_json(self.session_dir / "gaze_metrics.json", gaze_metrics)
+            
+            # 4. Emotion metrics
+            emotion_metrics = self._extract_emotion_metrics()
+            self._save_json(self.session_dir / "emotion_metrics.json", emotion_metrics)
+            
+            # 5. Proctoring metrics
+            proctoring_metrics = self._extract_proctoring_metrics()
+            self._save_json(self.session_dir / "proctoring_metrics.json", proctoring_metrics)
+            
+            # 6. Final report
+            final_report = self.generate_report()
+            self._save_json(self.session_dir / "final_report.json", final_report)
+            
+            print(f"[INFO] Dataset files saved to {self.session_dir}")
+            
+        except Exception as e:
+            print(f"[ERROR] Failed to save dataset files: {e}")
+            import traceback
+            traceback.print_exc()
+    
+    def _extract_gaze_metrics(self) -> Dict:
+        """Extract gaze tracking metrics from observations."""
+        frames = []
+        total_eye_contact = 0
+        total_look_away_duration = 0
+        total_blinks = 0
+        
+        for obs in self.observations:
+            face_data = obs.get("face", {})
+            timestamp = obs.get("timestamp", 0)
+            
+            frame = {
+                "timestamp": float(timestamp),
+                "gaze_direction": face_data.get("gaze_direction", "unknown"),
+                "eye_contact_percentage": float(face_data.get("eye_contact_confidence", 0)) * 100,
+                "head_pose_yaw": float(face_data.get("head_yaw", 0)),
+                "head_pose_pitch": float(face_data.get("head_pitch", 0)),
+                "head_pose_roll": float(face_data.get("head_roll", 0)),
+                "blink_detected": face_data.get("blink_detected", False),
+                "looking_away": face_data.get("looking_away", False),
+                "look_away_duration": 0.0 if not face_data.get("looking_away") else 1.0
+            }
+            
+            frames.append(frame)
+            
+            if not face_data.get("looking_away"):
+                total_eye_contact += 1
+            else:
+                total_look_away_duration += 1.0
+            
+            if face_data.get("blink_detected"):
+                total_blinks += 1
+        
+        duration = self.total_observation_time or 1.0
+        
+        return {
+            "total_frames": len(frames),
+            "duration_seconds": duration,
+            "frames": frames,
+            "summary": {
+                "eye_contact_percentage": (total_eye_contact / len(frames)) * 100 if frames else 0,
+                "average_gaze_stability": 0.7,  # Placeholder
+                "total_look_away_duration": total_look_away_duration,
+                "blink_rate_per_minute": (total_blinks / duration) * 60 if duration > 0 else 0,
+                "head_movement_score": 0.8  # Placeholder
+            }
+        }
+    
+    def _extract_emotion_metrics(self) -> Dict:
+        """Extract emotion tracking metrics from observations."""
+        frames = []
+        emotion_counts = defaultdict(int)
+        
+        for obs in self.observations:
+            emotion_data = obs.get("emotion", {})
+            timestamp = obs.get("timestamp", 0)
+            
+            emotion = emotion_data.get("emotion", "unknown")
+            confidence = emotion_data.get("confidence", 0)
+            
+            frame = {
+                "timestamp": float(timestamp),
+                "dominant_emotion": emotion,
+                "confidence": float(confidence),
+                "emotions": emotion_data.get("emotion_scores", {})
+            }
+            
+            frames.append(frame)
+            emotion_counts[emotion] += 1
+        
+        # Calculate dominant emotion
+        dominant_emotion = max(emotion_counts, key=emotion_counts.get) if emotion_counts else "unknown"
+        
+        # Calculate emotion distribution
+        total = sum(emotion_counts.values()) or 1
+        emotion_distribution = {k: v / total for k, v in emotion_counts.items()}
+        
+        return {
+            "total_frames": len(frames),
+            "frames": frames,
+            "summary": {
+                "dominant_emotion": dominant_emotion,
+                "emotion_distribution": emotion_distribution,
+                "confidence_average": 0.75  # Placeholder
+            }
+        }
+    
+    def _extract_proctoring_metrics(self) -> Dict:
+        """Extract proctoring violation metrics."""
+        violations = []
+        
+        # Check for multiple persons
+        multi_person_count = self.violations.get("multiple_persons", 0)
+        if multi_person_count > 0:
+            violations.append({
+                "timestamp": 0,
+                "type": "MULTIPLE_PERSONS",
+                "severity": "CRITICAL",
+                "description": f"Multiple people detected {multi_person_count} times"
+            })
+        
+        # Check for excessive looking away
+        looked_away = self.violations.get("looked_away", 0)
+        if looked_away > 20:
+            violations.append({
+                "timestamp": 0,
+                "type": "EXCESSIVE_LOOK_AWAY",
+                "severity": "HIGH",
+                "description": f"Looked away {looked_away} times"
+            })
+        
+        # Calculate suspicious activity score
+        suspicious_score = min(1.0, (multi_person_count * 0.3 + looked_away * 0.01))
+        
+        return {
+            "total_violations": len(violations),
+            "violations": violations,
+            "person_count_average": 1.0,
+            "suspicious_activity_score": suspicious_score
+        }
+    
+    def add_transcript_qa(self, question: str, answer: str, category: str = "general"):
+        """Add question-answer pair to transcript."""
+        qa_pair = {
+            "question_number": len(self.transcript_data["qa_pairs"]) + 1,
+            "timestamp": time.time() - self.session_start,
+            "category": category,
+            "interviewer_question": question,
+            "candidate_answer": answer,
+            "answer_duration": 0,
+            "pause_before_answer": 0
+        }
+        
+        self.transcript_data["qa_pairs"].append(qa_pair)
+        self.transcript_data["total_questions"] = len(self.transcript_data["qa_pairs"])
+    
+    @staticmethod
+    def _save_json(filepath: Path, data: Dict):
+        """Save data as JSON file."""
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
 
 
 import numpy as np  # Import at end to avoid circular imports

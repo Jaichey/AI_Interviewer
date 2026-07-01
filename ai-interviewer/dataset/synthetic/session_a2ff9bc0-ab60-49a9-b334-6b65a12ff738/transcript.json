@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 21.181996996192243,
+      "pause_before_answer": 3.309179033764737
+    },
+    {
+      "question_number": 2,
+      "timestamp": 29.956483195385935,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 28.054746053019635,
+      "pause_before_answer": 1.5897797960371927
+    },
+    {
+      "question_number": 3,
+      "timestamp": 68.05245056715466,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. Does that make sense?",
+      "answer_duration": 19.452478340344065,
+      "pause_before_answer": 1.217658143023093
+    },
+    {
+      "question_number": 4,
+      "timestamp": 96.71556291573951,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 24.89424161229724,
+      "pause_before_answer": 3.2651106852862597
+    },
+    {
+      "question_number": 5,
+      "timestamp": 132.29225526784447,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 32.779301271686386,
+      "pause_before_answer": 1.2524965247602569
+    },
+    {
+      "question_number": 6,
+      "timestamp": 175.66212631386537,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 29.933275551647455,
+      "pause_before_answer": 4.999303048748619
+    },
+    {
+      "question_number": 7,
+      "timestamp": 216.84094484938566,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 30.01072186005319,
+      "pause_before_answer": 2.2782742283610564
+    },
+    {
+      "question_number": 8,
+      "timestamp": 254.18958858512036,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. Let me know if you need clarification.",
+      "answer_duration": 41.39090480760434,
+      "pause_before_answer": 3.7142113313694125
+    },
+    {
+      "question_number": 9,
+      "timestamp": 306.60762555300033,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 38.50585077331539,
+      "pause_before_answer": 1.7068645260963322
+    }
+  ]
+}

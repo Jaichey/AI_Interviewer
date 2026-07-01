@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 29.265782412371152,
+      "pause_before_answer": 1.0340951547400898
+    },
+    {
+      "question_number": 2,
+      "timestamp": 38.04309594658497,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 17.570798513603673,
+      "pause_before_answer": 2.3094211168132412
+    },
+    {
+      "question_number": 3,
+      "timestamp": 66.70279057579268,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 22.74994639121405,
+      "pause_before_answer": 1.0961836922892312
+    },
+    {
+      "question_number": 4,
+      "timestamp": 97.34041362401543,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 36.1484598360774,
+      "pause_before_answer": 1.7181697506349045
+    },
+    {
+      "question_number": 5,
+      "timestamp": 141.31247115613155,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. That's based on my experience.",
+      "answer_duration": 41.69408005968852,
+      "pause_before_answer": 1.8959819296571405
+    },
+    {
+      "question_number": 6,
+      "timestamp": 194.86547946559799,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 32.02076468734538,
+      "pause_before_answer": 2.5522866776536643
+    },
+    {
+      "question_number": 7,
+      "timestamp": 238.5690717751426,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 41.311996217982276,
+      "pause_before_answer": 3.96158377100848
+    },
+    {
+      "question_number": 8,
+      "timestamp": 289.891350209891,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 24.880472486964713,
+      "pause_before_answer": 1.5503239379564806
+    },
+    {
+      "question_number": 9,
+      "timestamp": 324.39656515303614,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 17.762946879444744,
+      "pause_before_answer": 3.4490298376926383
+    },
+    {
+      "question_number": 10,
+      "timestamp": 354.8602071539732,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 24.584776684219257,
+      "pause_before_answer": 4.8471283962929155
+    },
+    {
+      "question_number": 11,
+      "timestamp": 393.35309277924244,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 41.01853938850208,
+      "pause_before_answer": 2.2299244899461836
+    },
+    {
+      "question_number": 12,
+      "timestamp": 441.7749146129618,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Let me know if you need clarification.",
+      "answer_duration": 41.61770283011278,
+      "pause_before_answer": 1.2202367135897347
+    },
+    {
+      "question_number": 13,
+      "timestamp": 491.89281677430336,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 26.870272648987573,
+      "pause_before_answer": 3.0084397327698107
+    },
+    {
+      "question_number": 14,
+      "timestamp": 530.9607082796587,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 32.13087889327264,
+      "pause_before_answer": 4.457352871281078
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "session_id": "67934daf-abb9-4611-a570-476cf7ace38a",
+  "candidate_name": "Candidate_67934daf",
+  "position": "Data Scientist",
+  "timestamp": "2026-01-23T12:34:48.806573",
+  "scores": {
+    "technical_score": 3.24,
+    "communication_score": 4.82,
+    "clarity_score": 3.84,
+    "confidence_score": 3.76,
+    "overall_score": 33.34
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 37.71,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.87
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.56
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 33.3/100). Not recommended at this time."
+}

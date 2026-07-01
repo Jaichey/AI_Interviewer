@@ -1,0 +1,123 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 13,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 26.85635077101662,
+      "pause_before_answer": 1.6156639863684639
+    },
+    {
+      "question_number": 2,
+      "timestamp": 36.204982263716275,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 34.520686150179245,
+      "pause_before_answer": 3.167653478450057
+    },
+    {
+      "question_number": 3,
+      "timestamp": 82.88720971657848,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 22.325526885566624,
+      "pause_before_answer": 4.266798600864561
+    },
+    {
+      "question_number": 4,
+      "timestamp": 117.57809629860225,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 36.35055497357222,
+      "pause_before_answer": 1.9937237293788423
+    },
+    {
+      "question_number": 5,
+      "timestamp": 164.46751182315057,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 42.92314712613886,
+      "pause_before_answer": 3.9548870123908086
+    },
+    {
+      "question_number": 6,
+      "timestamp": 220.0550938905823,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 28.092084697615384,
+      "pause_before_answer": 1.3197497226182877
+    },
+    {
+      "question_number": 7,
+      "timestamp": 257.60587727938275,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 24.841009544782807,
+      "pause_before_answer": 2.6195056081478905
+    },
+    {
+      "question_number": 8,
+      "timestamp": 294.9195695781617,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 35.0154661609293,
+      "pause_before_answer": 3.6311841711109403
+    },
+    {
+      "question_number": 9,
+      "timestamp": 341.5742277431202,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. Let me know if you need clarification.",
+      "answer_duration": 16.178266579452607,
+      "pause_before_answer": 1.5310080877872752
+    },
+    {
+      "question_number": 10,
+      "timestamp": 366.90935803762034,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 17.996605446817576,
+      "pause_before_answer": 3.4288242207719586
+    },
+    {
+      "question_number": 11,
+      "timestamp": 394.4844879650834,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. I hope that answers your question.",
+      "answer_duration": 25.65742333585704,
+      "pause_before_answer": 4.50443032972766
+    },
+    {
+      "question_number": 12,
+      "timestamp": 430.6352647878914,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 33.82471950990768,
+      "pause_before_answer": 3.6836923842833174
+    },
+    {
+      "question_number": 13,
+      "timestamp": 475.34569816903286,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. Does that make sense?",
+      "answer_duration": 33.10483707706348,
+      "pause_before_answer": 2.752605484388733
+    }
+  ]
+}

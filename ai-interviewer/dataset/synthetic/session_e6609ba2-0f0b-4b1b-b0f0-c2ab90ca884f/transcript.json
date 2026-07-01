@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 31.64568384702359,
+      "pause_before_answer": 2.251927946813048
+    },
+    {
+      "question_number": 2,
+      "timestamp": 39.38179921716515,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 44.84551122422663,
+      "pause_before_answer": 1.248698666570005
+    },
+    {
+      "question_number": 3,
+      "timestamp": 92.86556685498846,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 41.543015114023135,
+      "pause_before_answer": 4.608032728757352
+    },
+    {
+      "question_number": 4,
+      "timestamp": 144.02451703040757,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 18.76975906189972,
+      "pause_before_answer": 3.812442015398896
+    },
+    {
+      "question_number": 5,
+      "timestamp": 176.06037281146195,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 25.779412942361574,
+      "pause_before_answer": 1.417424726367741
+    },
+    {
+      "question_number": 6,
+      "timestamp": 208.58498307645402,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 29.886903277368383,
+      "pause_before_answer": 3.7221962019962866
+    },
+    {
+      "question_number": 7,
+      "timestamp": 251.25252504224346,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 23.20832207202278,
+      "pause_before_answer": 4.284372560917028
+    },
+    {
+      "question_number": 8,
+      "timestamp": 285.4988805213849,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 31.08032506729051,
+      "pause_before_answer": 1.6958784784121894
+    },
+    {
+      "question_number": 9,
+      "timestamp": 325.4477621907623,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 28.161253489457717,
+      "pause_before_answer": 4.946322694907627
+    },
+    {
+      "question_number": 10,
+      "timestamp": 367.6101913938124,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 41.66320441210216,
+      "pause_before_answer": 4.827924547832229
+    },
+    {
+      "question_number": 11,
+      "timestamp": 422.46897943320187,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 40.52557460272881,
+      "pause_before_answer": 4.419501271598507
+    },
+    {
+      "question_number": 12,
+      "timestamp": 474.17292458318605,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 27.453014438339842,
+      "pause_before_answer": 3.093442025073532
+    },
+    {
+      "question_number": 13,
+      "timestamp": 511.81410397576195,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 28.594241606708046,
+      "pause_before_answer": 2.526146632992413
+    },
+    {
+      "question_number": 14,
+      "timestamp": 549.2098216906022,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 36.69215360693387,
+      "pause_before_answer": 2.234788681414936
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "session_id": "a92077f6-51ca-493b-a06a-0a3a76352c53",
+  "candidate_name": "Candidate_a92077f6",
+  "position": "Full Stack Developer",
+  "timestamp": "2026-01-20T12:34:44.258178",
+  "scores": {
+    "technical_score": 2.71,
+    "communication_score": 3.82,
+    "clarity_score": 3.87,
+    "confidence_score": 5.68,
+    "overall_score": 21.62
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 40.68,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.89
+  },
+  "proctoring_summary": {
+    "total_violations": 3,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.44
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 21.6/100). Not recommended at this time."
+}

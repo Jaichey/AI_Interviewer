@@ -1,0 +1,29 @@
+{
+  "session_id": "0981eb30-9984-41b1-a6a5-445fd1a337cb",
+  "candidate_name": "Candidate_0981eb30",
+  "position": "Frontend Developer",
+  "timestamp": "2026-01-18T12:34:45.735177",
+  "scores": {
+    "technical_score": 2.24,
+    "communication_score": 4.15,
+    "clarity_score": 5.02,
+    "confidence_score": 5.64,
+    "overall_score": 27.85
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 42.63,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.71
+  },
+  "proctoring_summary": {
+    "total_violations": 2,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.61
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 27.9/100). Not recommended at this time."
+}

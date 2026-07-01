@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. Let me know if you need clarification.",
+      "answer_duration": 26.402015399327205,
+      "pause_before_answer": 4.726060203113805
+    },
+    {
+      "question_number": 2,
+      "timestamp": 40.102722146054305,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 17.433305164220663,
+      "pause_before_answer": 4.645737235777899
+    },
+    {
+      "question_number": 3,
+      "timestamp": 67.22553493387812,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 40.66004247621918,
+      "pause_before_answer": 2.421485168660926
+    },
+    {
+      "question_number": 4,
+      "timestamp": 120.24924133757055,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 42.59308581216064,
+      "pause_before_answer": 1.4600953646211443
+    },
+    {
+      "question_number": 5,
+      "timestamp": 171.28528277070703,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 23.346677011202054,
+      "pause_before_answer": 4.748635763366243
+    },
+    {
+      "question_number": 6,
+      "timestamp": 206.5805707093143,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Let me know if you need clarification.",
+      "answer_duration": 26.321731778781228,
+      "pause_before_answer": 4.622303473586516
+    },
+    {
+      "question_number": 7,
+      "timestamp": 247.20543066438114,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. That's based on my experience.",
+      "answer_duration": 29.660184844322295,
+      "pause_before_answer": 4.209816695806041
+    },
+    {
+      "question_number": 8,
+      "timestamp": 287.41569743258344,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 35.60594947608432,
+      "pause_before_answer": 1.686234482477555
+    },
+    {
+      "question_number": 9,
+      "timestamp": 330.1049250153671,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 40.69850328293258,
+      "pause_before_answer": 3.879028967656133
+    },
+    {
+      "question_number": 10,
+      "timestamp": 382.87839430493295,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 30.40025515870385,
+      "pause_before_answer": 4.51511878175046
+    }
+  ]
+}

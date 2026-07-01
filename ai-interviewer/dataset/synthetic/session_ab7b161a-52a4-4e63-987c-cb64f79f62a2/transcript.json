@@ -1,0 +1,114 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 12,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 37.127638308274825,
+      "pause_before_answer": 2.289211855433696
+    },
+    {
+      "question_number": 2,
+      "timestamp": 45.882310825313084,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 25.726466229864748,
+      "pause_before_answer": 1.6007990039595632
+    },
+    {
+      "question_number": 3,
+      "timestamp": 81.30936169778184,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. I hope that answers your question.",
+      "answer_duration": 44.384783516678226,
+      "pause_before_answer": 2.2116934127923447
+    },
+    {
+      "question_number": 4,
+      "timestamp": 136.87264544187548,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 44.46742282375716,
+      "pause_before_answer": 3.365982281776904
+    },
+    {
+      "question_number": 5,
+      "timestamp": 193.63741870001303,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 19.06788882759075,
+      "pause_before_answer": 3.0133535816466748
+    },
+    {
+      "question_number": 6,
+      "timestamp": 225.70078146303604,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 25.179846499438128,
+      "pause_before_answer": 2.316701390049303
+    },
+    {
+      "question_number": 7,
+      "timestamp": 263.10471760370706,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 24.013938122023603,
+      "pause_before_answer": 2.4327813195212955
+    },
+    {
+      "question_number": 8,
+      "timestamp": 294.89165147768813,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. That's based on my experience.",
+      "answer_duration": 42.70036987419978,
+      "pause_before_answer": 1.6740975535082843
+    },
+    {
+      "question_number": 9,
+      "timestamp": 346.32039770081906,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 19.94053520026577,
+      "pause_before_answer": 3.6920664421272242
+    },
+    {
+      "question_number": 10,
+      "timestamp": 376.6550563742401,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 40.73954421627229,
+      "pause_before_answer": 2.770006030082916
+    },
+    {
+      "question_number": 11,
+      "timestamp": 426.9538642874453,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. Let me know if you need clarification.",
+      "answer_duration": 23.276802033517658,
+      "pause_before_answer": 1.4955737230452755
+    },
+    {
+      "question_number": 12,
+      "timestamp": 457.9688735365021,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 19.54788164960497,
+      "pause_before_answer": 1.0000276466528542
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 38.93293765930667,
+      "pause_before_answer": 3.7806582887322615
+    },
+    {
+      "question_number": 2,
+      "timestamp": 49.84697769505575,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 29.581190266056154,
+      "pause_before_answer": 3.678046673659412
+    },
+    {
+      "question_number": 3,
+      "timestamp": 91.71931281645652,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 23.54535336820225,
+      "pause_before_answer": 4.737111389573287
+    },
+    {
+      "question_number": 4,
+      "timestamp": 127.55676086898859,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 23.948236771991752,
+      "pause_before_answer": 4.457164836173261
+    },
+    {
+      "question_number": 5,
+      "timestamp": 163.98542657493357,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 25.61477337754119,
+      "pause_before_answer": 3.0335560338256142
+    },
+    {
+      "question_number": 6,
+      "timestamp": 197.82022931181757,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 29.259415710923165,
+      "pause_before_answer": 3.447642500212281
+    },
+    {
+      "question_number": 7,
+      "timestamp": 236.37333719792883,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. That's based on my experience.",
+      "answer_duration": 16.27093560859253,
+      "pause_before_answer": 4.601403502506869
+    },
+    {
+      "question_number": 8,
+      "timestamp": 266.5342683811115,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 28.551852007263975,
+      "pause_before_answer": 3.581175762706959
+    },
+    {
+      "question_number": 9,
+      "timestamp": 305.3254464983702,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 33.320196544466796,
+      "pause_before_answer": 2.672285354864595
+    },
+    {
+      "question_number": 10,
+      "timestamp": 349.2708364221629,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 29.989891708477522,
+      "pause_before_answer": 3.4978652900183262
+    }
+  ]
+}

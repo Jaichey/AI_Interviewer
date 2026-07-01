@@ -1,0 +1,105 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 11,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 29.98764486834748,
+      "pause_before_answer": 2.980547644220226
+    },
+    {
+      "question_number": 2,
+      "timestamp": 41.551090143899344,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. I hope that answers your question.",
+      "answer_duration": 15.609979132287828,
+      "pause_before_answer": 2.0991595349113097
+    },
+    {
+      "question_number": 3,
+      "timestamp": 65.22433878981838,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 43.550984037756734,
+      "pause_before_answer": 2.9995945130089012
+    },
+    {
+      "question_number": 4,
+      "timestamp": 117.1958699420554,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 41.356957842230926,
+      "pause_before_answer": 2.174738626424633
+    },
+    {
+      "question_number": 5,
+      "timestamp": 170.29716470608298,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 29.057186229325467,
+      "pause_before_answer": 1.1387015511432006
+    },
+    {
+      "question_number": 6,
+      "timestamp": 209.53624356950786,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Let me know if you need clarification.",
+      "answer_duration": 23.369009673823072,
+      "pause_before_answer": 1.5327603606052875
+    },
+    {
+      "question_number": 7,
+      "timestamp": 239.9634852026284,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Does that make sense?",
+      "answer_duration": 34.22192997567635,
+      "pause_before_answer": 3.2430895847491574
+    },
+    {
+      "question_number": 8,
+      "timestamp": 285.96104291381545,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 37.90358219587807,
+      "pause_before_answer": 2.0379987310701084
+    },
+    {
+      "question_number": 9,
+      "timestamp": 334.92585570841754,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Does that make sense?",
+      "answer_duration": 15.722984194378272,
+      "pause_before_answer": 3.8948942092479526
+    },
+    {
+      "question_number": 10,
+      "timestamp": 360.7519222762655,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 29.461062526906666,
+      "pause_before_answer": 1.3980020207337018
+    },
+    {
+      "question_number": 11,
+      "timestamp": 399.00001675963915,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 34.82786632384273,
+      "pause_before_answer": 1.4295170599287763
+    }
+  ]
+}

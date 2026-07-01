@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 22.695451365810687,
+      "pause_before_answer": 1.4587804004975555
+    },
+    {
+      "question_number": 2,
+      "timestamp": 32.384799110184126,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 37.03967735317634,
+      "pause_before_answer": 4.573325860430136
+    },
+    {
+      "question_number": 3,
+      "timestamp": 81.50023039754319,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 26.583503720856083,
+      "pause_before_answer": 2.799835262627351
+    },
+    {
+      "question_number": 4,
+      "timestamp": 119.12880515927185,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. Let me know if you need clarification.",
+      "answer_duration": 40.353896491421025,
+      "pause_before_answer": 3.2170936829852543
+    },
+    {
+      "question_number": 5,
+      "timestamp": 172.26177894062158,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 39.90325454961143,
+      "pause_before_answer": 1.9496748843134166
+    },
+    {
+      "question_number": 6,
+      "timestamp": 223.0800019014465,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 41.22956446159046,
+      "pause_before_answer": 1.4614317949506708
+    },
+    {
+      "question_number": 7,
+      "timestamp": 274.8229384292435,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 29.85845454256023,
+      "pause_before_answer": 2.76035243556401
+    },
+    {
+      "question_number": 8,
+      "timestamp": 313.20070429520973,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 28.549847184814002,
+      "pause_before_answer": 3.0438687382469567
+    },
+    {
+      "question_number": 9,
+      "timestamp": 351.29018803724534,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 29.85352110018919,
+      "pause_before_answer": 1.0305213640875714
+    },
+    {
+      "question_number": 10,
+      "timestamp": 390.76775685618776,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 30.79459538262116,
+      "pause_before_answer": 1.0923270976286612
+    }
+  ]
+}

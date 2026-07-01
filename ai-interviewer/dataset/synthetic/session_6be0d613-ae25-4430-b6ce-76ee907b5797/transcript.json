@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 19.380118666941023,
+      "pause_before_answer": 2.3975260991376652
+    },
+    {
+      "question_number": 2,
+      "timestamp": 27.525754149266497,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 19.762962357917466,
+      "pause_before_answer": 3.3425370116627504
+    },
+    {
+      "question_number": 3,
+      "timestamp": 59.69633230434055,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 25.40439742992437,
+      "pause_before_answer": 4.925625309329781
+    },
+    {
+      "question_number": 4,
+      "timestamp": 99.7028876530338,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. Let me know if you need clarification.",
+      "answer_duration": 17.372158966613362,
+      "pause_before_answer": 4.3665224376484595
+    },
+    {
+      "question_number": 5,
+      "timestamp": 127.07207288470116,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 38.65715679096951,
+      "pause_before_answer": 4.883442479202536
+    },
+    {
+      "question_number": 6,
+      "timestamp": 179.38992222890022,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 17.131672641479934,
+      "pause_before_answer": 1.0185118552384265
+    },
+    {
+      "question_number": 7,
+      "timestamp": 202.702113417952,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 15.948096029223375,
+      "pause_before_answer": 3.777187179639423
+    },
+    {
+      "question_number": 8,
+      "timestamp": 230.11613880324774,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 20.8470074306594,
+      "pause_before_answer": 2.0619263421727956
+    },
+    {
+      "question_number": 9,
+      "timestamp": 260.44843092574007,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 16.144963086158587,
+      "pause_before_answer": 2.115455210330405
+    },
+    {
+      "question_number": 10,
+      "timestamp": 288.45818174818754,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 20.915612014931533,
+      "pause_before_answer": 4.890627817786955
+    },
+    {
+      "question_number": 11,
+      "timestamp": 323.33804952192776,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 19.99410492284656,
+      "pause_before_answer": 1.1921738823120211
+    },
+    {
+      "question_number": 12,
+      "timestamp": 353.6463103304305,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 25.386479519485377,
+      "pause_before_answer": 4.799171880680739
+    },
+    {
+      "question_number": 13,
+      "timestamp": 388.9410344786796,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 31.61616560134613,
+      "pause_before_answer": 1.7817614811543168
+    },
+    {
+      "question_number": 14,
+      "timestamp": 432.1622135955354,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new. That's based on my experience.",
+      "answer_duration": 31.09129613346674,
+      "pause_before_answer": 1.2476420625280813
+    },
+    {
+      "question_number": 15,
+      "timestamp": 473.10520861697256,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 22.143178710433304,
+      "pause_before_answer": 3.387896590184634
+    }
+  ]
+}

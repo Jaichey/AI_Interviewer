@@ -1,0 +1,28 @@
+{
+  "session_id": "86ed2e58-1b96-4dae-9cbb-5f8cbd018f65",
+  "candidate_name": "Candidate_86ed2e58",
+  "position": "Machine Learning Engineer",
+  "timestamp": "2026-02-13T12:34:48.567384",
+  "scores": {
+    "technical_score": 3.43,
+    "communication_score": 3.96,
+    "clarity_score": 4.33,
+    "confidence_score": 5.17,
+    "overall_score": 35.06
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 37.63,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.61
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.51
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 35.1/100). Not recommended at this time."
+}

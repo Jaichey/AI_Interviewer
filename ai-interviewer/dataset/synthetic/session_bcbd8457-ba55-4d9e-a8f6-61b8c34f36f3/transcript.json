@@ -1,0 +1,78 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 8,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 39.75884947947449,
+      "pause_before_answer": 2.857075098800468
+    },
+    {
+      "question_number": 2,
+      "timestamp": 52.33189159557424,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 44.32163605760535,
+      "pause_before_answer": 2.3106999368971364
+    },
+    {
+      "question_number": 3,
+      "timestamp": 105.78571348550506,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 16.963351405624596,
+      "pause_before_answer": 2.0937074015536834
+    },
+    {
+      "question_number": 4,
+      "timestamp": 133.15980225244553,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 33.18479859390378,
+      "pause_before_answer": 2.7580241047900675
+    },
+    {
+      "question_number": 5,
+      "timestamp": 178.87346657083674,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 16.3874835823444,
+      "pause_before_answer": 1.0313602413935068
+    },
+    {
+      "question_number": 6,
+      "timestamp": 203.12491089942762,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 44.849828169263404,
+      "pause_before_answer": 2.5123499577104504
+    },
+    {
+      "question_number": 7,
+      "timestamp": 256.5941348648089,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Does that make sense?",
+      "answer_duration": 35.264174659864835,
+      "pause_before_answer": 3.993307618306716
+    },
+    {
+      "question_number": 8,
+      "timestamp": 303.2439777302221,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 24.712989007913638,
+      "pause_before_answer": 3.1960252576421198
+    }
+  ]
+}

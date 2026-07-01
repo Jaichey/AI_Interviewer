@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 18.074562791140725,
+      "pause_before_answer": 1.6080475456904666
+    },
+    {
+      "question_number": 2,
+      "timestamp": 25.254059181638652,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 18.27271340648621,
+      "pause_before_answer": 4.3847951639473965
+    },
+    {
+      "question_number": 3,
+      "timestamp": 55.18239321186873,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 36.190414721925066,
+      "pause_before_answer": 2.5419466249303806
+    },
+    {
+      "question_number": 4,
+      "timestamp": 99.59381762683984,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 41.142238462180536,
+      "pause_before_answer": 1.047725965243309
+    },
+    {
+      "question_number": 5,
+      "timestamp": 150.83467805748967,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 37.63961759273792,
+      "pause_before_answer": 2.800495627921683
+    },
+    {
+      "question_number": 6,
+      "timestamp": 197.80812915134112,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 38.41203256062468,
+      "pause_before_answer": 3.6600591614891624
+    },
+    {
+      "question_number": 7,
+      "timestamp": 248.62406901388403,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 36.21455043753734,
+      "pause_before_answer": 3.2089272611940824
+    },
+    {
+      "question_number": 8,
+      "timestamp": 295.9928290639504,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Let me know if you need clarification.",
+      "answer_duration": 28.545041484597824,
+      "pause_before_answer": 4.166963949924407
+    },
+    {
+      "question_number": 9,
+      "timestamp": 334.826263635444,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 43.096079846184935,
+      "pause_before_answer": 1.8950060133085103
+    }
+  ]
+}

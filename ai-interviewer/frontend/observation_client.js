@@ -4,9 +4,16 @@
  */
 
 export class ObservationClient {
-  constructor(backendUrl = window.location.origin) {
-// constructor(backendUrl = "http://localhost:8000") { // For local testing
-    this.backendUrl = backendUrl;
+  constructor(backendUrl = null) {
+    const fallbackBackendUrl = window.getBackendBaseUrl
+      ? window.getBackendBaseUrl()
+      : (window.location.protocol === "file:"
+        ? "http://localhost:8000"
+        : (window.location.port === "8000"
+          ? window.location.origin
+          : `${window.location.protocol}//${window.location.hostname}:8000`));
+
+    this.backendUrl = (backendUrl || fallbackBackendUrl).replace(/\/$/, "");
     this.running = false;
     this.videoElement = null;
     this.mediaStream = null;

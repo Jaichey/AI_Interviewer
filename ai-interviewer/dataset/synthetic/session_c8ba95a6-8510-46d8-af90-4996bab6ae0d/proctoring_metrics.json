@@ -1,0 +1,19 @@
+{
+  "total_violations": 2,
+  "violations": [
+    {
+      "timestamp": 1185.5220791786273,
+      "type": "MULTIPLE_PERSONS",
+      "severity": "CRITICAL",
+      "description": "Multiple people detected in frame"
+    },
+    {
+      "timestamp": 1344.1879835762538,
+      "type": "PHONE_DETECTED",
+      "severity": "HIGH",
+      "description": "Phone or device detected"
+    }
+  ],
+  "person_count_average": 1.1,
+  "suspicious_activity_score": 0.5574365275566343
+}

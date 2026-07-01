@@ -1,0 +1,28 @@
+{
+  "session_id": "5b4a4f1b-a075-43cf-a53a-7c079ff57440",
+  "candidate_name": "Candidate_5b4a4f1b",
+  "position": "System Architect",
+  "timestamp": "2026-01-27T12:35:56.551452",
+  "scores": {
+    "technical_score": 4.64,
+    "communication_score": 3.57,
+    "clarity_score": 4.12,
+    "confidence_score": 3.11,
+    "overall_score": 35.41
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 42.59,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.74
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.69
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 35.4/100). Not recommended at this time."
+}

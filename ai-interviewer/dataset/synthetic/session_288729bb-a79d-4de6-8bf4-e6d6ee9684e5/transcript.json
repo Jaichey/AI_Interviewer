@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 28.149562477799908,
+      "pause_before_answer": 2.0636374525012946
+    },
+    {
+      "question_number": 2,
+      "timestamp": 38.239781799387245,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 30.490076420534127,
+      "pause_before_answer": 2.0193155872054818
+    },
+    {
+      "question_number": 3,
+      "timestamp": 77.53306975751937,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. I hope that answers your question.",
+      "answer_duration": 23.7098287356136,
+      "pause_before_answer": 3.6211987009450834
+    },
+    {
+      "question_number": 4,
+      "timestamp": 112.5628212444955,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 15.96723251794145,
+      "pause_before_answer": 2.1715476405388245
+    },
+    {
+      "question_number": 5,
+      "timestamp": 140.06746835639655,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 30.108881795422803,
+      "pause_before_answer": 1.8031276655321884
+    },
+    {
+      "question_number": 6,
+      "timestamp": 177.95280619872722,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 37.47520498203148,
+      "pause_before_answer": 1.67534886891822
+    },
+    {
+      "question_number": 7,
+      "timestamp": 225.9795341836807,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 20.684212391227526,
+      "pause_before_answer": 4.286153791580919
+    },
+    {
+      "question_number": 8,
+      "timestamp": 255.95818442061253,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 41.96509209333223,
+      "pause_before_answer": 1.892642894099541
+    },
+    {
+      "question_number": 9,
+      "timestamp": 309.7034952929737,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 36.76404737465046,
+      "pause_before_answer": 3.01745796789348
+    },
+    {
+      "question_number": 10,
+      "timestamp": 356.6416061567353,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 34.53461596463016,
+      "pause_before_answer": 3.820434872651
+    },
+    {
+      "question_number": 11,
+      "timestamp": 400.9727931312846,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Let me know if you need clarification.",
+      "answer_duration": 40.112351473257405,
+      "pause_before_answer": 2.054178974888444
+    },
+    {
+      "question_number": 12,
+      "timestamp": 451.05596407193934,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 27.243176212576447,
+      "pause_before_answer": 1.4553432181490829
+    },
+    {
+      "question_number": 13,
+      "timestamp": 489.1846074042599,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Does that make sense?",
+      "answer_duration": 38.43926958053257,
+      "pause_before_answer": 3.4136071824617953
+    },
+    {
+      "question_number": 14,
+      "timestamp": 538.2479863684387,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 21.67271278764508,
+      "pause_before_answer": 3.7683693814328576
+    },
+    {
+      "question_number": 15,
+      "timestamp": 572.1580671672947,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 42.58650128419945,
+      "pause_before_answer": 1.109886729696567
+    }
+  ]
+}

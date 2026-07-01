@@ -1,0 +1,29 @@
+{
+  "session_id": "2ff3113e-b46c-4ccd-8df9-677a95858ffe",
+  "candidate_name": "Candidate_2ff3113e",
+  "position": "QA Engineer",
+  "timestamp": "2026-01-26T12:35:57.768074",
+  "scores": {
+    "technical_score": 2.28,
+    "communication_score": 4.23,
+    "clarity_score": 5.82,
+    "confidence_score": 3.99,
+    "overall_score": 27.33
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 33.74,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.76
+  },
+  "proctoring_summary": {
+    "total_violations": 2,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.72
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 27.3/100). Not recommended at this time."
+}

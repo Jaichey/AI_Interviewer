@@ -1,0 +1,105 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 11,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 33.26372684964652,
+      "pause_before_answer": 2.729469908546885
+    },
+    {
+      "question_number": 2,
+      "timestamp": 44.19482897099749,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 43.03634260741465,
+      "pause_before_answer": 3.934376791954056
+    },
+    {
+      "question_number": 3,
+      "timestamp": 98.5606318460459,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 15.409476567982278,
+      "pause_before_answer": 2.514697288565177
+    },
+    {
+      "question_number": 4,
+      "timestamp": 122.75794699322181,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 23.3485119576187,
+      "pause_before_answer": 3.8500691863931076
+    },
+    {
+      "question_number": 5,
+      "timestamp": 158.69257229377627,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. That's based on my experience.",
+      "answer_duration": 36.44501842605233,
+      "pause_before_answer": 4.24294446317078
+    },
+    {
+      "question_number": 6,
+      "timestamp": 206.59243048169776,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 21.900507215385602,
+      "pause_before_answer": 3.541900771778558
+    },
+    {
+      "question_number": 7,
+      "timestamp": 240.9184444866862,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Does that make sense?",
+      "answer_duration": 37.59408312514316,
+      "pause_before_answer": 1.7311284277830832
+    },
+    {
+      "question_number": 8,
+      "timestamp": 286.98197037609185,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 25.89656307455724,
+      "pause_before_answer": 1.4778171405722365
+    },
+    {
+      "question_number": 9,
+      "timestamp": 322.48520029464936,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Let me know if you need clarification.",
+      "answer_duration": 33.43928362394735,
+      "pause_before_answer": 4.500963991602362
+    },
+    {
+      "question_number": 10,
+      "timestamp": 366.0124909739184,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 43.94030244717759,
+      "pause_before_answer": 2.473546563492424
+    },
+    {
+      "question_number": 11,
+      "timestamp": 421.22607588856874,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 26.13908859763611,
+      "pause_before_answer": 2.2269509792269027
+    }
+  ]
+}

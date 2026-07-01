@@ -1,12 +1,52 @@
-import * as THREE from "https://esm.sh/three@0.158.0";
-import { GLTFLoader } from "https://esm.sh/three@0.158.0/examples/jsm/loaders/GLTFLoader.js";
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 // Avatar model URLs for Jai, Chey, Sree
 const AVATAR_MODELS = [
-  "https://models.readyplayer.me/695b9b4d1c1817592c44c47e.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024", // Jai
-  "https://models.readyplayer.me/695b9c91e2b2692fdd9978a5.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024", // Chey
-  "https://models.readyplayer.me/695ba8cf452afe2bbfb84647.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024"  // Sree
+  // "https://models.readyplayer.me/695b9b4d1c1817592c44c47e.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024", // Jai
+  // "https://models.readyplayer.me/695b9c91e2b2692fdd9978a5.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024", // Chey
+  // "https://models.readyplayer.me/695ba8cf452afe2bbfb84647.glb?morphTargets=ARKit,Oculus+Visemes&textureAtlas=1024"  // Sree
+  "./Avatars/Chey.glb",
+  "./Avatars/Jai.glb",
+  "./Avatars/Sree.glb"
 ];
+
+// Default framing for each avatar. Tune these values to move or zoom an avatar.
+const DEFAULT_AVATAR_FRAME_CONFIG = [
+  { targetHeight: 0.45, zoom: 2.2, x: 0, y: -0.4, z: 0 },
+  { targetHeight: 0.45, zoom: 2.2, x: 0, y: -0.4, z: 0 },
+  { targetHeight: 0.45, zoom: 2.2, x: 0, y: -0.4, z: 0 }
+];
+
+window.avatarFrameConfig = window.avatarFrameConfig || {};
+
+function getAvatarFrameConfig(index) {
+  const defaults = DEFAULT_AVATAR_FRAME_CONFIG[index % DEFAULT_AVATAR_FRAME_CONFIG.length];
+  const overrides = window.avatarFrameConfig[index] || {};
+  return { ...defaults, ...overrides };
+}
+
+function fitAvatarToFrame(avatarObject, index) {
+  const frame = getAvatarFrameConfig(index);
+  const box = new THREE.Box3().setFromObject(avatarObject);
+  const size = box.getSize(new THREE.Vector3());
+
+  const scale = (frame.targetHeight * (frame.zoom || 1)) / Math.max(size.y || 1, 1e-6);
+  avatarObject.scale.setScalar(scale);
+
+  const scaledBox = new THREE.Box3().setFromObject(avatarObject);
+
+const center = scaledBox.getCenter(new THREE.Vector3());
+
+// Shift the model upward so the face is visible
+avatarObject.position.set(
+  -center.x + (frame.x || 0),
+  -center.y + size.y * 0.35 + (frame.y || 0),
+  -center.z + (frame.z || 0)
+);
+
+  return frame;
+}
 
 // Store state per canvas/avatar instance
 const avatarInstances = new Map();
@@ -26,6 +66,7 @@ let morphTargets = {};
 let visemeOrder = ["viseme_aa", "viseme_ee", "viseme_oh", "viseme_sil"];
 let blinkActive = false;
 let nodPhase = 0;
+let basePositionY = -0.1;
 
 // Avatar instance class
 class AvatarInstance {
@@ -45,12 +86,13 @@ class AvatarInstance {
     this.visemeOrder = ["viseme_aa", "viseme_ee", "viseme_oh", "viseme_sil"];
     this.blinkActive = false;
     this.nodPhase = 0;
+    this.basePositionY = -1.6;
   }
 
   init() {
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(0xf9fafb);
-    
+
     this.camera = new THREE.PerspectiveCamera(50, this.canvas.clientWidth / this.canvas.clientHeight, 0.1, 100);
     this.camera.position.set(0, 0.5, 0.5);
 
@@ -78,23 +120,15 @@ class AvatarInstance {
     const match = this.canvas.id.match(/avatar-canvas-(\d+)/);
     const avatarIndex = match ? parseInt(match[1]) : 0;
     const modelUrl = AVATAR_MODELS[avatarIndex % AVATAR_MODELS.length];
+    this.avatarIndex = avatarIndex;
 
     loader.load(
       modelUrl,
       (gltf) => {
         this.avatar = gltf.scene;
 
-        // Normalize per-model framing so all avatars sit at the same vertical level
-        const scale = new THREE.Vector3(1.4, 1.25, 0.8);
-        let yOffset = -1.6;
-        if (avatarIndex === 1) {
-          // Chey model rides a bit low; lift and slightly reduce scale to match others
-          scale.set(1.35, 1.3, 0.8);
-          yOffset = -1.48;
-        }
-
-        this.avatar.scale.copy(scale);
-        this.avatar.position.set(0, yOffset, 0);
+        const frame = fitAvatarToFrame(this.avatar, avatarIndex);
+        this.basePositionY = frame.y || 0;
         this.scene.add(this.avatar);
 
         this.avatar.traverse((obj) => {
@@ -112,7 +146,7 @@ class AvatarInstance {
               Object.entries(obj.morphTargetDictionary).forEach(([key, idx]) => {
                 this.morphTargets[key] = idx;
               });
-              
+
               // LeePerrySmith has limited/no morph targets - log warning
               const morphCount = Object.keys(obj.morphTargetDictionary).length;
               if (morphCount === 0) {
@@ -152,7 +186,7 @@ class AvatarInstance {
     body.position.y = -0.9;
     this.avatar.add(head);
     this.avatar.add(body);
-    this.avatar.position.set(0, -1.2, 0);
+    this.avatar.position.set(0, this.basePositionY, 0);
     this.scene.add(this.avatar);
     this.canvas.addEventListener("resize", () => this.resize());
     this.animate();
@@ -170,15 +204,16 @@ class AvatarInstance {
     this.frameId = requestAnimationFrame(this.animate);
     if (this.avatar) {
       const t = Date.now() * 0.0004;
-      
+
       // More natural head movement - slight side to side sway
       const sway = Math.sin(t) * 0.08;
       this.avatar.rotation.y = sway;
-      
+
       // Subtle bobbing motion
       const bobAmount = Math.cos(t * 0.5) * 0.02;
-      this.avatar.position.y = -1.6 + bobAmount;
-      
+      // this.avatar.position.y = this.basePositionY + bobAmount;
+      this.avatar.position.y = this.basePositionY;
+
       // Add more expressive head movement during speech
       if (this.currentState === "speaking" && this.headBone) {
         // More pronounced nodding during speech
@@ -193,7 +228,7 @@ class AvatarInstance {
         this.headBone.rotation.x = THREE.MathUtils.lerp(this.headBone.rotation.x, 0, 0.1);
         this.headBone.rotation.z = THREE.MathUtils.lerp(this.headBone.rotation.z, 0, 0.1);
       }
-      
+
       // head tilt for thinking (slight side tilt)
       if (this.currentState === "thinking" && this.headBone) {
         this.headBone.rotation.z = THREE.MathUtils.lerp(this.headBone.rotation.z, 0.08, 0.1);
@@ -268,30 +303,30 @@ class AvatarInstance {
   startMouth() {
     if (!this.faceMesh) return;
     this.stopMouth();
-    
+
     // Set state to speaking for head movement animation
     this.currentState = "speaking";
-    
+
     let visemeIdx = 0;
     let lastViseme = null;
-    
+
     this.mouthTimer = setInterval(() => {
       // Try standard viseme targets first
       if ("viseme_aa" in this.morphTargets || "viseme_AA" in this.morphTargets) {
         // Vary mouth movement more naturally
         const visemeSequence = ["viseme_aa", "viseme_ee", "viseme_oh", "viseme_sil", "viseme_ee", "viseme_aa"];
         const currentViseme = visemeSequence[visemeIdx % visemeSequence.length];
-        
+
         // Reset all visemes
         this.setMorph("viseme_aa", 0);
         this.setMorph("viseme_ee", 0);
         this.setMorph("viseme_oh", 0);
         this.setMorph("viseme_sil", 0);
-        
+
         // Set current with varying intensity
         const intensity = 0.5 + Math.random() * 0.35; // Random intensity 0.5-0.85
         this.setMorph(currentViseme, intensity);
-        
+
         visemeIdx += 1;
       } else {
         // Fallback: generic jaw/mouth opening animation with more natural motion
@@ -299,7 +334,7 @@ class AvatarInstance {
         const baseOpen = (Math.sin(t) * 0.5 + 0.5) * 0.35;
         const noise = Math.random() * 0.1;
         const openAmount = Math.min(0.45, baseOpen + noise);
-        
+
         // Try common morph target names for mouth/jaw
         this.setMorph("mouthOpen", openAmount);
         this.setMorph("jawOpen", openAmount);
@@ -313,10 +348,10 @@ class AvatarInstance {
       clearInterval(this.mouthTimer);
       this.mouthTimer = undefined;
     }
-    
+
     // Reset state to neutral
     this.currentState = "neutral_listening";
-    
+
     // Smooth reset of all visemes
     this.setMorph("viseme_aa", 0);
     this.setMorph("viseme_ee", 0);
@@ -364,7 +399,7 @@ export function initAvatar(canvas) {
   // Single avatar mode (backward compatibility)
   scene = new THREE.Scene();
   scene.background = new THREE.Color(0xf9fafb);
-  
+
   camera = new THREE.PerspectiveCamera(50, canvas.clientWidth / canvas.clientHeight, 0.1, 100);
   camera.position.set(0, 0.5, 0.5);
 
@@ -395,8 +430,9 @@ export function initAvatar(canvas) {
     modelUrl,
     (gltf) => {
       avatar = gltf.scene;
-      avatar.scale.set(1.4, 1.3, 0.8);
-      avatar.position.set(0, -1.6, 0);
+
+      const frame = fitAvatarToFrame(avatar, 0);
+      basePositionY = frame.y || 0;
       scene.add(avatar);
 
       avatar.traverse((obj) => {
@@ -414,7 +450,7 @@ export function initAvatar(canvas) {
             Object.entries(obj.morphTargetDictionary).forEach(([key, idx]) => {
               morphTargets[key] = idx;
             });
-            
+
             // LeePerrySmith has limited/no morph targets - log warning
             const morphCount = Object.keys(obj.morphTargetDictionary).length;
             if (morphCount === 0) {
@@ -454,7 +490,7 @@ function createPlaceholderAvatar() {
   body.position.y = -0.9;
   avatar.add(head);
   avatar.add(body);
-  avatar.position.set(0, -1.2, 0);
+  avatar.position.set(0, basePositionY, 0);
   scene.add(avatar);
   window.addEventListener("resize", () => resize(renderer.domElement));
   animate();
@@ -473,7 +509,8 @@ function animate() {
   if (avatar) {
     const t = Date.now() * 0.0004;
     avatar.rotation.y = Math.sin(t) * 0.05;
-    avatar.position.y = -1.6 + Math.cos(t * 0.5) * 0.01;
+    // avatar.position.y = basePositionY + Math.cos(t * 0.5) * 0.01;
+    avatar.position.y = basePositionY;
     // gentle nod when attentive
     if (currentState === "attentive_nod" && headBone) {
       nodPhase += 0.04;

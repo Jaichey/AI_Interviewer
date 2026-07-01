@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 41.576083400832815,
+      "pause_before_answer": 4.241355808279474
+    },
+    {
+      "question_number": 2,
+      "timestamp": 53.34030144902593,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 42.51325464484822,
+      "pause_before_answer": 1.2873528124197975
+    },
+    {
+      "question_number": 3,
+      "timestamp": 104.28206620034565,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 29.176875591909557,
+      "pause_before_answer": 4.673264561536441
+    },
+    {
+      "question_number": 4,
+      "timestamp": 143.3748124281325,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 27.20465209738024,
+      "pause_before_answer": 2.4846285520347893
+    },
+    {
+      "question_number": 5,
+      "timestamp": 181.56136843305683,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. That's based on my experience.",
+      "answer_duration": 23.10955931649303,
+      "pause_before_answer": 1.622615087217667
+    },
+    {
+      "question_number": 6,
+      "timestamp": 212.06289640296325,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 25.06989203789346,
+      "pause_before_answer": 1.0807439670610073
+    },
+    {
+      "question_number": 7,
+      "timestamp": 247.89306253282257,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 40.415314071055946,
+      "pause_before_answer": 4.471595251595916
+    },
+    {
+      "question_number": 8,
+      "timestamp": 301.02262341543127,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. I hope that answers your question.",
+      "answer_duration": 35.712888976034414,
+      "pause_before_answer": 1.880339479451075
+    },
+    {
+      "question_number": 9,
+      "timestamp": 347.15894509677076,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 21.64637687120843,
+      "pause_before_answer": 4.576688447179819
+    },
+    {
+      "question_number": 10,
+      "timestamp": 383.1626100092283,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 40.4242188069836,
+      "pause_before_answer": 3.6265696401010152
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 22.257025928349066,
+      "pause_before_answer": 3.6033894348611186
+    },
+    {
+      "question_number": 2,
+      "timestamp": 32.614001557326475,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 44.35897210962318,
+      "pause_before_answer": 3.059865955620024
+    },
+    {
+      "question_number": 3,
+      "timestamp": 86.16008993414184,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 25.75959864548567,
+      "pause_before_answer": 2.8691476818939776
+    },
+    {
+      "question_number": 4,
+      "timestamp": 124.49571299686414,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. That's based on my experience.",
+      "answer_duration": 30.788483075851666,
+      "pause_before_answer": 3.3712212849096463
+    },
+    {
+      "question_number": 5,
+      "timestamp": 164.9947679441931,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Does that make sense?",
+      "answer_duration": 22.78779159658825,
+      "pause_before_answer": 2.753283892466421
+    },
+    {
+      "question_number": 6,
+      "timestamp": 195.83713871154242,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. Does that make sense?",
+      "answer_duration": 40.17718211021838,
+      "pause_before_answer": 3.049079240212567
+    },
+    {
+      "question_number": 7,
+      "timestamp": 245.7250185727079,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 34.39192414411738,
+      "pause_before_answer": 2.545721744601485
+    },
+    {
+      "question_number": 8,
+      "timestamp": 289.48161670187113,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 42.537163578772386,
+      "pause_before_answer": 3.466595149034391
+    },
+    {
+      "question_number": 9,
+      "timestamp": 344.37449399382103,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 35.39370605278404,
+      "pause_before_answer": 3.8217903506621784
+    },
+    {
+      "question_number": 10,
+      "timestamp": 391.4436629856161,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. That's based on my experience.",
+      "answer_duration": 21.876468270031673,
+      "pause_before_answer": 1.577306604898943
+    },
+    {
+      "question_number": 11,
+      "timestamp": 424.3563492600231,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 26.76009706037715,
+      "pause_before_answer": 4.935088717145251
+    },
+    {
+      "question_number": 12,
+      "timestamp": 465.4900110138458,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 21.59043924022446,
+      "pause_before_answer": 1.358535948120081
+    },
+    {
+      "question_number": 13,
+      "timestamp": 493.64872226578126,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 33.85084259330648,
+      "pause_before_answer": 2.0482305888724865
+    },
+    {
+      "question_number": 14,
+      "timestamp": 538.5743278021769,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 25.83666286409494,
+      "pause_before_answer": 4.966631204567406
+    }
+  ]
+}

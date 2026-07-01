@@ -1,0 +1,123 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 13,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Does that make sense?",
+      "answer_duration": 18.883038674896717,
+      "pause_before_answer": 3.257953023800824
+    },
+    {
+      "question_number": 2,
+      "timestamp": 31.503185291757635,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 23.738920477014105,
+      "pause_before_answer": 4.611153778804834
+    },
+    {
+      "question_number": 3,
+      "timestamp": 68.27066540412163,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 30.545985349274126,
+      "pause_before_answer": 3.9812786313666226
+    },
+    {
+      "question_number": 4,
+      "timestamp": 112.44319765721133,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 33.92871610777866,
+      "pause_before_answer": 2.9697405893410838
+    },
+    {
+      "question_number": 5,
+      "timestamp": 154.876085567596,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 15.627220026482105,
+      "pause_before_answer": 1.4434190199763868
+    },
+    {
+      "question_number": 6,
+      "timestamp": 177.91273916463354,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 21.20213959833272,
+      "pause_before_answer": 3.031269209450563
+    },
+    {
+      "question_number": 7,
+      "timestamp": 209.982710125091,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 27.288285101061682,
+      "pause_before_answer": 3.9040832937593604
+    },
+    {
+      "question_number": 8,
+      "timestamp": 247.94604310197352,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 38.98871499861195,
+      "pause_before_answer": 2.231451480677581
+    },
+    {
+      "question_number": 9,
+      "timestamp": 296.20413408722794,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new. I hope that answers your question.",
+      "answer_duration": 28.2549281830591,
+      "pause_before_answer": 3.7662291657961804
+    },
+    {
+      "question_number": 10,
+      "timestamp": 338.17192861315675,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Let me know if you need clarification.",
+      "answer_duration": 24.34890845228395,
+      "pause_before_answer": 3.0064419836612797
+    },
+    {
+      "question_number": 11,
+      "timestamp": 371.046495556795,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 39.97977157482789,
+      "pause_before_answer": 4.062869442550546
+    },
+    {
+      "question_number": 12,
+      "timestamp": 420.82073482008116,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. I hope that answers your question.",
+      "answer_duration": 37.2311406686999,
+      "pause_before_answer": 4.755224707751827
+    },
+    {
+      "question_number": 13,
+      "timestamp": 471.9678433559303,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 38.624314807640246,
+      "pause_before_answer": 3.2049176245711815
+    }
+  ]
+}

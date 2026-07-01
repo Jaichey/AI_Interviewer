@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 25.09422781493874,
+      "pause_before_answer": 2.7357383750690203
+    },
+    {
+      "question_number": 2,
+      "timestamp": 33.354765778615125,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Does that make sense?",
+      "answer_duration": 33.38654047232548,
+      "pause_before_answer": 1.1518582866488822
+    },
+    {
+      "question_number": 3,
+      "timestamp": 75.47261484839083,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 30.548190652840063,
+      "pause_before_answer": 1.7238076293527835
+    },
+    {
+      "question_number": 4,
+      "timestamp": 115.98898455495264,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 40.94146458642573,
+      "pause_before_answer": 4.170862160224935
+    },
+    {
+      "question_number": 5,
+      "timestamp": 169.40875840235287,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 28.737486711029646,
+      "pause_before_answer": 3.8007802473557577
+    },
+    {
+      "question_number": 6,
+      "timestamp": 209.87075490009605,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. Does that make sense?",
+      "answer_duration": 17.388158383757908,
+      "pause_before_answer": 3.1514649132090065
+    },
+    {
+      "question_number": 7,
+      "timestamp": 239.10271719162137,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 30.338342959913607,
+      "pause_before_answer": 4.870685398297064
+    },
+    {
+      "question_number": 8,
+      "timestamp": 283.6415938407013,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 18.608240121022163,
+      "pause_before_answer": 3.352327807765579
+    },
+    {
+      "question_number": 9,
+      "timestamp": 315.2548400874989,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 38.80252692993626,
+      "pause_before_answer": 2.8442805711494255
+    }
+  ]
+}

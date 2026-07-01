@@ -3,6 +3,25 @@ import { ObservationClient } from "./observation_client.js";
 import { toast } from "./toast.js";
 import { InterviewState, QuestionBank, COMPANY_BEHAVIORS } from "./interview-state.js";
 
+function getBackendBaseUrl() {
+  const explicitUrl = window.__BACKEND_URL__ || document.querySelector('meta[name="backend-url"]')?.content?.trim();
+  if (explicitUrl) {
+    return explicitUrl.replace(/\/$/, "");
+  }
+
+  if (window.location.protocol === "file:") {
+    return "http://localhost:8000";
+  }
+
+  if (window.location.port === "8000") {
+    return window.location.origin;
+  }
+
+  return `${window.location.protocol}//${window.location.hostname}:8000`;
+}
+
+window.getBackendBaseUrl = getBackendBaseUrl;
+
 /**
  * Wrap toast methods to automatically reposition after showing
  */
@@ -98,9 +117,47 @@ let audioAnimationFrame = null;
 
 // Consent modal
 const consentModal = document.getElementById("consent-modal");
+const startOverlay = document.getElementById("start-overlay");
 const consentAccept = document.getElementById("consent-accept");
 const consentDecline = document.getElementById("consent-decline");
 let consentGiven = false;
+let autoStartTriggered = false;
+
+function showStartOverlay() {
+  if (startOverlay) {
+    startOverlay.classList.remove("hidden");
+  }
+}
+
+function hideStartOverlay() {
+  if (startOverlay) {
+    startOverlay.classList.add("hidden");
+  }
+}
+
+function autoSubmitStartPrompt() {
+  if (autoStartTriggered) {
+    return;
+  }
+
+  autoStartTriggered = true;
+  showStartOverlay();
+
+  window.setTimeout(() => {
+    if (!connected || waitingForAI) {
+      hideStartOverlay();
+      return;
+    }
+
+    inputEl.disabled = false;
+    formEl.querySelector("button[type='submit']").disabled = false;
+    speakBtn.disabled = false;
+    inputEl.value = "start";
+    inputEl.focus();
+    sendUserMessage("start");
+    hideStartOverlay();
+  }, 350);
+}
 
 consentAccept.addEventListener("click", async () => {
   console.log("[DEBUG] Consent accepted, starting camera...");
@@ -468,8 +525,8 @@ function setSpeakingAvatar(index, isSpeaking) {
   });
 }
 
-// const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.hostname}:8000/ws`; // For local testing
-const wsUrl = `${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}/ws`;
+const backendBaseUrl = getBackendBaseUrl();
+const wsUrl = `${backendBaseUrl.replace(/^http/, "ws")}/ws`;
 
 
 startBtn.addEventListener("click", () => {
@@ -581,6 +638,8 @@ function connect() {
       interviewStarted = false;
       waitingForAI = false;
       handshakeComplete = false;
+      autoStartTriggered = false;
+      hideStartOverlay();
       connectionLabel.textContent = "disconnected";
       setStartButtonState("idle");
       stopMouth();
@@ -597,6 +656,8 @@ function connect() {
       // Disconnected during connection attempt
       connecting = false;
       setStartButtonState("idle");
+      autoStartTriggered = false;
+      hideStartOverlay();
       connectionLabel.textContent = "disconnected";
       console.error("[ERROR] WebSocket disconnected before handshake");
       alert("Unable to connect to interview server. Please try again.");
@@ -608,6 +669,8 @@ function connect() {
     if (!handshakeComplete) {
       connecting = false;
       setStartButtonState("idle");
+      autoStartTriggered = false;
+      hideStartOverlay();
       alert("Unable to connect to interview server. Please try again.");
     }
     appendMessage("System", "WebSocket error - check if backend is running");
@@ -664,12 +727,16 @@ function handleAiMessage(payload) {
     formEl.querySelector("button[type='submit']").disabled = false;
     speakBtn.disabled = false;
     inputEl.placeholder = "Say 'hello' or 'ready' to begin...";
+    if (/\bstart\b/i.test(response)) {
+      autoSubmitStartPrompt();
+    }
   } else if (state === "CLOSURE") {
     interviewStarted = false;
     continuousMode = false;
     inputEl.disabled = true;
     formEl.querySelector("button[type='submit']").disabled = true;
     speakBtn.disabled = true;
+    hideStartOverlay();
     appendMessage("System", "Interview completed. Thank you!");
   } else {
     interviewStarted = true;
@@ -872,6 +939,15 @@ function displayWarnings(warnings) {
     
     toast[toastType](message);
     console.log(`[WARNINGS] Toast ${index + 1}: ${warning.type} - ${message}`);
+    
+    // Increment warning counter
+    if (!window.warningCount) window.warningCount = 0;
+    window.warningCount++;
+    
+    const warningCountEl = document.getElementById("metric-warnings");
+    if (warningCountEl) {
+      warningCountEl.textContent = window.warningCount;
+    }
   });
 }
 
@@ -893,8 +969,134 @@ function updateObservationMetrics(observation) {
   const emotion = observation.emotion || {};
   const face = observation.face || {};
 
+  // === PROCTORING DASHBOARD UPDATES ===
+  
+  // Eye Contact %
+  const eyeContactValueEl = document.getElementById("metric-eye-contact");
+  const eyeContactIndEl = document.getElementById("indicator-eye-contact");
+  if (eyeContactValueEl && eyeContactIndEl) {
+    if (!face.face_detected) {
+      eyeContactValueEl.textContent = "0%";
+      eyeContactIndEl.className = "metric-indicator critical";
+    } else {
+      const confidence = face.eye_contact_confidence || 0;
+      const percentage = Math.round(confidence * 100);
+      eyeContactValueEl.textContent = `${percentage}%`;
+      
+      if (percentage >= 60) {
+        eyeContactIndEl.className = "metric-indicator good";
+      } else if (percentage >= 30) {
+        eyeContactIndEl.className = "metric-indicator warning";
+      } else {
+        eyeContactIndEl.className = "metric-indicator critical";
+      }
+    }
+  }
+
+  // Gaze Direction
+  const gazeEl = document.getElementById("metric-gaze");
+  if (gazeEl) {
+    const gazeDir = face.gaze_direction || "unknown";
+    gazeEl.textContent = gazeDir.toUpperCase();
+  }
+
+  // Head Pose
+  const headPoseEl = document.getElementById("metric-head-pose");
+  if (headPoseEl) {
+    const yaw = face.head_yaw || 0;
+    const pitch = face.head_pitch || 0;
+    headPoseEl.textContent = `Yaw: ${Math.round(yaw)}° | Pitch: ${Math.round(pitch)}°`;
+  }
+
+  // Blink Rate  
+  const blinkEl = document.getElementById("metric-blink");
+  if (blinkEl) {
+    const blinkCount = face.blink_count || 0;
+    // Approximate blink rate (assuming we've been running for a while)
+    const blinkRate = Math.min(30, Math.max(0, blinkCount));
+    blinkEl.textContent = `${blinkRate}/min`;
+  }
+
+  // Emotion
+  const emotionValueEl = document.getElementById("metric-emotion");
+  const emotionIndEl = document.getElementById("indicator-emotion");
+  if (emotionValueEl && emotionIndEl) {
+    const emo = emotion.emotion || "unknown";
+    emotionValueEl.textContent = emo;
+    
+    const positiveEmotions = ["happy", "confident", "neutral"];
+    const nervousEmotions = ["nervous", "stressed", "sad"];
+    
+    if (positiveEmotions.includes(emo.toLowerCase())) {
+      emotionIndEl.className = "metric-indicator good";
+    } else if (nervousEmotions.includes(emo.toLowerCase())) {
+      emotionIndEl.className = "metric-indicator warning";
+    } else {
+      emotionIndEl.className = "metric-indicator";
+    }
+  }
+
+  // Stress Level
+  const stressValueEl = document.getElementById("metric-stress");
+  const stressIndEl = document.getElementById("indicator-stress");
+  if (stressValueEl && stressIndEl) {
+    const stress = audio.stress_level || emotion.stress_level || "low";
+    const stressText = stress === "calibrating" ? "low" : stress;
+    stressValueEl.textContent = stressText;
+    
+    if (stressText === "high") {
+      stressIndEl.className = "metric-indicator critical";
+    } else if (stressText === "medium") {
+      stressIndEl.className = "metric-indicator warning";
+    } else {
+      stressIndEl.className = "metric-indicator good";
+    }
+  }
+
+  // Person Count
+  const personsValueEl = document.getElementById("metric-persons");
+  const personsIndEl = document.getElementById("indicator-persons");
+  if (personsValueEl && personsIndEl) {
+    const personCount = face.face_count || (face.face_detected ? 1 : 0);
+    const multipleDetected = face.multiple_faces || personCount > 1;
+    
+    personsValueEl.textContent = personCount;
+    
+    if (multipleDetected || personCount > 1) {
+      personsIndEl.className = "metric-indicator critical";
+    } else if (personCount === 1) {
+      personsIndEl.className = "metric-indicator good";
+    } else {
+      personsIndEl.className = "metric-indicator warning";
+    }
+  }
+
+  // Warnings Count (track cumulative)
+  if (!window.warningCount) window.warningCount = 0;
+  // (warnings are handled separately in displayWarnings function)
+
+  // Suspicious Score
+  const suspiciousValueEl = document.getElementById("metric-suspicious");
+  const suspiciousFillEl = document.getElementById("suspicious-fill");
+  if (suspiciousValueEl && suspiciousFillEl) {
+    // Calculate suspicious score based on violations
+    let suspiciousScore = 0;
+    
+    if (face.multiple_faces || (face.face_count || 0) > 1) suspiciousScore += 40;
+    if (face.looking_away) suspiciousScore += 10;
+    if (!face.face_detected) suspiciousScore += 15;
+    if (audio.stress_level === "high") suspiciousScore += 10;
+    
+    suspiciousScore = Math.min(100, suspiciousScore);
+    
+    suspiciousValueEl.textContent = `${suspiciousScore}%`;
+    suspiciousFillEl.style.width = `${suspiciousScore}%`;
+  }
+
+  // === LEGACY METRIC UPDATES (if elements exist) ===
+  
   // Eye contact score (based on looking_at_camera + confidence)
-  const eyeContactEl = document.getElementById("metric-eye-contact");
+  const eyeContactEl = document.getElementById("metric-eye-contact-old");
   const eyeContactBar = document.getElementById("metric-eye-contact-bar");
   if (eyeContactEl) {
     if (!face.face_detected) {
@@ -915,18 +1117,6 @@ function updateObservationMetrics(observation) {
     const focusScore = face.looking_away ? 3 : (face.looking_at_camera ? 9 : 6);
     focusEl.textContent = focusScore;
     if (focusBar) focusBar.style.width = `${(focusScore / 10) * 100}%`;
-  }
-
-  // Stress level
-  const stressEl = document.getElementById("metric-stress");
-  const stressBar = document.getElementById("metric-stress-bar");
-  if (stressEl) {
-    const stress = audio.stress_level || emotion.stress_level || "low";
-    stressEl.textContent = stress === "calibrating" ? "calibrating" : stress;
-    if (stressBar) {
-      const stressNumeric = stress === "high" ? 8 : stress === "medium" ? 5 : 2;
-      stressBar.style.width = `${(stressNumeric / 10) * 100}%`;
-    }
   }
 
   // Voice confidence
@@ -990,3 +1180,20 @@ ${(report.behavioral_improvements || []).map(i => `  • ${i}`).join('\n') || ' 
   console.log("[REPORT] Full data:", JSON.stringify(report, null, 2));
 }
 
+
+// ============================================
+// Proctoring Dashboard Toggle
+// ============================================
+
+const proctoringToggleBtn = document.getElementById("toggle-proctoring");
+const proctoringPanel = document.getElementById("proctoring-panel");
+
+if (proctoringToggleBtn && proctoringPanel) {
+  proctoringToggleBtn.addEventListener("click", () => {
+    proctoringPanel.classList.toggle("collapsed");
+    proctoringToggleBtn.textContent = proctoringPanel.classList.contains("collapsed") ? "+" : "−";
+  });
+}
+
+// Initialize warning counter
+window.warningCount = 0;

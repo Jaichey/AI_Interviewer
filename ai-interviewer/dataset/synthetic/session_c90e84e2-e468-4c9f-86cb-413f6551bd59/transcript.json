@@ -1,0 +1,114 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 12,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 17.75642655285759,
+      "pause_before_answer": 3.858518994518006
+    },
+    {
+      "question_number": 2,
+      "timestamp": 27.874787375878313,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 23.728767002118992,
+      "pause_before_answer": 1.4145651144397395
+    },
+    {
+      "question_number": 3,
+      "timestamp": 63.00861350143379,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. I hope that answers your question.",
+      "answer_duration": 27.343710017349643,
+      "pause_before_answer": 4.743117678350492
+    },
+    {
+      "question_number": 4,
+      "timestamp": 104.37299446282977,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. That's based on my experience.",
+      "answer_duration": 35.937187436604376,
+      "pause_before_answer": 2.448279780225111
+    },
+    {
+      "question_number": 5,
+      "timestamp": 149.0430962162822,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me. That's based on my experience.",
+      "answer_duration": 37.18085148865415,
+      "pause_before_answer": 1.4098036143499177
+    },
+    {
+      "question_number": 6,
+      "timestamp": 196.19062755801588,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 17.495627862627934,
+      "pause_before_answer": 1.3121851841317596
+    },
+    {
+      "question_number": 7,
+      "timestamp": 222.31273210895574,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 34.94479862290239,
+      "pause_before_answer": 4.713857055673477
+    },
+    {
+      "question_number": 8,
+      "timestamp": 271.2673152625523,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 39.30627496113543,
+      "pause_before_answer": 3.6022718035879504
+    },
+    {
+      "question_number": 9,
+      "timestamp": 319.84777257414726,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 24.05057974641223,
+      "pause_before_answer": 2.4382309453881144
+    },
+    {
+      "question_number": 10,
+      "timestamp": 351.686595102139,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 17.684580676988702,
+      "pause_before_answer": 3.9960627462151055
+    },
+    {
+      "question_number": 11,
+      "timestamp": 382.2154432237546,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 29.77545365107752,
+      "pause_before_answer": 3.679789507219269
+    },
+    {
+      "question_number": 12,
+      "timestamp": 422.36319217710957,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 41.99677027303122,
+      "pause_before_answer": 3.3887829737391173
+    }
+  ]
+}

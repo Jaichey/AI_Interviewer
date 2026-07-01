@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 41.23412088101077,
+      "pause_before_answer": 1.1190377758443986
+    },
+    {
+      "question_number": 2,
+      "timestamp": 51.43904420775346,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 21.245777322398613,
+      "pause_before_answer": 1.1481372331874216
+    },
+    {
+      "question_number": 3,
+      "timestamp": 79.4875563354748,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. I hope that answers your question.",
+      "answer_duration": 33.87895765163195,
+      "pause_before_answer": 4.520008769171177
+    },
+    {
+      "question_number": 4,
+      "timestamp": 127.71179860039013,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 21.53984791406525,
+      "pause_before_answer": 1.963677693235685
+    },
+    {
+      "question_number": 5,
+      "timestamp": 159.8744517716146,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 16.40105299374829,
+      "pause_before_answer": 3.489798747957026
+    },
+    {
+      "question_number": 6,
+      "timestamp": 187.9631729119839,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 25.060934789687863,
+      "pause_before_answer": 1.7447457462015783
+    },
+    {
+      "question_number": 7,
+      "timestamp": 223.51750297341556,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Does that make sense?",
+      "answer_duration": 20.12534257658757,
+      "pause_before_answer": 3.540403854154987
+    },
+    {
+      "question_number": 8,
+      "timestamp": 256.9578027847682,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 28.353063383801782,
+      "pause_before_answer": 4.93644541859723
+    },
+    {
+      "question_number": 9,
+      "timestamp": 296.2083279008165,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 38.02826340569683,
+      "pause_before_answer": 1.5870667768847073
+    },
+    {
+      "question_number": 10,
+      "timestamp": 341.0565325710284,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 16.734008417279437,
+      "pause_before_answer": 3.9080765112153943
+    }
+  ]
+}

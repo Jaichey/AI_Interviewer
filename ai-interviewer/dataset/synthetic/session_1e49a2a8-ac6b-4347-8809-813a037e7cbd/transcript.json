@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 17.98121904639275,
+      "pause_before_answer": 1.8497528712269493
+    },
+    {
+      "question_number": 2,
+      "timestamp": 25.72496396123662,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 17.701496759371654,
+      "pause_before_answer": 1.9037362184869346
+    },
+    {
+      "question_number": 3,
+      "timestamp": 51.13021595539563,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 44.43557370360102,
+      "pause_before_answer": 2.376275550116939
+    },
+    {
+      "question_number": 4,
+      "timestamp": 104.71445970314741,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 42.20110736070986,
+      "pause_before_answer": 1.0067539642909886
+    },
+    {
+      "question_number": 5,
+      "timestamp": 157.3399758824762,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 31.750000647604192,
+      "pause_before_answer": 2.875638375855456
+    },
+    {
+      "question_number": 6,
+      "timestamp": 197.98831713459083,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 32.69462284788663,
+      "pause_before_answer": 3.505206106384479
+    },
+    {
+      "question_number": 7,
+      "timestamp": 242.49052568646897,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 41.66124218905481,
+      "pause_before_answer": 4.30869818655786
+    },
+    {
+      "question_number": 8,
+      "timestamp": 296.1198695594008,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Does that make sense?",
+      "answer_duration": 15.352412282238543,
+      "pause_before_answer": 2.644686713672309
+    },
+    {
+      "question_number": 9,
+      "timestamp": 322.70809100830354,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 44.32545363971959,
+      "pause_before_answer": 2.772770956775494
+    },
+    {
+      "question_number": 10,
+      "timestamp": 378.7470709777621,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 30.14267640700612,
+      "pause_before_answer": 4.367105683525821
+    },
+    {
+      "question_number": 11,
+      "timestamp": 418.3941632705478,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 40.27329934899605,
+      "pause_before_answer": 1.9397155250429345
+    },
+    {
+      "question_number": 12,
+      "timestamp": 469.7911131164102,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. I hope that answers your question.",
+      "answer_duration": 40.92627563333741,
+      "pause_before_answer": 4.135570155306633
+    },
+    {
+      "question_number": 13,
+      "timestamp": 521.5380692883596,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 21.533771213886773,
+      "pause_before_answer": 2.6620102101360823
+    },
+    {
+      "question_number": 14,
+      "timestamp": 555.6675142609251,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 41.39072938862953,
+      "pause_before_answer": 3.123868935255323
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 18.613515250695187,
+      "pause_before_answer": 1.1972652458628263
+    },
+    {
+      "question_number": 2,
+      "timestamp": 27.090970485845165,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 32.74675860610156,
+      "pause_before_answer": 4.303193547639706
+    },
+    {
+      "question_number": 3,
+      "timestamp": 70.09249160197668,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 39.244524380445476,
+      "pause_before_answer": 3.0006480734594394
+    },
+    {
+      "question_number": 4,
+      "timestamp": 117.84197341778781,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 36.798487862648486,
+      "pause_before_answer": 3.2291576503718074
+    },
+    {
+      "question_number": 5,
+      "timestamp": 166.7260840937937,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 32.34597215058497,
+      "pause_before_answer": 2.552339042526944
+    },
+    {
+      "question_number": 6,
+      "timestamp": 208.75412773610714,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 22.88683021371822,
+      "pause_before_answer": 2.759406182454855
+    },
+    {
+      "question_number": 7,
+      "timestamp": 241.66879065135555,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 29.559942227140944,
+      "pause_before_answer": 3.206231536712843
+    },
+    {
+      "question_number": 8,
+      "timestamp": 279.97168991889004,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 24.888000220305706,
+      "pause_before_answer": 4.946736329391248
+    },
+    {
+      "question_number": 9,
+      "timestamp": 316.6060215141244,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 40.43334551580684,
+      "pause_before_answer": 2.422291931804509
+    },
+    {
+      "question_number": 10,
+      "timestamp": 366.2046655721109,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 32.786656118181405,
+      "pause_before_answer": 3.7756461154828465
+    },
+    {
+      "question_number": 11,
+      "timestamp": 411.1712095181403,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 31.62225588599607,
+      "pause_before_answer": 2.3428555101489645
+    },
+    {
+      "question_number": 12,
+      "timestamp": 452.234945273951,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 35.32724464100686,
+      "pause_before_answer": 3.064511064584859
+    },
+    {
+      "question_number": 13,
+      "timestamp": 497.20509138634316,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 24.686423922384833,
+      "pause_before_answer": 2.3918252705640906
+    },
+    {
+      "question_number": 14,
+      "timestamp": 532.7342451103515,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 37.9799661629299,
+      "pause_before_answer": 3.985199964536676
+    },
+    {
+      "question_number": 15,
+      "timestamp": 583.0600497136295,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 16.903214232192393,
+      "pause_before_answer": 2.310118272729711
+    }
+  ]
+}

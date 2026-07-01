@@ -1,0 +1,132 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 14,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. I hope that answers your question.",
+      "answer_duration": 43.62554498014502,
+      "pause_before_answer": 4.6457511979833015
+    },
+    {
+      "question_number": 2,
+      "timestamp": 57.13752189178868,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 16.460130946998447,
+      "pause_before_answer": 1.6288137747162583
+    },
+    {
+      "question_number": 3,
+      "timestamp": 84.64309138471502,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 23.58528187519765,
+      "pause_before_answer": 2.276085242871734
+    },
+    {
+      "question_number": 4,
+      "timestamp": 120.1724748271819,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 20.59636065909003,
+      "pause_before_answer": 4.54863920965639
+    },
+    {
+      "question_number": 5,
+      "timestamp": 152.14194338897678,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. Let me know if you need clarification.",
+      "answer_duration": 32.780636902535704,
+      "pause_before_answer": 3.3464713064749305
+    },
+    {
+      "question_number": 6,
+      "timestamp": 196.7063924185254,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 15.948033766447,
+      "pause_before_answer": 2.5961445043662255
+    },
+    {
+      "question_number": 7,
+      "timestamp": 223.93337999300397,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 39.14644623027529,
+      "pause_before_answer": 3.1169260736640956
+    },
+    {
+      "question_number": 8,
+      "timestamp": 274.25364463822973,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new. I hope that answers your question.",
+      "answer_duration": 18.125568014124866,
+      "pause_before_answer": 1.579226687099181
+    },
+    {
+      "question_number": 9,
+      "timestamp": 301.3115294433268,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 20.989207840850362,
+      "pause_before_answer": 2.8073913124962826
+    },
+    {
+      "question_number": 10,
+      "timestamp": 332.12386957895063,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Does that make sense?",
+      "answer_duration": 38.03877274660114,
+      "pause_before_answer": 1.5767181506494987
+    },
+    {
+      "question_number": 11,
+      "timestamp": 378.9102202905726,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 36.10932690826748,
+      "pause_before_answer": 4.323125204011891
+    },
+    {
+      "question_number": 12,
+      "timestamp": 428.2215231752814,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Let me know if you need clarification.",
+      "answer_duration": 25.219579277267407,
+      "pause_before_answer": 1.6275883882782276
+    },
+    {
+      "question_number": 13,
+      "timestamp": 463.4326615736989,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 33.93417681258346,
+      "pause_before_answer": 1.260118531665099
+    },
+    {
+      "question_number": 14,
+      "timestamp": 504.963961764327,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 16.737839733509112,
+      "pause_before_answer": 3.1956994933585947
+    }
+  ]
+}

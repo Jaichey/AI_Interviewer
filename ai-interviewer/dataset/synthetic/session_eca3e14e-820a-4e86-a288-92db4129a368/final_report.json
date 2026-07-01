@@ -1,0 +1,29 @@
+{
+  "session_id": "eca3e14e-820a-4e86-a288-92db4129a368",
+  "candidate_name": "Candidate_eca3e14e",
+  "position": "Backend Developer",
+  "timestamp": "2026-01-15T12:35:56.337456",
+  "scores": {
+    "technical_score": 1.94,
+    "communication_score": 4.8,
+    "clarity_score": 5.29,
+    "confidence_score": 4.94,
+    "overall_score": 27.75
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 42.25,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.95
+  },
+  "proctoring_summary": {
+    "total_violations": 2,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.68
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 27.8/100). Not recommended at this time."
+}

@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 44.11647538813237,
+      "pause_before_answer": 2.131454635841079
+    },
+    {
+      "question_number": 2,
+      "timestamp": 53.5127119976595,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 34.7586414510264,
+      "pause_before_answer": 4.769339849876876
+    },
+    {
+      "question_number": 3,
+      "timestamp": 102.30195009275667,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. That's based on my experience.",
+      "answer_duration": 35.88407013387424,
+      "pause_before_answer": 4.126165749568859
+    },
+    {
+      "question_number": 4,
+      "timestamp": 147.88656084536538,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 16.659963825136398,
+      "pause_before_answer": 3.1801893397336074
+    },
+    {
+      "question_number": 5,
+      "timestamp": 174.53973562625856,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 42.207907951954994,
+      "pause_before_answer": 3.5642338780671676
+    },
+    {
+      "question_number": 6,
+      "timestamp": 225.6820013186248,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 26.203346832654063,
+      "pause_before_answer": 2.542565387937949
+    },
+    {
+      "question_number": 7,
+      "timestamp": 263.5197944068374,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 44.246940630246314,
+      "pause_before_answer": 2.627620175887523
+    },
+    {
+      "question_number": 8,
+      "timestamp": 317.99314139785474,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 42.02101866835832,
+      "pause_before_answer": 2.5936980207297315
+    },
+    {
+      "question_number": 9,
+      "timestamp": 368.93231624402785,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 32.0770961107304,
+      "pause_before_answer": 1.860013897199635
+    }
+  ]
+}

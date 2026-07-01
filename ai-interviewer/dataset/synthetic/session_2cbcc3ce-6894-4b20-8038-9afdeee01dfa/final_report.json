@@ -1,0 +1,28 @@
+{
+  "session_id": "2cbcc3ce-6894-4b20-8038-9afdeee01dfa",
+  "candidate_name": "Candidate_2cbcc3ce",
+  "position": "Product Manager",
+  "timestamp": "2026-02-04T12:35:56.265450",
+  "scores": {
+    "technical_score": 2.21,
+    "communication_score": 5.76,
+    "clarity_score": 3.94,
+    "confidence_score": 5.16,
+    "overall_score": 33.87
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 40.44,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.62
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.52
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 33.9/100). Not recommended at this time."
+}

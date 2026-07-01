@@ -1,206 +1,391 @@
-# AI Interviewer
+# 🎯 HireSense AI - Research-Grade AI Interview Platform
 
-Enterprise-grade AI interviewer with FastAPI backend, WebSocket dialogue, Google Gemini AI, Three.js realistic avatar, Web Speech API voice (both TTS and STT), and professional interview flow.
+> **Advanced AI-Powered Interview System with Real-Time Proctoring, Gaze Tracking, and Behavioral Analysis**
 
-## Features
+HireSense AI is a production-ready, research-grade interview platform that combines advanced proctoring capabilities with AI-driven interviews. Built for both real-world deployment and academic research, it provides comprehensive behavioral analytics, eye tracking, emotion detection, and violation monitoring.
 
-✨ **Realistic Avatar**
-- Human-like 3D face with skin tone and proportional body
-- Blinking eyes with auto-blink animation (3-7 second intervals)
-- Smooth mouth animation synchronized with speech
-- Facial expressions based on interview state (smiling, thinking, listening, etc.)
-- Natural head and body movement during idle
+---
 
-🎙️ **Voice Capabilities**
-- **Text-to-Speech (TTS)**: Avatar speaks AI responses via Web Speech API
-- **Speech-to-Text (STT)**: Click 🎤 button to speak your answers instead of typing
-- Natural speech synthesis with proper pacing
-- Microphone input with listening indicator
+## 🌟 Key Features
 
-💬 **Interview Flow**
-- **Greeting**: Character greets you warmly and waits for start
-- **Interview Stages**: WARM_UP → TECHNICAL → PROBLEM_SOLVING → BEHAVIORAL → STRESS
-- **Closure**: Professional thank you message at the end
-- **Input Control**: Smart form disabling during greeting/closure phases
+### 🎥 **Advanced Proctoring System**
+- **Real Eye Tracking** - Iris landmark-based gaze estimation
+- **Multi-Person Detection** - YOLOv8-powered person counting
+- **Gaze Direction Classification** - CENTER / LEFT / RIGHT / UP / DOWN
+- **Blink Detection** - Eye Aspect Ratio (EAR) based monitoring
+- **Head Pose Estimation** - Pitch, Yaw, Roll calculations
+- **Look-Away Duration Tracking** - Real-time monitoring
 
-🔄 **WebSocket Communication**
-- Real-time bidirectional communication between frontend and backend
-- Graceful error handling with soft fallback responses
-- Connection status indicator
+### 🧠 **Behavioral Analysis**
+- **Emotion Recognition** - DeepFace-powered emotion detection
+- **Voice Stress Analysis** - Real-time stress level monitoring
+- **Confidence Scoring** - Multi-metric confidence assessment
+- **Engagement Tracking** - Continuous engagement monitoring
 
-## Project structure
+### 📊 **Dataset Generation**
+- **Structured Logging** - Per-frame metrics, transcripts, violations
+- **Synthetic Data Mode** - 100+ realistic synthetic interview sessions
+- **Real Data Mode** - Live session recording and logging
+- **Auto-Scoring System** - Deterministic scoring algorithm
 
+### 💻 **Modern UI**
+- **Real-Time Dashboard** - Live proctoring metrics display
+- **Three.js Avatar** - ReadyPlayerMe integration
+- **WebRTC Camera Preview** - Browser-based webcam access
+- **Toast Notifications** - Non-intrusive warning system
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.8+
+- Modern web browser (Chrome/Firefox/Edge recommended)
+- Webcam and microphone
+- 4GB+ RAM recommended
+
+### Option 1: Automated Setup (Recommended)
+
+**Windows:**
+```powershell
+.\scripts\setup_models_windows.ps1
 ```
-ai-interviewer/
-├── backend/
-│   ├── __init__.py
-│   ├── interview_engine.py (Gemini API integration)
-│   ├── main.py (FastAPI + WebSocket)
-│   ├── requirements.txt
-│   ├── system_prompt.txt
-│   └── tests/
-│       └── test_websocket.py
-├── frontend/
-│   ├── app.js (WebSocket client, STT/TTS, state management)
-│   ├── avatar.js (Three.js 3D avatar rendering)
-│   ├── index.html
-│   ├── styles.css
-│   └── tests.md
-├── .env (API keys and configuration)
-└── README.md
-```
 
-## Prerequisites
-- Python 3.10+
-- Modern browser with Web Speech API support (Chrome, Edge, Safari)
-- Google Gemini API key (free tier at https://ai.google.dev)
-- Default model: `gemini-2.5-flash` (best price-performance for free tier)
-
-## Backend setup
-From the project root:
+**Linux/Mac:**
 ```bash
-cd ai-interviewer
-python -m venv .venv
-. .venv/Scripts/activate  # Windows PowerShell: .\.venv\Scripts\Activate.ps1
+chmod +x scripts/setup_models_linux.sh
+./scripts/setup_models_linux.sh
+```
+
+This will:
+- ✅ Install all Python dependencies
+- ✅ Download YOLOv8 model weights
+- ✅ Install MediaPipe, DeepFace, OpenCV
+- ✅ Generate synthetic dataset (100 sessions)
+
+### Option 2: Manual Setup
+
+```bash
+# Install Python dependencies
 pip install -r backend/requirements.txt
+
+# Download YOLOv8 model
+pip install ultralytics
+python -c "from ultralytics import YOLO; YOLO('yolov8s.pt')"
+mv yolov8s.pt backend/yolov8s.pt
+
+# Generate synthetic dataset
+python backend/synthetic_data_generator.py --num-sessions 100
 ```
 
-Create `.env` file at project root:
-```
-GEMINI_API_KEY=your-key-here
-GEMINI_MODEL=gemini-2.5-flash
-```
+---
 
-Get a free Gemini API key at [https://ai.google.dev](https://ai.google.dev)
+## ⚡ Quick Start
 
-Start the server:
-```bash
-python -m uvicorn backend.main:app --reload --port 8000
-```
+### 1. Start the Backend
 
-Or from inside backend folder:
 ```bash
 cd backend
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-## Frontend setup
-Serve the frontend folder (any local HTTP server):
+Backend will start at: `http://localhost:8000`
+
+### 2. Open the Frontend
+
+Open `frontend/index.html` in your browser or serve it:
+
 ```bash
+# Using Python's built-in server
 cd frontend
-python -m http.server 5500
+python -m http.server 8080
 ```
 
-Then open [http://localhost:5500](http://localhost:5500) in your browser.
+Frontend will be at: `http://localhost:8080`
 
-The frontend automatically connects to `ws://localhost:8000/ws`.
+### 3. Start Interview
 
-## Using the Interview
+1. **Allow camera/microphone** access when prompted
+2. **Select subject** (e.g., "Python", "System Design")
+3. **Select company** (e.g., "Google", "Startup")
+4. Click **"Start Interview"**
+5. Answer questions via **text** or **voice** (click 🎤)
 
-1. **Start**: Click "Start Interview" button
-2. **Avatar Greeting**: The avatar will greet you and wait
-3. **Provide Answers**:
-   - **Type**: Use the text input field
-   - **Speak**: Click 🎤 button, speak your answer, click 🎤 again or wait for recognition to complete
-4. **Interview Progression**: Answer interview questions through WARM_UP → TECHNICAL → BEHAVIORAL → STRESS phases
-5. **Closing**: Avatar will thank you and close the interview
-6. **End**: Click "End Interview" to stop
+### 4. Monitor Proctoring Dashboard
 
-## Avatar States and Expressions
+The **HireSense Proctoring Dashboard** (top-right) displays:
+- ✅ Eye Contact Percentage
+- 📍 Gaze Direction
+- 🔄 Head Pose (Yaw/Pitch)
+- 👁️ Blink Rate
+- 😊 Emotion
+- 📈 Stress Level
+- 👥 Person Count
+- ⚠️ Warnings
+- 🔍 Suspicious Score
 
-The avatar changes expression based on interview context:
-- `smiling` - During greeting and positive interactions
-- `attentive_nod` - Engaged listening
-- `thinking` - Processing questions
-- `confused` - Clarifying responses
-- `mildly_impressed` - Positive feedback
-- `neutral_disappointed` - Challenges or mistakes
-- `pressure_mode` - Stress testing phase
-- `concluding` - Final thank you phase
+---
 
-## Voice Input (Speech-to-Text)
+## 🏗️ Architecture
 
-The microphone button (🎤) uses the Web Speech API:
-- Click 🎤 to start listening (button turns red with pulse animation)
-- Speak clearly
-- Button turns back to 🎤 when done
-- Your speech is transcribed and appears in the input field
-- Browser may ask for microphone permission on first use
+### Backend Stack
+```
+FastAPI + WebSocket
+├── main.py                          # API endpoints, WebSocket server
+├── interview_engine.py               # AI interview logic (Gemini/OpenAI)
+├── human_observation_engine.py       # Observation orchestration
+├── face_analyzer.py                  # Gaze tracking, head pose, blink detection
+├── emotion_analyzer.py               # DeepFace emotion recognition
+├── audio_analyzer.py                 # Voice stress analysis
+├── observation_logger.py             # Dataset logging and report generation
+├── synthetic_data_generator.py       # Synthetic dataset creation
+└── auto_score_generator.py           # Automated scoring system
+```
 
-## Browser Compatibility
+### Frontend Stack
+```
+Vanilla JS + Three.js
+├── index.html                        # Main UI layout
+├── app.js                            # Interview logic, WebSocket client
+├── observation_client.js             # Observation polling, video capture
+├── avatar.js                         # Three.js avatar management
+└── styles.css                        # Modern UI styling
+```
 
-| Feature | Chrome | Firefox | Safari | Edge |
-|---------|--------|---------|--------|------|
-| Avatar (Three.js) | ✅ | ✅ | ✅ | ✅ |
-| TTS (Web Speech API) | ✅ | ⚠️ Limited | ✅ | ✅ |
-| STT (Speech Recognition) | ✅ | ❌ | ✅ | ✅ |
-| WebSocket | ✅ | ✅ | ✅ | ✅ |
+---
 
-Firefox has limited TTS support; consider using Chrome/Edge for best voice experience.
+## 📁 Dataset Structure
 
-## Testing
+```
+dataset/
+├── sessions/                # Real interview sessions
+│   └── session_<uuid>/
+│       ├── video_metadata.json
+│       ├── transcript.json
+│       ├── gaze_metrics.json
+│       ├── emotion_metrics.json
+│       ├── proctoring_metrics.json
+│       └── final_report.json
+│
+└── synthetic/               # Synthetic dataset
+    ├── index.json
+    └── session_<uuid>/
+        └── [same structure as above]
+```
 
-### Backend WebSocket test
+---
+
+## ⚙️ Configuration
+
+Edit `config.json` to customize behavior:
+
+```json
+{
+  "DATA_MODE": "synthetic",              // "synthetic" or "real"
+  "DATASET_PATH": "dataset",
+  "PROCTORING": {
+    "multi_person_threshold_seconds": 3,
+    "look_away_threshold_seconds": 10,
+    "warning_limit": 3,
+    "enable_violations": true
+  },
+  "GAZE_TRACKING": {
+    "enable_iris_tracking": true,
+    "enable_head_pose": true,
+    "enable_blink_detection": true
+  }
+}
+```
+
+### Switching Modes
+
+**Synthetic Mode** (for testing/development):
+```json
+"DATA_MODE": "synthetic"
+```
+
+**Real Mode** (for production):
+```json
+"DATA_MODE": "real"
+```
+
+---
+
+## 🔌 API Reference
+
+### WebSocket Endpoint
+
+**Endpoint:** `ws://localhost:8000/ws`
+
+**Message Format:**
+```json
+{
+  "text": "User's answer to interview question"
+}
+```
+
+**Response Format:**
+```json
+{
+  "system_state": "TECHNICAL",
+  "interviewer_response": "AI's response",
+  "avatar_state": "neutral_listening",
+  "tts_enabled": true
+}
+```
+
+### REST Endpoints
+
+#### `GET /observation/latest`
+Get latest behavioral observation with warnings
+
+**Response:**
+```json
+{
+  "success": true,
+  "observation": {
+    "timestamp": 123.45,
+    "face": {
+      "face_detected": true,
+      "eye_contact_confidence": 0.85,
+      "gaze_direction": "center",
+      "head_yaw": -2.5,
+      "head_pitch": 3.1,
+      "blink_count": 45
+    },
+    "emotion": {
+      "emotion": "confident",
+      "confidence": 0.87
+    },
+    "audio": {
+      "stress_level": "low",
+      "voice_confidence": 7.5
+    }
+  },
+  "warnings": []
+}
+```
+
+#### `GET /report/{session_id}`
+Get final report for specific session
+
+---
+
+## 🧪 Development
+
+### Generate Synthetic Dataset
+
 ```bash
-cd backend
-pytest
+python backend/synthetic_data_generator.py --num-sessions 100
 ```
 
-### Frontend manual test checklist
-See `frontend/tests.md` for comprehensive testing guide covering:
-- Avatar rendering and animation
-- Mouth and eye synchronization
-- Voice input and output
-- Interview flow and state transitions
-- Error handling and reconnection
+### Auto-Score Sessions
 
-## Troubleshooting
+```bash
+# Score single session
+python backend/auto_score_generator.py --session-dir dataset/sessions/session_abc123
 
-**Q: Avatar doesn't appear**
-- Check browser console for errors
-- Verify Three.js CDN is accessible
-- Try a different browser
+# Score entire dataset
+python backend/auto_score_generator.py --dataset-dir dataset/synthetic
+```
 
-**Q: Voice input (STT) not working**
-- Chrome/Edge/Safari support it; Firefox doesn't
-- Check browser microphone permissions
-- Ensure HTTP or HTTPS (not file://)
+---
 
-**Q: Avatar lip-sync seems off**
-- This is normal on first use while browser loads audio engine
-- Try a different sentence
-- Some browsers have speech synthesis delays
+## 🔬 Research Usage
 
-**Q: WebSocket connection refused**
-- Ensure backend is running on port 8000
-- Check CORS headers in main.py
-- Verify firewall isn't blocking connections
+### Dataset Export
 
-**Q: Gemini API quota exceeded**
-- Free tier has strict rate limits
-- Wait 24 hours for quota reset (UTC midnight)
-- Or obtain a new API key at https://ai.google.dev
+Export dataset for research analysis:
 
-## Architecture
+```python
+import json
+from pathlib import Path
 
-**Backend** (FastAPI + Gemini):
-- WebSocket endpoint at `/ws`
-- Receives user text from frontend
-- Sends text to Gemini via interview_engine
-- Returns JSON response with system_state, avatar_state, TTS flag
+def export_dataset(dataset_dir):
+    """Export all sessions for analysis."""
+    sessions = []
+    for session_dir in Path(dataset_dir).glob("session_*/"):
+        report_file = session_dir / "final_report.json"
+        if report_file.exists():
+            with open(report_file) as f:
+                sessions.append(json.load(f))
+    return sessions
 
-**Frontend** (Vanilla JS + Three.js):
-- Connects to WebSocket on load
-- Captures user input (text or voice via STT)
-- Sends to backend, receives AI response
-- Renders avatar state changes
-- Plays audio via Web Speech API (TTS)
-- Updates UI with interview progress
+sessions = export_dataset("dataset/synthetic")
+print(f"Exported {len(sessions)} sessions")
+```
 
-## Future Enhancements
+### Metrics for Analysis
 
-- Video output (face alignment, head tracking)
-- Custom avatar models (ReadyPlayerMe integration)
-- Interview report/scoring
-- Multi-language support
-- Persistence (interview history, analytics)
+**Gaze Metrics:**
+- Eye contact percentage
+- Gaze direction distribution
+- Look-away frequency and duration
+- Blink rate
+
+**Behavioral Metrics:**
+- Emotion distribution
+- Stress levels
+- Voice confidence
+- Head movement patterns
+
+**Performance Metrics:**
+- Technical scores
+- Communication scores
+- Overall interview performance
+- Hire/reject decisions
+
+---
+
+## 🐛 Troubleshooting
+
+### Issue: Camera not working
+
+**Solution:**
+- Ensure browser has camera permissions
+- Check if another app is using the camera
+- Try different browser (Chrome recommended)
+
+### Issue: YOLOv8 model not found
+
+**Solution:**
+```bash
+python -c "from ultralytics import YOLO; YOLO('yolov8s.pt')"
+mv yolov8s.pt backend/yolov8s.pt
+```
+
+### Issue: High CPU usage
+
+**Solution:**
+- Reduce video frame capture rate in `observation_client.js`:
+  ```javascript
+  setTimeout(captureFrame, 500); // Lower to 2 FPS
+  ```
+
+### Issue: WebSocket connection refused
+
+**Solution:**
+- Ensure backend is running: `uvicorn main:app --reload`
+- Check CORS settings in `main.py`
+- Verify firewall settings
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🎯 Roadmap
+
+- [ ] Multi-language support
+- [ ] Advanced emotion recognition models
+- [ ] Real-time interview coaching
+- [ ] Integration with ATS systems
+- [ ] Mobile app support
+- [ ] Advanced analytics dashboard
+
+---
+
+**Built with ❤️ for the future of AI-powered interviews**

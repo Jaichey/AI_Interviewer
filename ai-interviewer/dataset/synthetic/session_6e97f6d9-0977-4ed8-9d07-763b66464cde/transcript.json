@@ -1,0 +1,114 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 12,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 23.90205445887753,
+      "pause_before_answer": 1.9965972457496655
+    },
+    {
+      "question_number": 2,
+      "timestamp": 34.82455843148991,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 18.372730622457265,
+      "pause_before_answer": 3.749745620484889
+    },
+    {
+      "question_number": 3,
+      "timestamp": 66.84782527493834,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 22.005780379606033,
+      "pause_before_answer": 2.2951666025504984
+    },
+    {
+      "question_number": 4,
+      "timestamp": 97.65004401619963,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 20.868827211756795,
+      "pause_before_answer": 3.220829470282217
+    },
+    {
+      "question_number": 5,
+      "timestamp": 128.06955001724288,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. Let me know if you need clarification.",
+      "answer_duration": 41.177481094191606,
+      "pause_before_answer": 1.168099104918427
+    },
+    {
+      "question_number": 6,
+      "timestamp": 177.21681313004962,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 40.40409532704545,
+      "pause_before_answer": 4.390641739640454
+    },
+    {
+      "question_number": 7,
+      "timestamp": 231.64474236599793,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 30.06260778860328,
+      "pause_before_answer": 3.1755347100559104
+    },
+    {
+      "question_number": 8,
+      "timestamp": 272.5437864415055,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 41.10500936511717,
+      "pause_before_answer": 1.965175449843033
+    },
+    {
+      "question_number": 9,
+      "timestamp": 321.14516968658995,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 19.3346899341925,
+      "pause_before_answer": 2.1410636187624648
+    },
+    {
+      "question_number": 10,
+      "timestamp": 350.01975900054464,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes.",
+      "answer_duration": 44.912938580502114,
+      "pause_before_answer": 1.789190541774183
+    },
+    {
+      "question_number": 11,
+      "timestamp": 405.39684690916766,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 36.203469161664586,
+      "pause_before_answer": 1.778305270373647
+    },
+    {
+      "question_number": 12,
+      "timestamp": 449.4487264913632,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 28.47879152738534,
+      "pause_before_answer": 2.674488876789444
+    }
+  ]
+}

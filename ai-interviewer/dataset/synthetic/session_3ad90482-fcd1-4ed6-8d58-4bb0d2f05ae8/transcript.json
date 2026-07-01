@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 41.224291048696145,
+      "pause_before_answer": 3.231620755553623
+    },
+    {
+      "question_number": 2,
+      "timestamp": 53.33570342018098,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 34.18967266809845,
+      "pause_before_answer": 2.566344059401794
+    },
+    {
+      "question_number": 3,
+      "timestamp": 97.51701095670238,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 35.143402764674875,
+      "pause_before_answer": 3.297965755237067
+    },
+    {
+      "question_number": 4,
+      "timestamp": 141.92136633533292,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets. That's based on my experience.",
+      "answer_duration": 36.26076939185309,
+      "pause_before_answer": 2.004229381660533
+    },
+    {
+      "question_number": 5,
+      "timestamp": 186.587483130508,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 28.896792545685855,
+      "pause_before_answer": 4.028383610849804
+    },
+    {
+      "question_number": 6,
+      "timestamp": 227.8340847734634,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Does that make sense?",
+      "answer_duration": 40.6745594157647,
+      "pause_before_answer": 2.0608311390234486
+    },
+    {
+      "question_number": 7,
+      "timestamp": 279.4741341202185,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 26.667910993932637,
+      "pause_before_answer": 1.6766893885874072
+    },
+    {
+      "question_number": 8,
+      "timestamp": 317.02706282721743,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 20.95892642452698,
+      "pause_before_answer": 1.868160075219905
+    },
+    {
+      "question_number": 9,
+      "timestamp": 345.2986235728727,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Does that make sense?",
+      "answer_duration": 23.310349700125727,
+      "pause_before_answer": 4.130700257514554
+    },
+    {
+      "question_number": 10,
+      "timestamp": 381.2306971923423,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 37.14112824944317,
+      "pause_before_answer": 3.2476862470316146
+    }
+  ]
+}

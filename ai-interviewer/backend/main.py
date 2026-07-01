@@ -13,6 +13,28 @@ from fastapi.middleware.cors import CORSMiddleware
 from starlette.websockets import WebSocketState
 
 
+def load_config() -> Dict:
+    """Load configuration from config.json."""
+    config_path = pathlib.Path(__file__).parent.parent / "config.json"
+    if config_path.exists():
+        with open(config_path, 'r') as f:
+            return json.load(f)
+    return {
+        "DATA_MODE": "real",
+        "DATASET_PATH": "dataset",
+        "PROCTORING": {
+            "multi_person_threshold_seconds": 3,
+            "look_away_threshold_seconds": 10,
+            "warning_limit": 3,
+            "enable_violations": True
+        }
+    }
+
+
+CONFIG = load_config()
+print(f"[INFO] Configuration loaded: DATA_MODE={CONFIG.get('DATA_MODE')}")
+
+
 def sanitize_for_json(obj):
     """Convert numpy types to native Python types for JSON serialization."""
     if isinstance(obj, dict):
@@ -343,4 +365,40 @@ async def reset_observation() -> Dict[str, str]:
     if observation_engine is not None:
         observation_engine.reset()
     return {"success": True, "message": "Observation engine reset"}
+
+
+@app.get("/report/{session_id}")
+async def get_session_report(session_id: str) -> Dict[str, Any]:
+    """Get final report for a specific session."""
+    try:
+        dataset_path = pathlib.Path(CONFIG.get("DATASET_PATH", "dataset"))
+        session_dir = dataset_path / "sessions" / f"session_{session_id}"
+        
+        # Check if synthetic or real mode
+        if CONFIG.get("DATA_MODE") == "synthetic":
+            synthetic_dir = dataset_path / "synthetic" / f"session_{session_id}"
+            if synthetic_dir.exists():
+                session_dir = synthetic_dir
+        
+        report_file = session_dir / "final_report.json"
+        
+        if not report_file.exists():
+            return {
+                "success": False,
+                "error": f"Report not found for session {session_id}"
+            }
+        
+        with open(report_file, 'r', encoding='utf-8') as f:
+            report = json.load(f)
+        
+        return {
+            "success": True,
+            "report": sanitize_for_json(report)
+        }
+    
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e)
+        }
 

@@ -1,0 +1,96 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 10,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. That's based on my experience.",
+      "answer_duration": 16.57447081315663,
+      "pause_before_answer": 3.397217673275239
+    },
+    {
+      "question_number": 2,
+      "timestamp": 29.686653332378377,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. Let me know if you need clarification.",
+      "answer_duration": 17.73790661072724,
+      "pause_before_answer": 3.0119055823628993
+    },
+    {
+      "question_number": 3,
+      "timestamp": 59.21427767665679,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. That's based on my experience.",
+      "answer_duration": 34.002224984969686,
+      "pause_before_answer": 4.884343738619798
+    },
+    {
+      "question_number": 4,
+      "timestamp": 103.5888339537252,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 34.0215825385452,
+      "pause_before_answer": 4.14908646015802
+    },
+    {
+      "question_number": 5,
+      "timestamp": 148.24783390644214,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 37.82052024776561,
+      "pause_before_answer": 2.214753218998859
+    },
+    {
+      "question_number": 6,
+      "timestamp": 194.33249318749884,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 31.181061153416106,
+      "pause_before_answer": 2.676247663530182
+    },
+    {
+      "question_number": 7,
+      "timestamp": 236.53727640993696,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 35.45856874512278,
+      "pause_before_answer": 1.5391954460838648
+    },
+    {
+      "question_number": 8,
+      "timestamp": 282.05956277666587,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 34.26226437455798,
+      "pause_before_answer": 2.841935385269206
+    },
+    {
+      "question_number": 9,
+      "timestamp": 329.0021547710967,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 25.289251100172372,
+      "pause_before_answer": 4.4735005496428
+    },
+    {
+      "question_number": 10,
+      "timestamp": 365.03046578697155,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 39.550339532347465,
+      "pause_before_answer": 3.388126556278594
+    }
+  ]
+}

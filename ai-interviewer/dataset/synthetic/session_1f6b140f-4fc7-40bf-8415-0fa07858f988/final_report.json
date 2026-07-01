@@ -1,0 +1,28 @@
+{
+  "session_id": "1f6b140f-4fc7-40bf-8415-0fa07858f988",
+  "candidate_name": "Candidate_1f6b140f",
+  "position": "Cloud Engineer",
+  "timestamp": "2026-02-01T12:35:55.321352",
+  "scores": {
+    "technical_score": 5.74,
+    "communication_score": 5.18,
+    "clarity_score": 5.27,
+    "confidence_score": 5.26,
+    "overall_score": 49.34
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 59.36,
+    "dominant_emotion": "neutral",
+    "stress_level": "medium",
+    "engagement_score": 0.67
+  },
+  "proctoring_summary": {
+    "total_violations": 1,
+    "violation_types": [
+      "MULTIPLE_PERSONS"
+    ],
+    "suspicious_score": 0.75
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 49.3/100). Not recommended at this time."
+}

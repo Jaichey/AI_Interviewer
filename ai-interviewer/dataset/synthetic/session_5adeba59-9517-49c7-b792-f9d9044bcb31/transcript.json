@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 16.770869263580064,
+      "pause_before_answer": 1.7726049443634344
+    },
+    {
+      "question_number": 2,
+      "timestamp": 26.270473233738826,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "Binary search has O(log n) time complexity because it divides the search space in half with each iteration. It requires a sorted array and is much faster than linear search for large datasets.",
+      "answer_duration": 29.86770122141965,
+      "pause_before_answer": 2.50932575266982
+    },
+    {
+      "question_number": 3,
+      "timestamp": 64.38570368858896,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 42.585780237733616,
+      "pause_before_answer": 2.8517054864356908
+    },
+    {
+      "question_number": 4,
+      "timestamp": 115.55178059158844,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search. Let me know if you need clarification.",
+      "answer_duration": 42.926816985875924,
+      "pause_before_answer": 1.9651809832661309
+    },
+    {
+      "question_number": 5,
+      "timestamp": 168.2011372178585,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 28.619355732102463,
+      "pause_before_answer": 1.6284471549008828
+    },
+    {
+      "question_number": 6,
+      "timestamp": 204.74740332830885,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 16.710639699969356,
+      "pause_before_answer": 2.595690199299404
+    },
+    {
+      "question_number": 7,
+      "timestamp": 231.1970204026729,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 36.68472448120144,
+      "pause_before_answer": 4.434699262740837
+    },
+    {
+      "question_number": 8,
+      "timestamp": 280.4929422470766,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Let me know if you need clarification.",
+      "answer_duration": 24.156225838720555,
+      "pause_before_answer": 1.9275985406353797
+    },
+    {
+      "question_number": 9,
+      "timestamp": 314.88181553037987,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 36.84092227696341,
+      "pause_before_answer": 3.681699419630937
+    },
+    {
+      "question_number": 10,
+      "timestamp": 361.4839172971126,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure. Let me know if you need clarification.",
+      "answer_duration": 25.651495516517567,
+      "pause_before_answer": 3.550354050301336
+    },
+    {
+      "question_number": 11,
+      "timestamp": 399.1948402107266,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 31.039132683306402,
+      "pause_before_answer": 3.287885377675098
+    },
+    {
+      "question_number": 12,
+      "timestamp": 440.31576092968703,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 42.26123026180335,
+      "pause_before_answer": 3.8629641813239655
+    },
+    {
+      "question_number": 13,
+      "timestamp": 491.8988445665948,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Let me know if you need clarification.",
+      "answer_duration": 40.023065071231024,
+      "pause_before_answer": 4.892053297098291
+    },
+    {
+      "question_number": 14,
+      "timestamp": 545.2242076755525,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 38.655566098856795,
+      "pause_before_answer": 2.0236422142498784
+    },
+    {
+      "question_number": 15,
+      "timestamp": 592.5202336097308,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 16.33564850465486,
+      "pause_before_answer": 3.82197496483783
+    }
+  ]
+}

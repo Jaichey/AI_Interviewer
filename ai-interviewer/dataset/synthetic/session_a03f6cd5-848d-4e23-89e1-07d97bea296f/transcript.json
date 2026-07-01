@@ -1,0 +1,87 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 9,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 33.02902561347701,
+      "pause_before_answer": 3.7805679801712775
+    },
+    {
+      "question_number": 2,
+      "timestamp": 43.062484987591354,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 22.837435714441117,
+      "pause_before_answer": 3.7288325543474845
+    },
+    {
+      "question_number": 3,
+      "timestamp": 74.92324432535762,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies.",
+      "answer_duration": 42.507929216298194,
+      "pause_before_answer": 1.9489951766702451
+    },
+    {
+      "question_number": 4,
+      "timestamp": 126.94916423755014,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 44.30708562662789,
+      "pause_before_answer": 4.836600061418553
+    },
+    {
+      "question_number": 5,
+      "timestamp": 185.93131112627205,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. That's based on my experience.",
+      "answer_duration": 33.337739030761945,
+      "pause_before_answer": 2.5475135235088713
+    },
+    {
+      "question_number": 6,
+      "timestamp": 227.3600246394735,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 33.27434397793507,
+      "pause_before_answer": 2.0846180146399838
+    },
+    {
+      "question_number": 7,
+      "timestamp": 270.64785730452826,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses. Does that make sense?",
+      "answer_duration": 43.31971019743955,
+      "pause_before_answer": 3.909291076374259
+    },
+    {
+      "question_number": 8,
+      "timestamp": 324.84885407344,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Let me know if you need clarification.",
+      "answer_duration": 28.099161230417252,
+      "pause_before_answer": 4.3189869265505365
+    },
+    {
+      "question_number": 9,
+      "timestamp": 363.96139445984556,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 20.323469934093907,
+      "pause_before_answer": 3.576969210655642
+    }
+  ]
+}

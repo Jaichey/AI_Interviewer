@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "technical",
+      "interviewer_question": "What is the time complexity of binary search?",
+      "candidate_answer": "It's like, pretty fast I think. Better than regular search.",
+      "answer_duration": 15.025758522410086,
+      "pause_before_answer": 4.116746987046572
+    },
+    {
+      "question_number": 2,
+      "timestamp": 24.290827574314477,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 27.22345378889571,
+      "pause_before_answer": 4.496790151679873
+    },
+    {
+      "question_number": 3,
+      "timestamp": 61.573365515450625,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. Let me know if you need clarification.",
+      "answer_duration": 37.500238854282564,
+      "pause_before_answer": 1.1569998729868645
+    },
+    {
+      "question_number": 4,
+      "timestamp": 108.3645531113956,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 36.90633466899705,
+      "pause_before_answer": 3.071522349742406
+    },
+    {
+      "question_number": 5,
+      "timestamp": 153.8312029609236,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 41.42306635450073,
+      "pause_before_answer": 2.53639303612858
+    },
+    {
+      "question_number": 6,
+      "timestamp": 205.49545675811584,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 32.22768393816405,
+      "pause_before_answer": 3.6000883608533587
+    },
+    {
+      "question_number": 7,
+      "timestamp": 251.16043600421756,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 40.57729335225874,
+      "pause_before_answer": 2.6391808373617036
+    },
+    {
+      "question_number": 8,
+      "timestamp": 300.3304866450776,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 34.99479869964097,
+      "pause_before_answer": 2.5253162277676586
+    },
+    {
+      "question_number": 9,
+      "timestamp": 347.4198264977483,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution.",
+      "answer_duration": 35.26671056516102,
+      "pause_before_answer": 2.87577235702114
+    },
+    {
+      "question_number": 10,
+      "timestamp": 391.0239726035099,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "REST is an architectural style for distributed systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources identified by URLs. RESTful APIs are stateless, cacheable, and use standard status codes. Let me know if you need clarification.",
+      "answer_duration": 21.31007176922399,
+      "pause_before_answer": 4.009227760163656
+    },
+    {
+      "question_number": 11,
+      "timestamp": 426.23741010503204,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 29.22525952658559,
+      "pause_before_answer": 3.8955594966349687
+    },
+    {
+      "question_number": 12,
+      "timestamp": 467.7042288251781,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 15.37165455130589,
+      "pause_before_answer": 2.888630328563465
+    },
+    {
+      "question_number": 13,
+      "timestamp": 492.53079042233304,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I prioritize tasks using impact vs effort analysis, communicate transparently with stakeholders about realistic timelines, and break large tasks into manageable chunks. I also maintain code quality even under pressure.",
+      "answer_duration": 32.55172475937073,
+      "pause_before_answer": 1.1369966804562859
+    },
+    {
+      "question_number": 14,
+      "timestamp": 532.8073755704523,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data. That's based on my experience.",
+      "answer_duration": 31.433283622295225,
+      "pause_before_answer": 4.569656988063013
+    },
+    {
+      "question_number": 15,
+      "timestamp": 577.013457781888,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "In my previous role, two team members disagreed on architecture. I organized a meeting where each presented their approach. We evaluated pros and cons objectively, then combined the best elements. This taught me the value of structured conflict resolution. Does that make sense?",
+      "answer_duration": 35.10315006389753,
+      "pause_before_answer": 3.5091819501157637
+    }
+  ]
+}

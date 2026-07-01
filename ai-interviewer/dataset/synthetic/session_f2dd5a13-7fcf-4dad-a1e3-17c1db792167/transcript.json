@@ -1,0 +1,141 @@
+{
+  "session_id": "synthetic",
+  "total_questions": 15,
+  "qa_pairs": [
+    {
+      "question_number": 1,
+      "timestamp": 0.0,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "I'd use a hash function or base62 encoding to convert long URLs to short codes. Store mappings in a fast key-value store like Redis for quick lookups. For scalability, implement load balancing, caching, and database sharding. Add analytics tracking and expiration policies. I hope that answers your question.",
+      "answer_duration": 25.285879927172267,
+      "pause_before_answer": 4.325856047902638
+    },
+    {
+      "question_number": 2,
+      "timestamp": 36.06653956255596,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 23.946601449389465,
+      "pause_before_answer": 2.3530186973584364
+    },
+    {
+      "question_number": 3,
+      "timestamp": 67.8157071445685,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 24.255970922403478,
+      "pause_before_answer": 1.5242776305370498
+    },
+    {
+      "question_number": 4,
+      "timestamp": 100.72584303610944,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL has tables, NoSQL doesn't. SQL is old, NoSQL is new.",
+      "answer_duration": 36.3199053700757,
+      "pause_before_answer": 1.9911844813288533
+    },
+    {
+      "question_number": 5,
+      "timestamp": 147.86292738559115,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 35.78654515824537,
+      "pause_before_answer": 4.64613749262179
+    },
+    {
+      "question_number": 6,
+      "timestamp": 196.23339174415406,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 32.522870738738455,
+      "pause_before_answer": 3.8938306911869973
+    },
+    {
+      "question_number": 7,
+      "timestamp": 242.1064989277633,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. I hope that answers your question.",
+      "answer_duration": 27.419757293251294,
+      "pause_before_answer": 1.291341324699958
+    },
+    {
+      "question_number": 8,
+      "timestamp": 277.4014438610319,
+      "category": "technical",
+      "interviewer_question": "Describe the concept of RESTful APIs.",
+      "candidate_answer": "It's an API that uses HTTP. You send requests and get responses.",
+      "answer_duration": 36.712811742792255,
+      "pause_before_answer": 2.768632417702418
+    },
+    {
+      "question_number": 9,
+      "timestamp": 326.0250789615933,
+      "category": "technical",
+      "interviewer_question": "Explain the difference between SQL and NoSQL databases.",
+      "candidate_answer": "SQL databases are relational and use structured schemas with ACID properties, while NoSQL databases are more flexible, schema-less, and designed for horizontal scaling. SQL is better for complex queries and transactions, NoSQL excels at handling large volumes of unstructured data.",
+      "answer_duration": 38.94088298670617,
+      "pause_before_answer": 4.890813243047357
+    },
+    {
+      "question_number": 10,
+      "timestamp": 377.29001039226256,
+      "category": "behavioral",
+      "interviewer_question": "Tell me about a time you handled a difficult team conflict.",
+      "candidate_answer": "I don't really have conflicts. Everyone usually agrees with me.",
+      "answer_duration": 43.15340598388582,
+      "pause_before_answer": 1.3861656949610053
+    },
+    {
+      "question_number": 11,
+      "timestamp": 427.05594470676533,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere. That's based on my experience.",
+      "answer_duration": 34.99724881353512,
+      "pause_before_answer": 2.499550645030098
+    },
+    {
+      "question_number": 12,
+      "timestamp": 471.5257872256518,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 23.49052801702461,
+      "pause_before_answer": 4.612874510162648
+    },
+    {
+      "question_number": 13,
+      "timestamp": 504.77361425789877,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed. Does that make sense?",
+      "answer_duration": 20.22132415417467,
+      "pause_before_answer": 2.972067282109297
+    },
+    {
+      "question_number": 14,
+      "timestamp": 535.3575043568296,
+      "category": "behavioral",
+      "interviewer_question": "How do you handle tight deadlines?",
+      "candidate_answer": "I just work faster and skip some testing if needed.",
+      "answer_duration": 40.930672595198935,
+      "pause_before_answer": 2.493216783110389
+    },
+    {
+      "question_number": 15,
+      "timestamp": 588.5472744028016,
+      "category": "problem_solving",
+      "interviewer_question": "Design a URL shortening service like bit.ly.",
+      "candidate_answer": "Just make the URL shorter and save it somewhere.",
+      "answer_duration": 30.819119470652588,
+      "pause_before_answer": 3.3388224427939854
+    }
+  ]
+}

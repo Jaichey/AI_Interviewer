@@ -1,0 +1,30 @@
+{
+  "session_id": "1e9e3663-bb06-4c96-8e83-fb12f7fe9aaa",
+  "candidate_name": "Candidate_1e9e3663",
+  "position": "Data Scientist",
+  "timestamp": "2026-02-08T12:35:54.823359",
+  "scores": {
+    "technical_score": 0.69,
+    "communication_score": 4.88,
+    "clarity_score": 3.88,
+    "confidence_score": 4.47,
+    "overall_score": 14.4
+  },
+  "behavioral_analysis": {
+    "eye_contact_percentage": 39.62,
+    "dominant_emotion": "nervous",
+    "stress_level": "high",
+    "engagement_score": 0.73
+  },
+  "proctoring_summary": {
+    "total_violations": 3,
+    "violation_types": [
+      "MULTIPLE_PERSONS",
+      "MULTIPLE_PERSONS",
+      "PHONE_DETECTED"
+    ],
+    "suspicious_score": 0.55
+  },
+  "hire_decision": "Reject",
+  "recommendation": "Candidate did not meet minimum requirements (score: 14.4/100). Not recommended at this time."
+}
