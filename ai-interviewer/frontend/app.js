@@ -564,6 +564,7 @@ function connect() {
   ws = new WebSocket(wsUrl);
 
   // Fail if not connected within 8 seconds
+  const connectTimeoutMs = 8 * 1000;
   connectTimeout = setTimeout(() => {
     if (!handshakeComplete && ws && ws.readyState !== WebSocket.OPEN) {
       console.error("[ERROR] WebSocket connection timeout");
@@ -572,7 +573,7 @@ function connect() {
       setStartButtonState("idle");
       alert("Unable to connect to interview server. Please try again.");
     }
-  }, 8000);
+  }, connectTimeoutMs);
 
   ws.onopen = () => {
     handshakeComplete = true;
