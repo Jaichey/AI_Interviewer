@@ -1,7 +1,7 @@
 # Frontend Test Checklist
 
 ## Avatar state and lip sync
-- Start backend (`uvicorn backend.main:app --reload --port 8000`) and open frontend via a static server.
+- Start the backend service and open the frontend through the same reverse proxy or local HTTP server used for the app.
 - Connect and trigger an AI response; confirm Web Speech API audio plays.
 - Observe jaw motion while audio plays; motion stops when audio ends.
 - Change `avatar_state` in a mocked payload (e.g., via console calling `handleAiMessage`) and confirm head color updates.

@@ -3,15 +3,11 @@
  * Communicates with backend observation engine
  */
 
+import { APP_CONFIG } from "./config.js";
+
 export class ObservationClient {
   constructor(backendUrl = null) {
-    const fallbackBackendUrl = window.getBackendBaseUrl
-      ? window.getBackendBaseUrl()
-      : (window.location.protocol === "file:"
-        ? "http://localhost:8000"
-        : (window.location.port === "8000"
-          ? window.location.origin
-          : `${window.location.protocol}//${window.location.hostname}:8000`));
+    const fallbackBackendUrl = APP_CONFIG.API_BASE;
 
     this.backendUrl = (backendUrl || fallbackBackendUrl).replace(/\/$/, "");
     this.running = false;
@@ -61,7 +57,7 @@ export class ObservationClient {
 
       // Start backend observation engine
       try {
-        const startRes = await fetch(`${this.backendUrl}/observation/start`, {
+        const startRes = await fetch(this.buildApiUrl("/observation/start"), {
           method: "POST",
           headers: { "Content-Type": "application/json" }
         });
@@ -107,7 +103,7 @@ export class ObservationClient {
         const frameData = canvas.toDataURL('image/jpeg', 0.7).split(',')[1];
         
         // Send to backend asynchronously (don't wait for response)
-        fetch(`${this.backendUrl}/observation/add_video_frame`, {
+        fetch(this.buildApiUrl("/observation/add_video_frame"), {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ frame_data: frameData })
@@ -144,7 +140,7 @@ export class ObservationClient {
     }
 
     try {
-      await fetch(`${this.backendUrl}/observation/stop`, { method: "POST" });
+      await fetch(this.buildApiUrl("/observation/stop"), { method: "POST" });
     } catch (err) {
       console.error("[ObservationClient] Error stopping observation:", err);
     }
@@ -155,7 +151,7 @@ export class ObservationClient {
 
   async getLatestObservation() {
     try {
-      const res = await fetch(`${this.backendUrl}/observation/latest`);
+      const res = await fetch(this.buildApiUrl("/observation/latest"));
       const data = await res.json();
       
       // Log warnings if present (5% sampling to avoid spam)
@@ -175,7 +171,7 @@ export class ObservationClient {
 
   async getReport() {
     try {
-      const res = await fetch(`${this.backendUrl}/observation/report`);
+      const res = await fetch(this.buildApiUrl("/observation/report"));
       const data = await res.json();
       return data.report;
     } catch (err) {
@@ -186,7 +182,7 @@ export class ObservationClient {
 
   async reset() {
     try {
-      await fetch(`${this.backendUrl}/observation/reset`, { method: "POST" });
+      await fetch(this.buildApiUrl("/observation/reset"), { method: "POST" });
       console.log("[ObservationClient] Reset complete");
     } catch (err) {
       console.error("[ObservationClient] Error resetting:", err);
@@ -218,5 +214,14 @@ export class ObservationClient {
 
   setVideoElement(element) {
     this.videoElement = element;
+  }
+
+  buildApiUrl(path) {
+    if (this.backendUrl === APP_CONFIG.API_BASE) {
+      return APP_CONFIG.buildApiUrl(path);
+    }
+
+    const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+    return `${this.backendUrl}${normalizedPath}`;
   }
 }

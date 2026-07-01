@@ -1,26 +1,8 @@
+import { APP_CONFIG } from "./config.js";
 import { initAvatar, setAvatarState, startMouth, stopMouth, startMouthForAvatar, stopMouthForAvatar } from "./avatar.js";
 import { ObservationClient } from "./observation_client.js";
 import { toast } from "./toast.js";
 import { InterviewState, QuestionBank, COMPANY_BEHAVIORS } from "./interview-state.js";
-
-function getBackendBaseUrl() {
-  const explicitUrl = window.__BACKEND_URL__ || document.querySelector('meta[name="backend-url"]')?.content?.trim();
-  if (explicitUrl) {
-    return explicitUrl.replace(/\/$/, "");
-  }
-
-  if (window.location.protocol === "file:") {
-    return "http://localhost:8000";
-  }
-
-  if (window.location.port === "8000") {
-    return window.location.origin;
-  }
-
-  return `${window.location.protocol}//${window.location.hostname}:8000`;
-}
-
-window.getBackendBaseUrl = getBackendBaseUrl;
 
 /**
  * Wrap toast methods to automatically reposition after showing
@@ -525,8 +507,7 @@ function setSpeakingAvatar(index, isSpeaking) {
   });
 }
 
-const backendBaseUrl = getBackendBaseUrl();
-const wsUrl = `${backendBaseUrl.replace(/^http/, "ws")}/ws`;
+const wsUrl = APP_CONFIG.WS_URL;
 
 
 startBtn.addEventListener("click", () => {
